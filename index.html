@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>卫生法庭与扫盲法庭</title>
+  <meta name="description" content="卫生法庭与扫盲法庭：整理节目与公开材料之间可自行核对的对应。">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#top">卫生法庭与扫盲法庭</a>
+    <nav aria-label="主导航">
+      <a href="#latest">最新专题</a>
+      <a class="nav-optional" href="#featured">对照示例</a>
+      <a href="#library">核对记录</a>
+      <a href="statement.html">声明与方法</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero wrap">
+      <p class="eyebrow">来源与归因核对</p>
+      <h1>卫生法庭<br><em>与扫盲法庭</em></h1>
+      <p class="lede"><strong id="heroSummary">正在载入核对记录……</strong> 下方列出节目与来源材料，请自行核对。</p>
+      <div class="hero-actions">
+        <a class="btn dark" href="#latest">查看最新专题</a>
+        <a class="btn" href="#library">浏览核对记录</a>
+      </div>
+      <div class="stats" id="stats" aria-live="polite"></div>
+    </section>
+
+    <section id="disclaimer" class="wrap">
+      <div class="boundary">
+        <strong>说明</strong>
+        <span>统计区只列已核对样本数与当前记录数。一条记录可能涉及一期或多期节目，同一期也可能有多条记录，因此两者不能相除成比例，也不用于推算全部节目。<a href="statement.html">查看声明与方法</a>。</span>
+      </div>
+    </section>
+
+    <section id="latest" class="section wrap">
+      <div class="section-head">
+        <h2>最新专题</h2>
+      </div>
+      <div id="projectList" class="project-list"></div>
+    </section>
+
+    <section id="featured" class="section wrap">
+      <div class="section-head">
+        <h2>对照材料与节目表述</h2>
+        <p>左侧为来源材料，右侧为节目表述。</p>
+      </div>
+      <div id="featuredGrid" class="featured-grid"></div>
+    </section>
+
+    <section id="library" class="section library-section">
+      <div class="wrap">
+        <div class="section-head library-head">
+          <h2>核对记录</h2>
+          <p>节目名称、来源与对应材料。</p>
+        </div>
+        <div class="toolbar">
+          <label class="search-label" for="search">搜索</label>
+          <input id="search" type="search" placeholder="搜索节目、人物、来源……" autocomplete="off">
+        </div>
+        <p id="resultCount" class="result-count" aria-live="polite"></p>
+        <div id="records" class="records"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">卫生法庭与扫盲法庭 · <a href="statement.html">声明与方法</a></div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
