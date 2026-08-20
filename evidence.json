@@ -1,0 +1,1209 @@
+{
+  "stats": {
+    "reviewed": 125
+  },
+  "featured": [
+    {
+      "id": "travel-falcon",
+      "title": "27 旅行有意义吗｜相似第一人称叙述",
+      "source": "Agnes Callard, “The Case Against Travel”",
+      "sourceType": "原文",
+      "sourceQuote": "作者说自己十年前在阿布扎比参加了猎鹰医院的导览。",
+      "targetQuote": "节目说“几年前，我去阿布扎比的时候”，自己也主动找导游去了猎鹰医院。",
+      "sourceUrl": "https://www.newyorker.com/culture/the-weekend-essay/the-case-against-travel"
+    },
+    {
+      "id": "iran-corps",
+      "title": "310 伊朗革命｜相似转写结果",
+      "source": "Breaking History, “The Red-Green Alliance / Modern Iran Part 2”",
+      "sourceType": "原播客 / Apple transcript",
+      "sourceQuote": "原音频说 Health Corps / Literacy Corps；Apple Podcasts 自动转写把两处 Corps 都写成 courts。",
+      "targetQuote": "节目在对应位置说成“卫生法庭 / 扫盲法庭”，随后继续沿原播客相似顺序推进。",
+      "note": "Apple transcript 中两处 Corps 均转成 courts；节目对应位置为“卫生法庭 / 扫盲法庭”。",
+      "sourceUrl": "https://podcasts.apple.com/us/podcast/the-making-of-modern-iran-part-2-the-red-green-alliance/id1790502779?i=1000745119467"
+    },
+    {
+      "id": "kkk-shared-error",
+      "title": "324 三K党｜相同年份差错",
+      "source": "The Rest Is History 655",
+      "sourceType": "原播客",
+      "sourceQuote": "把 Thomas Dixon 的小说《The Clansman》说成 1915 年出版。",
+      "targetQuote": "节目也说 Dixon 在 1915 年写了这本小说。",
+      "note": "实际小说出版于1905年；1915年是改编电影《The Birth of a Nation》上映的年份。这一年份差错本身不足以单独判断文本关系，只作为与其他对应并列的一个节点。",
+      "sourceUrl": "https://podcasts.apple.com/au/podcast/the-ku-klux-klan-terror-in-the-south-part-2/id1537788786?i=1000755745215"
+    },
+    {
+      "id": "rat-raccoon",
+      "title": "319 老鼠与浣熊｜相似结尾",
+      "source": "Revisionist History, “Rat vs. Raccoon”",
+      "sourceType": "原播客",
+      "sourceQuote": "结尾说我们建立了一个适合老鼠的世界，但人也像浣熊；有人面对迷宫并不想找出口，而是想把迷宫烧掉，甚至进行一种 institutional suicide。",
+      "targetQuote": "节目说“我在对话的结尾说，现代社会创造了一个老鼠的世界，但是人同时也是浣熊”，随后同样讲烧掉迷宫、制度性的自杀，以及不存在一种动物模型能代表人类。",
+      "sourceUrl": "https://omny.fm/shows/revisionist-history/rat-vs-raccoon"
+    },
+    {
+      "id": "wilhelm-ppf",
+      "title": "338 德皇威廉二世｜相似评论位置",
+      "source": "Past Present Future, “Trump-like Leadership in German History”, Part 1",
+      "sourceType": "原播客",
+      "sourceQuote": "在心理诊断之后，转去解释两个时代背景：大众报刊放大国家元首的随口言论；德意志帝国又是复杂联邦，皇帝必须面对不同地区和角色。",
+      "targetQuote": "节目随后说“我认为有两个重要的时代语境问题”，接着讲同样的媒体环境和联邦结构。",
+      "sourceUrl": "https://www.ppfideas.com/episodes/trump-like-leadership-in-german-history-w%2Fchris-clark%3A-part-1-%E2%80%93-kaiser-wilhelm-ii%3F"
+    },
+    {
+      "id": "trotsky-neocon",
+      "title": "329 美国托派转向新保守主义｜相似结尾",
+      "source": "Past Present Future, “Political Conversions: From Trotskyism to Neoconservatism”",
+      "sourceType": "原播客",
+      "sourceQuote": "最后把问题收在 conversion 还是 continuity：政治立场改变后，早年的政治思维是否仍然延续。",
+      "targetQuote": "节目最后也讨论这些人虽然彻底告别托派，是否仍保留早年革命政治的思维习惯。",
+      "sourceUrl": "https://www.ppfideas.com/episodes/political-conversions%3A-from-trotskyism-to-neoconservatism"
+    },
+    {
+      "id": "iran-grandpa",
+      "title": "257 伊朗与什叶派｜相似家族故事",
+      "source": "Ask Haviv Anything Ep.26",
+      "sourceType": "原播客",
+      "sourceQuote": "嘉宾讲的是自己爷爷说：“我们比他们更早就是什叶派。”",
+      "targetQuote": "节目表述为“我认识一个黎巴嫩什叶派，他亲口告诉我，他自己的爷爷……”并继续讲相似故事。",
+      "sourceUrl": "https://www.youtube.com/watch?v=afrbR3qM8EY"
+    },
+    {
+      "id": "iran-brezhnev",
+      "title": "288 伊朗｜相似比喻",
+      "source": "Ask Haviv Anything Ep.75",
+      "sourceType": "原播客",
+      "sourceQuote": "嘉宾说今天的伊朗“不是列宁时代，甚至不是斯大林时代，而是勃列日涅夫时代”。",
+      "targetQuote": "节目说这是“我认识一个支持马克思主义的伊朗朋友”亲口告诉节目的，并保留 Lenin → Stalin → Brezhnev 的顺序。",
+      "sourceUrl": "https://podcasts.apple.com/us/podcast/episode-75-power-fear-and-the-survival-of/id1794590850?i=1000743505183"
+    },
+    {
+      "id": "arendt-poem",
+      "title": "343 阿伦特诗歌｜相似日期考证",
+      "source": "1953 年诗歌译者注",
+      "sourceType": "原文",
+      "sourceQuote": "译者注已经提出某首 1953 年的诗可能是写给 Heidegger 64 岁生日的。",
+      "targetQuote": "节目先说“英文译者没有我这么八卦”，再用相似日期关系展示“如果我要证明这些诗写给 Heidegger，我会怎样证明”。",
+      "sourceUrl": "https://www.ronslate.com/bs-grave-september-18-1953-february-21-1954/"
+    },
+    {
+      "id": "bovary-cowardice",
+      "title": "183《包法利夫人》｜相似人物结论",
+      "source": "Albert Thibaudet, Gustave Flaubert",
+      "sourceType": "原书",
+      "sourceQuote": "直接点名 Charles、Homais、Léon、Rodolphe，并说他们的共同特征是 la lâcheté（懦弱）。",
+      "targetQuote": "节目说“我认为他们的共性是懦弱，不同层次、不同方面的懦弱”，并同时说常见解读忽视了这一点。",
+      "sourceUrl": "https://fr.wikisource.org/wiki/Gustave_Flaubert_%28Thibaudet%29/Madame_Bovary"
+    },
+    {
+      "id": "russian-subjectivity",
+      "title": "239 俄国文学｜相似总概括",
+      "source": "Donna Tussing Orwin, Consequences of Consciousness",
+      "sourceType": "原书",
+      "sourceQuote": "直接把“the reality of subjectivity”说成俄国心理现实主义伟大作品的 cardinal principle。",
+      "targetQuote": "节目说“如果让我用一句话概括……我会说，这个基本原则就是主观性的现实性”。",
+      "sourceUrl": "https://www.sup.org/books/literary-studies-and-literature/consequences-consciousness"
+    },
+    {
+      "id": "galen-health",
+      "title": "265 古罗马名医｜相似现代例子组",
+      "source": "Katherine D. Van Schaik, How to Be Healthy",
+      "sourceType": "原书",
+      "sourceQuote": "连续用 80 岁与 20 岁的动脉钙化、atherosclerosis、功能与生活质量、骨折后仍可整体健康、benign liver tumor 等现代例子解释疾病光谱。",
+      "targetQuote": "节目说“用我自己的话说……把你的数据放到疾病光谱上定位”，随后继续使用相似材料组例子。",
+      "sourceUrl": "https://www.degruyterbrill.com/document/doi/10.1515/9780691242897-fm/html"
+    }
+  ],
+  "records": [
+    {
+      "id": "coriolanus-two-episodes",
+      "title": "《科利奥莱纳斯》（两期）",
+      "source": "Tony Tanner + David Runciman，History of Ideas: Great Political Fictions — Coriolanus",
+      "summary": "第一篇：饥饿平民 → 军事功绩／政治资格 → voices/votes → world elsewhere → Rome without him → soldier/citizen；第二篇：中介层 → Menenius → mother制造人格 → too absolute → performance → dragon → author of himself → one thing。",
+      "points": [],
+      "urls": [
+        "https://www.lrb.co.uk/podcasts-and-videos/podcasts/history-of-ideas/great-political-fictions-coriolanus"
+      ],
+      "urlLabels": [
+        "Runciman节目页"
+      ]
+    },
+    {
+      "id": "ap-01",
+      "title": "239-俄国文学中的哲学性究竟来自哪？",
+      "source": "Donna Tussing Orwin, Consequences of Consciousness: Turgenev, Dostoevsky, and Tolstoy，Introduction + Chapter 1",
+      "summary": "Peter使Russia self-conscious → elite / narod裂缝 → “two Russias out of one” → one man’s social experiment → 自上而下激进改革 → traditionalists也必须“think their way back” → Montesquieu / Voltaire → Rousseau批Peter；随后 Russian realism → Romanticism → Hegelian thesis/antithesis/synthesis → inner/outer、subject/object → reality of subjectivity → Karl Löwith；再到 Cartesian self → Robinson Crusoe → Herzen communal life → evil的心理根源 → Anna Karenina vs Madame Bovary → unhappy ending → self-understanding → individual as gateway to the sacred",
+      "points": [],
+      "urls": [],
+      "urlLabels": []
+    },
+    {
+      "id": "ap-02",
+      "title": "242-托尔斯泰如何结合柏拉图和卢梭对抗黑格尔？",
+      "source": "Donna Tussing Orwin，《Tolstoy’s Art and Thought, 1847–1880》",
+      "summary": "对应链（上半）： Hegelian atmosphere of the 1850s → analysis / synthesis → truth as unity of real and ideal → Belinsky的organic aesthetics → Chernyshevsky即使反Hegel也继续使用Hegel术语 → “心灵辩证法”。",
+      "points": [],
+      "urls": [
+        "https://www.jstor.org/stable/j.ctt2tt8ws"
+      ],
+      "urlLabels": [
+        "来源链接"
+      ]
+    },
+    {
+      "id": "ap-03",
+      "title": "266-陀思妥耶夫斯基和托尔斯泰如何继承卢梭的儿童？",
+      "source": "Orwin, Consequences of Consciousness, Ch.8 “Childhood in Dickens, Dostoevsky, and Tolstoy”",
+      "summary": "Rousseau natural goodness / child before self-consciousness → Turgenev → Tolstoy Childhood → Dostoevsky的儿童 → Dickens → Netochka / Nelly / David Copperfield → Nikolenka → Dostoevsky读Tolstoy → 1861 The Insulted and Injured → Alyosha Valkovsky → Vanya / Natasha / Katya → Tolstoy所谓童年两大美德“innocent merriment / limitless need for love” → Alyosha merry and ingenuous却缺乏意志 → Katya强意志",
+      "points": [],
+      "urls": [],
+      "urlLabels": []
+    },
+    {
+      "id": "ap-04",
+      "title": "176 恩格斯为当代社会男女性别对立做出了什么卓越的贡献？",
+      "source": "Sharon Smith, “Engels and the Origin of Women’s Oppression” (1997) + Harvey C. Mansfield, “Science and Non-Science in Liberal Education” (2013)",
+      "summary": "Marx笔记 → Morgan 1877 → 560页民族志 → 纽约州北部原住民 → 相对平等与女性权力 → 社会阶段 → 原始共产主义 → 分工 → 私产 → 家庭。另一条方法论链则是“社会科学平均样本 → 古典传统最高范式”，两块都有先行公开材料。",
+      "points": [
+        {
+          "title": "相似结论",
+          "text": "Sharon Smith 原文说 Engels 的书在此后一个世纪里基本定义了女性受压迫问题的争论术语；节目说“我认为恩格斯这部作品的逻辑，定义了过去一百年来围绕女性问题的辩论术语”。"
+        },
+        {
+          "title": "相似区分",
+          "text": "Harvey Mansfield 原文把社会科学研究的 average human being / class 与古典政治哲学的 best / perfect human being / standard 对立；节目把它说成“样本取平均值、最大公约数，不取最高范式”。"
+        }
+      ],
+      "urls": [
+        "https://isreview.org/issues/02/engles_family/",
+        "https://www.thenewatlantis.com/publications/science-and-non-science-in-liberal-education"
+      ],
+      "urlLabels": [
+        "来源链接 1",
+        "来源链接 2"
+      ]
+    },
+    {
+      "id": "ap-05",
+      "title": "183 现代男人咋这么多没骨气的懦夫？《包法利夫人》5",
+      "source": "Albert Thibaudet，《Gustave Flaubert》“Madame Bovary”章",
+      "summary": "节目在Léon部分恰好选择： 胆小不敢追求 → Emma成为主宰者 → “仿佛Emma不是Léon的情妇，Léon反而变成Emma的情妇” → Homais拖住他，他不会拒绝 → Emma骂他软弱、庸俗、比女人温顺、胆小怕事 → 最后也没有勇气犯罪帮助Emma。",
+      "points": [],
+      "urls": [
+        "https://fr.wikisource.org/wiki/Gustave_Flaubert_%28Thibaudet%29/Madame_Bovary",
+        "https://fr.wikisource.org/wiki/Gustave_Flaubert_%28Thibaudet%29"
+      ],
+      "urlLabels": [
+        "来源链接 1",
+        "来源链接 2"
+      ]
+    },
+    {
+      "id": "ap-06",
+      "title": "219 文艺青年为啥这么喜欢本雅明？",
+      "source": "Hannah Arendt，“Walter Benjamin”，The New Yorker (1968) / Men in Dark Times",
+      "summary": "学界与机构中的持续失败 → flâneur / 巴黎游荡 → 收藏者 → 从既有秩序中抢救碎片并重新赋予位置。低频细节还连续包括：儿童书与精神异常作者作品、黑皮笔记本、旧情诗与当天新闻并置。",
+      "points": [],
+      "urls": [
+        "https://www.newyorker.com/magazine/1968/10/19/walter-benjamin"
+      ],
+      "urlLabels": [
+        "来源链接"
+      ]
+    },
+    {
+      "id": "ap-07",
+      "title": "252-查理·柯克的谋杀为何对当今美国右翼意义非凡？",
+      "source": "Adam Rubenstein, “Kid Trump” (2018)",
+      "summary": "2012 → 72岁William Montgomery → Benedictine University Youth Government Day → 被18岁Kirk的口才和观众反应吸引 → Kirk原准备去Baylor → “不能去上大学” → 说服学校给学分 / 说服父母 → 2012年6月TPUSA → Foster Friess / Bruce Rauner → $10k / $100k → 口碑筹款 → 顾问“小内阁” → 约1500万美元。 对应链二： activism kits → flyers / booklets / buttons / stickers / rally signs → Taxation Is Theft / Facts Don’t Care About Your Feelings / You Are Entitled to Nothing → activism grants → student-government活动。 对应链三： 2018第四届高中峰会 → Steve Scalise / Betsy DeVos / Don Jr / Lara Trump → “最幸运的24岁” → save Western civilization → culture-war general / warriors → Candace Owens / Kyle Kashuv → “Left destroys everything it touches” → two genders",
+      "points": [],
+      "urls": [],
+      "urlLabels": []
+    },
+    {
+      "id": "ap-08",
+      "title": "234-让俄国成为世界强国的彼得大帝是一个怎样的统治者？",
+      "source": "The Rest Is History Ep.562–563（Peter the Great Part 1–2）",
+      "summary": "约10:48以后进入高密度彼得传记，沿 562 的材料顺序推进：1672出生 → 俄国无大学/学校/剧作家/科学家/哲学家/议会/报纸/海军 → 无港口 → 莫斯科大火 → Third Rome → 波兰/奥斯曼/瑞典 → Matveyev / German Suburb → 继承危机 → Sophia / Streltsy屠杀 → Peter童年创伤 → military games → 17岁重返红色台阶。 换集节点： 节目下一句突然重述“身高两米、长发、小胡子、可能轻微癫痫”；TRIH 563正从17岁Peter、6'7、long hair、moustache、convulsions重新起步。也就是说，节目的接缝对应 562→563的节目接缝。 563后续： 胖子拖冰面 / 蜡烛 / 风箱恶作剧 → mock religion → Azov → Great Embassy → 瑞典人不给烟花、不招待 → Peter记仇 → 荷兰熊孩子扔泥 → 荷兰造船不用图纸 → 英国 → Quakers → Augustus the Strong / fox tossing / 大量私生子 → 联手打瑞典 → 回莫斯科剃胡子 → Streltsy处决 → 1700停战后立即对瑞典开战",
+      "points": [],
+      "urls": [],
+      "urlLabels": []
+    },
+    {
+      "id": "ap-09",
+      "title": "329-20世纪美国托洛茨基派怎么都变成了保守派？",
+      "source": "Past Present Future, “Political Conversions: From Trotskyism to Neoconservatism”",
+      "summary": "相似章节顺序： 什么是1930年代托派 → 派系分裂 → James Burnham 的托派起点 → 因“苏联究竟是什么性质”决裂 → The Managerial Revolution → 意识形态与权力 → Burnham vs Frankfurt School → 从马克思决定论转向马基雅维利/现实主义 → Burnham在冷战保守主义中的位置 → 新阶级 → 文化与价值取代经济阶级 → 种族/Great Society → 鹰派外交 → Iraq War → “conversion还是continuity”。尤其“ Burnham versus the Frankfurt School ”这一低频转折，以及随后“ 新管理阶级在后来的新保那里被重新定义为公共部门、大学、媒体、NGO中的文化新阶级 ”，节目中段到后段也沿此推进。",
+      "points": [
+        {
+          "title": "相似问题",
+          "text": "原播客讨论美国托洛茨基派为什么转向新保守主义；节目十天后做相似主题。"
+        },
+        {
+          "title": "相似少见转折",
+          "text": "原播客从 Burnham 转到 Frankfurt School，再把“管理阶级”转成大学、媒体、公共部门等文化新阶级；节目也沿着这一转折展开。"
+        },
+        {
+          "title": "相似结尾",
+          "text": "原播客最后问这些人的变化究竟是 conversion 还是 continuity；节目最后也讨论他们虽然告别托派，是否仍保留早年革命政治的思维习惯。"
+        }
+      ],
+      "urls": [
+        "https://www.ppfideas.com/episodes/political-conversions%3A-from-trotskyism-to-neoconservatism",
+        "https://podcasts.apple.com/us/podcast/political-conversions-from-trotskyism-to-neoconservatism/id1682047968?i=1000758585756"
+      ],
+      "urlLabels": [
+        "Past Present Future",
+        "Apple Podcasts"
+      ]
+    },
+    {
+      "id": "ap-10",
+      "title": "283-美国为何把支持以色列作为一种政策立场？",
+      "source": "Ask Haviv Anything Ep.71, “Why the heck does America support Israel?”",
+      "summary": "1921 Emergency Quota Act不接收犹太移民 → 1922 Lodge-Fish / Balfour支持Jewish national home → 宗教支持与“不想接收犹太人”并存 → 1881–1921约250万犹太移民 → DP camps约25万 → Truman要求Congress接收但被拒 → Palestine成为次优解 → 1948承认（11分钟）→ arms embargo → Czech weapons + Stalin → Israel在不依赖美国下生存 → 1956 Suez → Nasser / Soviet hardware / rationing eggs → 美国发现Israel可作counterweight → Ben-Gurion主动选择American future → Kennedy / nuclear fear → bear hug：看似拥抱，实为保持影响和控制 → 1962 Hawk missiles → 1967 → 1973 / oil / peace / 9·11等",
+      "points": [],
+      "urls": [],
+      "urlLabels": []
+    },
+    {
+      "id": "ap-11",
+      "title": "257-当代伊朗如何颠覆什叶派伊斯兰？",
+      "source": "Ask Haviv Anything Ep.26, “How Iran’s regime subverted Shia Islam — with Hussain Abdul-Hussain”",
+      "summary": "Sunni/Shia最初是政治继承分歧 → Ali → Hussein / Karbala → 十二伊玛目 → 第十二伊玛目隐遁 → 传统什叶派没有现世合法政治领袖 → mujtahid / taqlid → 长期作为逊尼建制下少数派 → Arab Shia与Persian Shia的历史先后与政治处境差异 → Safavid让什叶派第一次成为多数与帝国建制 → taqiyya作为受迫害条件下隐藏信仰的生存原则 → Ismailis / Druze / Alawites等少数派比较 → 等待Mahdi → Khomeini必须重新发明政治统治合法性。 后段核心： Khomeini把传统Shia与外来的Sunni pan-Islamism / Muslim Brotherhood / Sayyid Qutb以及Marxist anti-imperialism结合 → wilayat al-faqih → 教士质问“你又不是Mahdi，凭什么统治” → 代理缺席Imam → Khamenei翻译Qutb → anti-West / anti-Israel与跨国革命进入Iranian Shiism",
+      "points": [],
+      "urls": [
+        "https://pod.wave.co/podcast/ask-haviv-anything/episode-26-how-irans-regime-subverted-shia-islam-with-hussain-abdul-hussain-ea295387"
+      ],
+      "urlLabels": [
+        "节目页"
+      ]
+    },
+    {
+      "id": "ap-12",
+      "title": "288-伊朗老百姓为什么这么讨厌伊斯兰共和国？",
+      "source": "Ask Haviv Anything Ep.75, “Power, fear, and the survival of the Iranian regime, with Roya Hakakian”（2026-01-02）；第288期于2026-01-03上线。节目后段明确提及 Roya Hakakian 2025-12-17 The Free Press “Iran’s Silent Revolution”；本页未见节目提及 AHA75。",
+      "summary": "bazaar小商贩，尤其gadget importers / currency-exchange dependent traders → rial再次崩溃 → 固定养老金老人加入 → electricity / water infrastructure collapse → “one of the wealthiest countries in natural resources”却被mismanaged into the dirt。节目前2分钟使用相近材料与顺序。 随后继续： 2009 “Where is my vote?”仍是在和体制对话 → 2025/26 “dictator must go / death to Islamic Republic” → June 12-day war暴露政权ridiculously incompetent，Iranian air force甚至没有起飞 → Supreme Leader过去宣称会为抵抗Zionists流尽最后一滴血，但战争中hunkered down / invisible → 与Zelensky在Kyiv公开露面对比 → Pezeshkian异常温和要求dialogue → 原因是政权really and truly scared，而且自己的core constituency也失去信心。 节目0–6分钟沿相似链条展开。 中后段继续： AHA75把伊斯兰共和国过去50年的统治解释为：最成功的不是治理，而是向外部尤其Western academics兜售一套 victimization narrative；反对者被说成CIA/Western agents，Palestinian / Lebanese cause也被卷入“defending the downtrodden”的道德叙事。Roya随即强调：西方会忘记政权已统治50年，Iranian people不会；“ This is not the era of Lenin or even Stalin. This is Iran of Brezhnev time. ” 然后讲Khomeini 1979年承诺free utilities / transportation、乌托邦破产、巨大人才外逃；再进入groundwater over-extraction、bad dams、unsustainable agriculture、illegal wells、electricity blackouts、aging grid、multiple exchange rates",
+      "points": [],
+      "urls": [
+        "https://pod.wave.co/podcast/ask-haviv-anything/episode-75-power-fear-and-the-survival-of-the-iranian-regime-with-roya-hakakian",
+        "https://podcasts.apple.com/us/podcast/episode-75-power-fear-and-the-survival-of/id1794590850?i=1000743505183",
+        "https://www.thefp.com/p/irans-silent-revolution",
+        "https://podcasts.apple.com/cn/podcast/288-%E4%BC%8A%E6%9C%97%E8%80%81%E7%99%BE%E5%A7%93%E4%B8%BA%E4%BB%80%E4%B9%88%E8%BF%99%E4%B9%88%E8%AE%A8%E5%8E%8C%E4%BC%8A%E6%96%AF%E5%85%B0%E5%85%B1%E5%92%8C%E5%9B%BD/id1711052890?i=1000743575028"
+      ],
+      "urlLabels": [
+        "来源链接 1",
+        "来源链接 2",
+        "来源链接 3",
+        "来源链接 4"
+      ]
+    },
+    {
+      "id": "ap-13",
+      "title": "349-刚刚死光的美国自由国际主义三剑客代表了怎样的美国外交传统？",
+      "source": "School of War / The Free Press, “Lindsey Graham: The Last of the ‘Three Amigos’ with Vance Serchuk” (2026-07-13)；死亡新闻/人物资料仅作外围更新",
+      "summary": "该访谈的结构包括：Three Amigos的形成 → Lieberman因Iraq War输掉民主党初选却以独立身份连任 → 2007 Surge及三人在参议院的政治冒险 → 频繁前往Iraq / Afghanistan作为国会监督 → Putin 2007 Munich speech → 2008 Russia入侵Georgia → Graham/Lieberman前往Ukraine / Georgia / Poland → Ukrainian官员预警Crimea可能是下一个目标 → NATO东翼必须有真实资源与应急计划 → Lieberman不顾党派在2008 RNC支持McCain → “有些事情比选举更重要” → 三人背景和性格完全不同却因共同信念结盟 → Lieberman的calm、McCain的fighter temperament、Graham的political facility相互补足 → 共同信念是把American power与democracy / freedom / human rights连接，并支持IRI、NED、Radio Free Europe等机构 → Graham在Trump时代为了保留政策影响力而接受大量妥协。",
+      "points": [],
+      "urls": [
+        "https://www.thefp.com/p/lindsey-graham-the-three-amigos"
+      ],
+      "urlLabels": [
+        "The Free Press / School of War"
+      ]
+    },
+    {
+      "id": "ap-14",
+      "title": "274-纽约如何选出了一个社会主义穆斯林做市长？",
+      "source": "Call Me Back Ep.416, “Mamdani’s Rise and Its Consequences — with Reihan Salam” (2025-11-03) + Salam既有Free Press/WSJ文章",
+      "summary": "材料顺序：Mamdani 入场时约 2% → Eric Adams 受刑事案影响 / Letitia James 不参选 / Andrew Cuomo 占据建制与温和派空间 → 旧的 Jews / Italians / Irish 与第三、四代 New Yorkers，以及 college-educated transplants 的人口变化 → NYC-DSA 约 11,000 人、定期开会并组织敲门志愿者 → DSA 的组织变化与 anti-Israel / anti-Zionist 方向 → October 7 / Gaza 的动员作用 → affordability、freeze the rent、childcare、fast free buses → middle-class、college-educated、squeezed 的年轻受众。",
+      "points": [],
+      "urls": [
+        "https://podcasts.apple.com/us/podcast/mamdanis-rise-and-its-consequences-with-reihan-salam/id1539292794?i=1000734986142",
+        "https://metacast.app/podcast/call-me-back-with-dan-senor/fmghvCYz/mamdani-s-rise-and-its-consequences-with-reihan-salam/0RP4pMf8",
+        "https://www.thefp.com/p/making-sense-of-mamdani",
+        "https://manhattan.institute/article/downwardly-mobile-elites-love-zohran-mamdani",
+        "https://podcasts.apple.com/cn/podcast/274-%E7%BA%BD%E7%BA%A6%E5%A6%82%E4%BD%95%E9%80%89%E5%87%BA%E4%BA%86%E4%B8%80%E4%B8%AA%E7%A4%BE%E4%BC%9A%E4%B8%BB%E4%B9%89%E7%A9%86%E6%96%AF%E6%9E%97%E5%81%9A%E5%B8%82%E9%95%BF/id1711052890?i=1000735493150"
+      ],
+      "urlLabels": [
+        "来源链接 1",
+        "来源链接 2",
+        "来源链接 3",
+        "来源链接 4",
+        "来源链接 5"
+      ]
+    },
+    {
+      "id": "ap-15",
+      "title": "280-莫扎特如何以一己之力重塑古典歌剧审美？",
+      "source": "Robert Greenberg，“Music History Monday: Magic” (2019)",
+      "summary": "《魔笛》五条 storyline → fairytale / love story / coming-of-age / feminist tract / Masonic initiation → darkness到light的启蒙结构 → Mozart把Singspiel提升到Italian opera同级 → 1791-09-30首演 → 几乎每晚看观众反应 → 事业与经济回升 → 数周后死亡。",
+      "points": [],
+      "urls": [
+        "https://robertgreenbergmusic.com/music-history-monday-magic/"
+      ],
+      "urlLabels": [
+        "来源链接"
+      ]
+    },
+    {
+      "id": "ap-16",
+      "title": "259-自由派什么时候出现在美国？",
+      "source": "Kevin M. Schultz interview with Jacob Bruggeman, “The Invention of American Liberalism” (FUSION)，基于 Why Everyone Hates White Liberals",
+      "summary": "研究者原以为Locke / Jefferson构成长期liberal tradition，却发现早期美国人几乎不用“liberal”自称 → 1872 Liberal Republican Party → National Liberal League反天主教 → 1932 FDR才把liberalism稳定为政治身份 → 不选socialism / communism而修资本主义 → 1932“介于communism/fascism之间” → Rex Tugwell问“liberal”这个罕见词，Roosevelt shrug → 宗教宽容 → 政治自由 → Locke/property/classical liberalism → industrial capitalism把private power变成oppressor → New Deal counterbalance → Depression / 25% unemployment → fireside / new tech → restore American dream → 91% tax → Dewey也很左 → postwar liberal order → Buckley / Dissent / Baldwin / MLK → Vietnam → busing → 2008 Tea Party + Occupy → Obama救银行 → 当代Dem内战",
+      "points": [],
+      "urls": [],
+      "urlLabels": []
+    },
+    {
+      "id": "ap-17",
+      "title": "268-故事和内容有什么区别",
+      "source": "Hannah Arendt, The Human Condition",
+      "summary": "content被fabricated，先有blueprint / final product → story不是manufactured → action不可预测、开放 → 人不能成为自己life story的author / producer → birth/death使生命成为可讲述story → protagonist是hero → story揭示unique “who”而不是species/sample的“what” → storytelling / remembrance使有限行动免于遗忘、获得worldly immortality",
+      "points": [],
+      "urls": [],
+      "urlLabels": []
+    },
+    {
+      "id": "ap-18",
+      "title": "247-卢梭为何是靠人设和丑闻玩转舆论的流量鼻祖？",
+      "source": "Christopher Kelly, Rousseau’s Exemplary Life: The Confessions as Political Philosophy",
+      "summary": "Political Philosophy and the Genre of Lives → The Need for a New Exemplary Life → 古典Cato / Socrates / Jesus式exemplar不足 → Rousseau以自己的life创建新典范 → 不用abstract treatise而用autobiography研究human nature → Confessions 作为 Emile negative education的反面 / 互补叙述 → imagination、sexual desire、anger、vanity等激情过早发展 → natural goodness vs corruption → 自我辩护 / public reputation",
+      "points": [],
+      "urls": [],
+      "urlLabels": []
+    },
+    {
+      "id": "ap-19",
+      "title": "292-阿拉伯海湾局势发生了怎样的变动？",
+      "source": "Hussein Aboubakr Mansour, “The Saudi Pivot: Riyadh Repositions for Regional Primacy in a Post-Liberal Middle East”（Middle East Forum，2026-01-14）",
+      "summary": "Saudi + UAE旧moderate axis → Yemen clash / information war → status-seeking middle powers → post-liberal / rules-based hegemony contraction → 通过position而不是participation获得影响 → logistics corridors / energy / investment / narrative / conflict portfolios → 美国变selective/coercive → India/Turkey/Brazil/South Africa autonomy → Gulf曾依赖US red lines → Trump energy oversupply → US retreat + Shia axis collapse的dual vacuum → Israel摧毁Axis of Resistance的negative order → direct competition → Saudi/UAE/Qatar/Turkey/Israel五国能力组合 → Iran end-state differences → Venezuela/Iran oil return → Palestine / anti-Zionism成为Saudi symbolic weapon",
+      "points": [
+        {
+          "title": "后续自述与时间顺序",
+          "text": "Mansour 的文章发表于 2026 年 1 月 14 日；节目在 1 月 19 日提出相近框架，随后称 Carney 次日的讲话“基本重复”了节目中的说法。"
+        }
+      ],
+      "urls": [],
+      "urlLabels": []
+    },
+    {
+      "id": "ap-21",
+      "title": "27-旅行有意义吗啊？",
+      "source": "Agnes Callard, “The Case Against Travel”, The New Yorker",
+      "summary": "材料顺序：Emerson / Socrates / Kant反旅行 → Socrates战争旅行不算tourism → souvenirs / photos / stories → Hosts and Guests 中“experiencing a change” → Samuel Johnson → interesting places → experiences → people → Louvre / Mona Lisa → tourist rationality → Abu Dhabi Falcon Hospital 第一人称经历 → moving / immigration / university / new job / falling in love → travel as boomerang",
+      "points": [],
+      "urls": [
+        "https://www.newyorker.com/culture/the-weekend-essay/the-case-against-travel"
+      ],
+      "urlLabels": [
+        "来源原文"
+      ]
+    },
+    {
+      "id": "ap-22",
+      "title": "308-女权是否意味着争取选择自由？",
+      "source": "Sophia Rosenfeld, The Age of Choice",
+      "summary": "欲望可能被社会操纵 → compulsion / addiction → shopping / partner choice → bad choices的economic / psychic costs → technology扩大选择 → 作者日常选择案例（vacuum / electric kettle）→ lunch → Kant关于无限对象 → Sylvia Plath fig tree",
+      "points": [],
+      "urls": [],
+      "urlLabels": []
+    },
+    {
+      "id": "ap-23",
+      "title": "310-刚被斩首的伊朗伊斯兰政权如何在1979年掌权？",
+      "source": "Breaking History, “Red-Green Alliance / Modern Iran Part 2”",
+      "summary": "同序链： earthquake → land reform → women’s suffrage → SAVAK → White Revolution → Majlis → farmer credit → Health / Literacy Corps → clergy loss → Khomeini；再到1963/arrest/riots → Scouts → exile → cassette → WNYC → Islamic Government / Mein Kampf analogy → Muslim Brotherhood → Twelfth Imam → lost empire；2500周年庆典低频细节；Paris时期132 interviews、apple tree、blue sandals、yogurt、预先提交问题、Mike Wallace、Andrew Young、Richard Falk、Bernard Lewis → Foucault / political spirituality",
+      "points": [
+        {
+          "title": "相似转写结果",
+          "text": "原音频说 Health Corps / Literacy Corps；Apple Podcasts 自动转写将两处 Corps 写成 courts。节目对应位置说成“卫生法庭 / 扫盲法庭”，随后继续沿原播客相似路线推进。"
+        },
+        {
+          "title": "相似庆典细节序列",
+          "text": "原播客连续讲 2500 周年庆典的长桌、鸟、酒、菜单、费用等罕见数字；节目也按相近顺序使用这串材料。"
+        },
+        {
+          "title": "相似巴黎材料序列",
+          "text": "原播客从 132 次采访、苹果树、蓝色塑料凉鞋、酸奶、预先提交问题一路讲到 Mike Wallace、Andrew Young、Richard Falk、Bernard Lewis；节目也连续使用这一组材料。"
+        }
+      ],
+      "urls": [
+        "https://podcasts.apple.com/us/podcast/the-making-of-modern-iran-part-2-the-red-green-alliance/id1790502779?i=1000745119467"
+      ],
+      "urlLabels": [
+        "Apple Podcasts"
+      ]
+    },
+    {
+      "id": "ap-24",
+      "title": "101-法国为什么没有成为一个马克思主义国家？",
+      "source": "The Rest Is History 353–354",
+      "summary": "同序链： postwar calm → Le Monde boredom → Trente Glorieuses约5%增长 → student numbers翻倍/三倍 → Nanterre → March 22 → May 2 → Sorbonne → police overreaction → Les Misérables barricades → peasant-to-worker英国比较 → “pampered middle-class princelings” → de Gaulle / Mitterrand / PCF → Elysée危机、妻子哭、Waterloo / Sedan、“I am not Louis Philippe” → Baden-Baden / Massu → 4:30 radio speech / 1940 memory / 4 minutes / election figures → Foucault",
+      "points": [],
+      "urls": [],
+      "urlLabels": []
+    },
+    {
+      "id": "ap-25",
+      "title": "314-伊斯兰世界在过去百年面对强大的西方做出了怎样的反思",
+      "source": "Ask Haviv Anything Ep.95, “The idea that broke the Middle East, with Dr. Micah Goodman”",
+      "summary": "medieval Islamic superiority → decline / WWI → Hassan al-Banna / Qutb把individualism视为感染 → America / Israel blame → MBS/UAE拒绝blame → Iran作为Turkey/Iran两种答案的实验室 → Pahlavi / Atatürk改革 → Persian / Cyrus / Zoroastrian / Aryan identity → Khomeini reversal → Six-Day War摧毁pan-Arabism → 1979 Egypt-Israel + Iranian Revolution → pan-Islamism",
+      "points": [],
+      "urls": [],
+      "urlLabels": []
+    },
+    {
+      "id": "ap-26",
+      "title": "309-美国为什么打伊朗？",
+      "source": "Ask Haviv Anything Ep.93, “How to win Iran’s forever war”",
+      "summary": "战争前三天，AHA93已经把“Trump会不会军事打击Iran”作为核心现实问题 → Muqawama / martyrdom使普通威慑逻辑失效 → Qassam → Mao / Fanon → Shariati → Khomeini → 内部年轻人反噬。战争后，节目以“我知道它一定会发生”开场，并在后半沿相似理论骨架推进。",
+      "points": [],
+      "urls": [
+        "https://pod.wave.co/podcast/ask-haviv-anything/episode-93-how-to-win-irans-forever-war",
+        "https://www.youtube.com/watch?v=YvRDJhPUpjU"
+      ],
+      "urlLabels": [
+        "节目页/转写",
+        "YouTube"
+      ]
+    },
+    {
+      "id": "ap-27",
+      "title": "96-为何法国文化如此进步、法国政治却如此保守？",
+      "source": "The Rest Is History 178–179",
+      "summary": "Fifth Republic / monarchical president → “法国废了国王，却比英国更monarchical” → Sartre笑话 → Quebec / NATO / veto UK / special relationship / slavish dependency / third-force illusion → Mitterrand 110 propositions / tax / nationalization后转中间 → grand projets → Sarkozy → Hollande / Monsieur Flamby → Macron above-party + institutional effects",
+      "points": [],
+      "urls": [],
+      "urlLabels": []
+    },
+    {
+      "id": "ap-28",
+      "title": "177 亚当·斯密会如何批评特朗普关税政策？",
+      "source": "Ryan P. Hanley & Maria Pia Paganelli，“Adam Smith on Money, Mercantilism and the System of Natural Liberty” (2014)",
+      "summary": "节目恰好依次出现： Protomonetary Policies → debasement → paper credit money → tariffs / mercantilism → System of Natural Liberty → 自然秩序优于人为设计 → 利益集团干预 → 立法者需要谨慎、谦逊与克制。",
+      "points": [],
+      "urls": [
+        "https://digitalcommons.trinity.edu/econ_faculty/22/",
+        "https://www.adamsmithworks.org/speakings/parrish-yancy-smith-spending",
+        "https://www.gla.ac.uk/explore/adamsmith300/300/thejohntempletonfoundation/asvirtualexhibit/"
+      ],
+      "urlLabels": [
+        "来源链接 1",
+        "来源链接 2",
+        "来源链接 3"
+      ]
+    },
+    {
+      "id": "a-01",
+      "title": "312-MAGA阵营内部为何对特朗普袭击伊朗感到不满",
+      "source": "Sohrab Ahmari, “How JD Vance lost the foreign policy war”, UnHerd（2026-03-02）",
+      "summary": "Trump 2016后respectable conservative intellectuals三条路 → Ahmari自身conversion → pornographization / cult of competitiveness / poisonous multiculturalism / ideological liberalism in foreign policy → old-line GOP institutions → octogenarian senators / 1983 → younger restrainers / prioritisers",
+      "points": [],
+      "urls": [],
+      "urlLabels": []
+    },
+    {
+      "id": "a-02",
+      "title": "236-我为何如此喜爱莫扎特？",
+      "source": "Jan Swafford, Mozart: The Reign of Love；Swafford 2024 Undertone长访谈",
+      "summary": "原书人格簇： Bezuidenhout“用被Beethoven训练过的耳朵听Mozart” → Mozart jolly / informal / obscene / scatological wit → joie de vivre → Beethoven的高度个人化dramatic narratives / private sorrows / posterity → Mozart并无浪漫主义“expressing myself”观；后文又写Mozart观察human life / behavior “almost as a novelist would”，对具体人的现实有强烈兴趣。",
+      "points": [],
+      "urls": [],
+      "urlLabels": []
+    },
+    {
+      "id": "a-03",
+      "title": "354-北美13个殖民地为什么能够战胜18世纪最强大的帝国？",
+      "source": "School of War, “The American Revolution Was a World War, with Richard Bell”（2026-07-03）。节目shownotes本身按时间码列出：global war → Boston Tea Party → Britain内部政治 → France介入 → France/Spain vs Britain → Caribbean → forgotten theater → Washington global coalition → Hessians，和节目最终选取的“全球战争”材料比单纯整本书更接近成品口播",
+      "summary": "连续路线：Boston / Lexington / Declaration / Valley Forge / Yorktown 的民族叙事 → 十三殖民地并非帝国唯一或最重要资产 → East India Company 与印度经验 → 英国同时面对法国、西班牙、荷兰与 Mysore → Caribbean / Jamaica 的战略价值 → 英军和海军向加勒比与印度等战区分流 → Hyder Ali / Mysore 牵制英国资源 → Yorktown 后战争仍在 Gibraltar 与印度继续。",
+      "points": [],
+      "urls": [
+        "https://www.newyorker.com/magazine/2026/05/11/republic-and-empire-trevor-burnard-andrew-jackson-oshaughnessy-book-review-freedom-round-the-globe-sarah-pearsall"
+      ],
+      "urlLabels": [
+        "来源链接"
+      ]
+    },
+    {
+      "id": "a-04",
+      "title": "214 古代农民如何教我做人",
+      "source": "M. D. Usher, How to Be a Farmer，目录/篇目：https://www.degruyter.com/document/doi/10.1515/9780691224732-001/html",
+      "summary": "这组选择并不是古典农业文本中自然会自动聚在一起的“常识目录”。Usher的选集目录恰好连续包含：Hesiod数章 → “The Philosophy of Compost” → Horace的城市/乡村老鼠（“Avoiding the Rat Race”）→ “Getting and Naming a Dog” → “On Asses” → “What to Look for in a Ram”。材料簇、编辑命名和相邻顺序同时重合。",
+      "points": [],
+      "urls": [
+        "https://www.degruyter.com/document/doi/10.1515/9780691224732-001/html",
+        "https://www.cambridge.org/core/journals/journal-of-classics-teaching/article/how-to-be-a-farmer-an-ancient-guide-to-life-on-the-land-md-usher-pp-xvi247-princeton-nj-princeton-university-press-2021-cased-1299-us1695-isbn-9780691211749/6263B86F538F7A3FF70D6320935A729B"
+      ],
+      "urlLabels": [
+        "来源链接 1",
+        "来源链接 2"
+      ]
+    },
+    {
+      "id": "a-05",
+      "title": "222 罗莎·卢森堡是一个怎样的马克思主义者",
+      "source": "Hannah Arendt, “A Heroine of Revolution”: https://www.nybooks.com/articles/1966/10/06/a-heroine-of-revolution/",
+      "summary": "前半段的评价与材料顺序：1919 年 Luxemburg / Liebknecht 遇害 → 革命怀旧形象 → “好争吵的女人 / 浪漫 / 不现实 / 科学马克思主义者”等相互冲突的标签 → Marxism 是否被当作宗教 → 1905 俄国革命与 1914 战争 → Lenin 的鹰与鸡比喻 → Ruth Fischer 的“梅毒杆菌”评价。",
+      "points": [],
+      "urls": [
+        "https://www.nybooks.com/articles/1966/10/06/a-heroine-of-revolution/"
+      ],
+      "urlLabels": [
+        "来源链接"
+      ]
+    },
+    {
+      "id": "a-06",
+      "title": "357-美国社会主义者会像特朗普接管共和党一样接管民主党吗？",
+      "source": "Ask Haviv Anything Ep.133，“Mamdani and America’s new left, with Reihan Salam”",
+      "summary": "连续材料链： 大学不仅教育少数人，而是把少数知识分子的语言扩散为大众政治 → settler colonialism / Third Worldism / campism，把America与Israel置于imperialist camp → 高学历青年背负债务、买不起房、职业与家庭前景受阻（elite overproduction）→ 激进政治提供身份、道德意义与反叛位置 → 移民二代在大学中重组身份 → 年轻美国穆斯林可能“religiously secular, politically Muslim” → Muslim从宗教共同体身份迁移为Global South / anti-imperialist / anti-Israel的政治身份 → Palestine拥有特殊moral authority → universities成为组织和身份生产场域。节目18–21分钟甚至直接使用“ 宗教上世俗，政治上穆斯林 ”这一极罕见表达，并接在“大学—移民二代—第三世界主义—全球南方—巴勒斯坦”的相似链条中。",
+      "points": [],
+      "urls": [
+        "https://havivgur.substack.com/p/133-mamdani-and-americas-new-left",
+        "https://pod.wave.co/podcast/ask-haviv-anything/133-mamdani-and-americas-new-left-with-reihan-salam",
+        "https://program.dsausa.org/",
+        "https://newrepublic.com/article/208726/mutiny-review-college-educated-labor-unions"
+      ],
+      "urlLabels": [
+        "来源链接 1",
+        "来源链接 2",
+        "来源链接 3",
+        "来源链接 4"
+      ]
+    },
+    {
+      "id": "a-07",
+      "title": "353-民主党建制派为何被一群纽约社会主义者打得节节败退？",
+      "source": "Breaking History，“How the Democratic Socialists Conquered New York City”（2026-06-30） + Chris Maisano, Dissent",
+      "summary": "民主党建制危机 → DSA建立 member-led organization → “做了政党以前会做、现在不再做的事” → 选举之间持续教育、社交、组织 → rooted civic institution → partyism without the party → 候选人与基层形成可复制的组织机器。",
+      "points": [],
+      "urls": [
+        "https://dissentmagazine.org/online_articles/democratic-socialists-2026-primary-election/",
+        "https://dissentmagazine.org/article/partyism-zohran-mamdani/",
+        "https://www.theguardian.com/us-news/2026/jul/01/mamdani-new-york-democratic-socialist",
+        "https://apnews.com/article/2dfee173b65643be516574440f8c5d90",
+        "https://newrepublic.com/article/208726/mutiny-review-college-educated-labor-unions"
+      ],
+      "urlLabels": [
+        "来源链接 1",
+        "来源链接 2",
+        "来源链接 3",
+        "来源链接 4",
+        "来源链接 5"
+      ]
+    },
+    {
+      "id": "a-08",
+      "title": "265-古罗马名医如何讨论健康？",
+      "source": "Katherine D. Van Schaik, How to Be Healthy",
+      "summary": "随后 arterial calcification 80岁 vs 20岁 → atherosclerosis虽pathological却可能是normal aging → amount / location / starting age / symptoms → quality of life / functionality → “健康但断手指/手臂” → benign liver tumor + mild abnormalities仍可healthy → age/body part/baseline。",
+      "points": [],
+      "urls": [],
+      "urlLabels": []
+    },
+    {
+      "id": "a-09",
+      "title": "316-陀思妥耶夫斯基如何成为俄国第一位职业作家？",
+      "source": "William Mills Todd III, “Dostoevskii as a professional writer”, The Cambridge Companion to Dostoevskii.",
+      "summary": "William Mills Todd III 的研究题名为 “Dostoevskii as a professional writer”，研究范围包括 media、audiences、institutional possibilities、financial problems、censorship、indebtedness，以及 fiction / criticism / journalism / editing / publishing。节目结尾也以市场、期刊、稿酬、合同、预付款、审查、连载、编辑、评论、债务和出版渠道组织材料。",
+      "points": [],
+      "urls": [],
+      "urlLabels": []
+    },
+    {
+      "id": "a-10",
+      "title": "355-教皇如何因人工智能撕裂美国右翼？",
+      "source": "UnHerd，“Will Pope Leo divide the Right?” + Thomas Colsy, Catholic Herald",
+      "summary": "《Magnifica Humanitas》 → AI与人的尊严 → concentrated private power / transhumanism → Peter Thiel / Palantir → JD Vance → Vatican、MAGA与科技右翼围绕AI监管和全球技术治理出现裂缝。",
+      "points": [],
+      "urls": [
+        "https://unherd.com/watch-listen/will-pope-leo-divide-the-right/"
+      ],
+      "urlLabels": [
+        "来源链接"
+      ]
+    },
+    {
+      "id": "a-11",
+      "title": "105-DEI理论背后的新左翼如何颠覆并改造了当今美国大学？",
+      "source": "Christopher Rufo, America’s Cultural Revolution, Ch.1–3（Marcuse主干在Ch.1，制度化延伸至后续章节）",
+      "summary": "Marcuse → One-Dimensional Man / Great Refusal → workers不再革命 → new subjects → Repressive / Liberating Tolerance → failure → universities → Rudi Dutschke / long march → Weather Underground / Prairie Fire → Mao → 暴力词汇转成一系列-isms → Paul Buhle / radicals became teachers → Dohrn / Ayers / Boudin → Erica Sherover-Marcuse → oppression hierarchy / ally / colorblindness → admin expansion / Berkeley / Michigan → Pittsburgh case → Marcuse closing quote",
+      "points": [],
+      "urls": [
+        "https://manhattan.institute/book/americas-cultural-revolution-how-the-radical-left-conquered-everything",
+        "https://books.google.com/books/about/America_s_Cultural_Revolution.html?id=tFdIzwEACAAJ"
+      ],
+      "urlLabels": [
+        "图书介绍",
+        "Google Books"
+      ]
+    },
+    {
+      "id": "a-12",
+      "title": "324-为什么美国会出现3K党这样的组织？",
+      "source": "The Rest Is History KKK系列",
+      "summary": "1868 Grant/Seymour → KKK作为松散网络压制Black Republican vote → Pulaski、Georgia / South Carolina数字 → Columbia County 1222→1，11个majority-Black Georgia counties Grant=0 → federalism → “paramilitary violence works” → 1871 federal action → 1877 compromise / Jim Crow → Lost Cause → Gone with the Wind → Fleming → Dixon → The Clansman → Birth of a Nation → second KKK。",
+      "points": [
+        {
+          "title": "相同年份差错",
+          "text": "原播客把 Thomas Dixon 的小说《The Clansman》说成 1915 年出版；节目也说 Dixon 在 1915 年写了这本小说。实际小说出版于 1905 年，1915 年是改编电影《The Birth of a Nation》上映的年份。"
+        }
+      ],
+      "urls": [],
+      "urlLabels": []
+    },
+    {
+      "id": "a-13",
+      "title": "70年代极端主义",
+      "source": "Breaking History, “Modern Terrorism Was Born in the 1970s”（2026-02-25），Poppy Damon采访Jason Burke。它本身就是Burke新书The Revolutionists的作者口播压缩版，直接讨论PFLP劫机、Munich、Carlos the Jackal、媒体化恐怖、激进分子心理与70年代遗产",
+      "summary": "节目结尾说：“我得出的结论是，今天左右翼极端主义和伊斯兰极端主义几乎都在70年代成型”“后来我才意识到，本拉登也是一个70年代的产物”。Burke 的书与访谈也以70年代激进主义的共同遗产为核心。",
+      "points": [],
+      "urls": [
+        "https://www.thefp.com/p/modern-terrorism-was-born-in-the"
+      ],
+      "urlLabels": [
+        "The Free Press"
+      ]
+    },
+    {
+      "id": "a-14",
+      "title": "360-贝多芬是歌颂法国大革命的音乐家吗？",
+      "source": "Beethoven Music Research Center, “Political and Social Ideas – The Idea of Freedom”〔汇编 M. Cooper / Maynard Solomon 等〕",
+      "summary": "核心论证顺序：Bonn 与巴黎革命环境的区别 → Maximilian Franz / Joseph II 的开明专制环境 → Kant、阅读社团与 Neefe → “Enlightenment rather than French Revolution” → good prince / benevolent ruler → Joseph II funeral cantata → Don Fernando / Fidelio 中的 aristocratic redeemer / saving prince → Beethoven 对 Bonaparte 的期待与失望。",
+      "points": [],
+      "urls": [
+        "https://www.lvbeethoven.org/biography07/",
+        "https://www.beethoven.de/en/sonderausstellung/view/5858636098174976/Illuminating%2Brays%2Bin%2Bthe%2BEnlightenment"
+      ],
+      "urlLabels": [
+        "Beethoven Music Research Center",
+        "Beethoven-Haus Bonn"
+      ]
+    },
+    {
+      "id": "a-15",
+      "title": "172《包法利夫人》如何解剖卢梭哲学？（3）",
+      "source": "Priscilla Meyer, “Anna Karenina: Tolstoy’s Polemic with Madame Bovary”, The Russian Review 54.2 (1995)",
+      "summary": "Flaubert讽刺Rousseau → Homais误用《爱弥儿》 → Bournisien对应《致达朗贝尔论戏剧》 → Emma看戏后进一步腐化 → 农业博览会中Rodolphe的爱情陈词与官方演说并置 → manure / fertilizer意象。",
+      "points": [],
+      "urls": [
+        "https://pmeyer.faculty.wesleyan.edu/curriculum-vitae/"
+      ],
+      "urlLabels": [
+        "作者学术履历（Wesleyan）"
+      ]
+    },
+    {
+      "id": "a-16",
+      "title": "181 德国极右翼和极左翼这俩女人准备搞啥子名堂？",
+      "source": "RBB/ARD Kontraste，“Weidel gegen Wagenknecht – Ein Duell um die Wähler” + RND平行比较",
+      "summary": "Weidel 与 Wagenknecht 被作为一组“平行人物”比较 → 乌克兰 / 俄罗斯 → 移民 → 反建制语言 → 争夺相似选民 → Weidel指责BSW“偷议题”。节目以这组并置作为观察入口。",
+      "points": [],
+      "urls": [
+        "https://www.rnd.de/politik/sahra-wagenknecht-und-alice-weidel-ihre-aehnlichkeiten-ihre-unterschiede-CR33ON65AVEFLMM75OSZKPIMWQ.html",
+        "https://www.rbb-online.de/kontraste/ueber_den_tag_hinaus/ueber-den-tag-hinaus.html",
+        "https://www.tagesschau.de/inland/bundestagswahl/parteien/portraet-alice-weidel-100.html",
+        "https://www.tagesschau.de/inland/bundestagswahl/parteien/bsw-tagesthemen-100.html",
+        "https://www.tagesschau.de/inland/bundestagswahl/parteien/bsw-parteitag-102.html"
+      ],
+      "urlLabels": [
+        "来源链接 1",
+        "来源链接 2",
+        "来源链接 3",
+        "来源链接 4",
+        "来源链接 5"
+      ]
+    },
+    {
+      "id": "a-17",
+      "title": "178 当今德国执政党为何如此不受欢迎？",
+      "source": "Financial Times，2025-01-16 “How Germany declined under Olaf Scholz — in charts” + 2024-12-16 相关报道",
+      "summary": "Financial Times “How Germany declined under Olaf Scholz — in charts” （2025-01-16）内容包括： - Scholz上台时承诺经济现代化； - 俄乌战争打断原有计划； - 德国经济停滞/连续萎缩； - 三党联盟围绕公共财政长期争吵； - 制造业、尤其汽车工业陷入危机； - 德国车企在中国丢失市场、面对中国竞争者； - 长期依赖廉价俄罗斯天然气，战后改用更昂贵LNG； - 首个冬天避免了原先担心的blackout； - Zeitenwende 与1000亿欧元国防特别基金； - 对重武器与 Taurus 持续迟疑； - 德国已成为乌克兰第二大双边军事援助者，但政治领导力仍遭质疑； - 国防官僚与征兵困难； - 基础设施因长期投资不足而老化； - debt brake 及其对铁路/数字化投资的约束； - Deutsche Bahn、桥梁、fax/fibre等落后； - 抗议、AfD、移民暴力事件与政府收紧移民政策； - 德国经济模式过度依赖制造业和对华出口",
+      "points": [],
+      "urls": [],
+      "urlLabels": []
+    },
+    {
+      "id": "a-18",
+      "title": "185 《白鲸》为什么是美国文学的巅峰？",
+      "source": "Hub Zwart，“What is a Whale? Moby-Dick, Marine Science and the Sublime” (2008)",
+      "summary": "这条顺序： What is a whale? → commodity → Bible/Leviathan → cetology/science → scientific limits → Platonist meditation → Locke/Kant → sublime/wonder",
+      "points": [],
+      "urls": [
+        "https://link.springer.com/book/10.1007/978-1-4020-6492-0"
+      ],
+      "urlLabels": [
+        "来源链接"
+      ]
+    },
+    {
+      "id": "bp-01",
+      "title": "321-陀思妥耶夫斯基如何刻画女性？",
+      "source": "Joseph Frank，《Dostoevsky: The Miraculous Years, 1865–1871》，Ch.5–6 + 原著细读",
+      "summary": "1859私人信中的杀人犯裸框架 → 原计划为第一人称中篇自白 → 1865同时存在《醉汉》计划 → Marmeladov线被吸收进《罪与罚》 → 1865年11月推翻旧稿改为第三人称 → novella扩成novel。",
+      "points": [],
+      "urls": [
+        "https://www.jstor.org/stable/j.ctvx5wbz6",
+        "https://www.jstor.org/stable/j.ctvx5wbz6.10",
+        "https://www.jstor.org/stable/j.ctvx5wbz6.11"
+      ],
+      "urlLabels": [
+        "来源链接 1",
+        "来源链接 2",
+        "来源链接 3"
+      ]
+    },
+    {
+      "id": "bp-02",
+      "title": "343-阿伦特还写诗？（介绍《阿伦特诗集》）",
+      "source": "Hill / Grill, “September 18, 1953”:",
+      "summary": "节目先引用Arendt评价Walter Benjamin不是诗人、却“以诗人的方式思考”，随后说“ 我认为这句话同样适用于阿伦特自己 ”。但Hill在2021年 Guernica 访谈中已经做过相似低频解释动作：把Arendt给Benjamin的评价反过来用于Arendt，称她为 poetic thinker without being a poet。同年Library of Congress访谈里，Hill还明确说明自己系统搜集Arendt诗歌、按时间排序、把诗作为第二种传记文本来追踪私人经历与公开思想",
+      "points": [],
+      "urls": [
+        "https://www.ronslate.com/bs-grave-september-18-1953-february-21-1954/",
+        "https://www.guernicamag.com/samantha-rose-hill-on-hannah-arendt-you-see-the-politics-on-her-face/",
+        "https://blogs.loc.gov/catbird/2021/06/the-poetic-hannah-arendt-a-conversation-with-arendt-researcher-samantha-rose-hill/"
+      ],
+      "urlLabels": [
+        "来源链接 1",
+        "来源链接 2",
+        "来源链接 3"
+      ]
+    },
+    {
+      "id": "bp-03",
+      "title": "174 陀思妥耶夫斯基和雨果的正义观有何不同",
+      "source": "Nickolas Pappas, “Crime and Punishment Rereading and Rewriting Plato’s Gorgias” (2017) + Nina Ishchenko, “Porfiry Petrovich as Socrates…” (2023) + Hugo法/正义研究 + Plato",
+      "summary": "Raskolnikov≈Callicles + Porfiry≈Socrates + Gorgias作为解释框架 已经有明确先行学术文本，而节目采用相似的比较作为阅读分析",
+      "points": [],
+      "urls": [],
+      "urlLabels": []
+    },
+    {
+      "id": "bp-04",
+      "title": "352-美国对伊战争进入了什么阶段？",
+      "source": "School of War，“America’s Iran Problem Isn’t Going Away” + CTP-ISW连续 Iran Update",
+      "summary": "Iran War recap → Iran leverage → 停火 / MOU 的误解 → MOU 争议核心 → 海上封锁 → Strait of Hormuz / Gulf allies。School of War 的公开 shownotes 与节目问题相近，CTP-ISW 的连续 Iran Update 提供更细的时间线。",
+      "points": [],
+      "urls": [
+        "https://www.criticalthreats.org/analysis/ctp-iran-updates"
+      ],
+      "urlLabels": [
+        "来源链接"
+      ]
+    },
+    {
+      "id": "bp-05",
+      "title": "254-以色列袭击卡塔尔如何改变中东地缘秩序？",
+      "source": "Ask Haviv Anything Ep.43, “After Doha, Israel needs a new story” (2025-09-14)",
+      "summary": "AHA Ep.43单期已经连续覆盖 1. 袭击本身及外交反弹 Haviv从Israel袭击Doha、行动失败与外交后果开始；美国、Saudi、UAE等对Israel反应强烈",
+      "points": [],
+      "urls": [
+        "https://podcasts.apple.com/us/podcast/episode-43-after-doha-israel-needs-a-new-story/id1794590850?i=1000726787116"
+      ],
+      "urlLabels": [
+        "Apple Podcasts"
+      ]
+    },
+    {
+      "id": "bp-06",
+      "title": "304-沙特阿拉伯过去十年在进行一场怎样的政治改革？",
+      "source": "Call Me Back Ep.461，“Saudi & UAE: The Cold Gulf War” + Maya Xuereb关于Vision 2030的研究",
+      "summary": "Vision 2030承压 → MBS / MBZ从导师—学生变成竞争者 → Yemen分裂 → Saudi / UAE争夺能源、物流与印度通道 → 女性劳动参与被纳入post-rentier转型 → “社会开放”同时服务于经济转型和authoritarian upgrading。",
+      "points": [],
+      "urls": [
+        "https://www.researchgate.net/publication/398427705_From_Symbols_of_Piety_to_Agents_of_Capital_Gender_Instrumentalisation_Post-Rentier_Transitioning_and_Authoritarian_Upgrading_under_Saudi_Vision_2030",
+        "https://carnegieendowment.org/research/2025/03/vision-2030-in-the-home-stretch-clear-achievements-yet-limited-accountability",
+        "https://www.cambridge.org/core/journals/perspectives-on-politics/article/pandemic-was-a-global-exam-and-our-country-came-in-first-autocratic-performance-legitimacy-in-saudi-arabia/C2944A433FC7101C3FD264A70F5264C9",
+        "https://www.inss.org.il/publication/saudi-arabia-uae-2026/",
+        "https://www.ft.com/content/036b158f-ea34-46d1-ad0a-093eba031501",
+        "https://www.reuters.com/world/middle-east/saudi-pif-unveil-new-20262030-strategy-this-week-sources-say-2026-02-09/",
+        "https://www.semafor.com/article/02/12/2026/saudi-replaces-key-minister-amid-pressure-to-attract-foreign-cash"
+      ],
+      "urlLabels": [
+        "来源链接 1",
+        "来源链接 2",
+        "来源链接 3",
+        "来源链接 4",
+        "来源链接 5",
+        "来源链接 6",
+        "来源链接 7"
+      ]
+    },
+    {
+      "id": "bp-07",
+      "title": "245-美国左翼咋开始走向民粹、右翼走向觉醒？",
+      "source": "Bari Weiss / The Free Press, “The Radical Right Is Coming for Our Sons” + Rod Dreher及其他同期材料",
+      "summary": "后半局部：Everything is taboo → Nothing is taboo → gay / retarded → Holocaust revisionism / white nationalism → Columbus Day / Indigenous Peoples’ Day → Gulf of America + AP → Churchill / Washington statues → Jackie Robinson → Smithsonian → 左翼压迫身份 vs 右翼white Christian men → new right identity politics → Rod Dreher。节目在相近位置使用“我在这里举两个例子”“我再跟你说另外一个对称的事情”来引出两组案例。",
+      "points": [],
+      "urls": [
+        "https://www.thefp.com/p/the-radical-right-is-coming-for-our-sons"
+      ],
+      "urlLabels": [
+        "The Free Press"
+      ]
+    },
+    {
+      "id": "bp-08",
+      "title": "237-陀思妥耶夫斯基会如何书写20世纪？",
+      "source": "Arthur Koestler原著（明示） + Adam Kirsch New Yorker长文 + Michael Scammell",
+      "summary": "Kirsch解释链： Orwell对communism intellectual content兴趣有限 → Koestler认真对待dialectics → historical inevitability → personal responsibility交给History → first-person singular → irrational subjectivity / soul → Soviet scientific experiment / “flayed the test person alive” → tyranny / righteous reason。",
+      "points": [],
+      "urls": [],
+      "urlLabels": []
+    },
+    {
+      "id": "bp-09",
+      "title": "346-柏拉图如何评价妈宝男和粉丝对偶像以爱为名的占有？",
+      "source": "Isern-Mas / Mills / Archer，“Affective Power and Celebrity Responsibilities in Parasocial Relationships”",
+      "summary": "单向 attachment / affective investment → 名人获得 affective power → 权力产生特殊责任 → 不能利用粉丝、也不能放任粉丝攻击第三人 → toxic fandom。节目把这套问题连接到《斐德若篇》与“妈宝男”关系。",
+      "points": [],
+      "urls": [
+        "https://philarchive.org/archive/ISEAPA-3"
+      ],
+      "urlLabels": [
+        "来源链接"
+      ]
+    },
+    {
+      "id": "bp-10",
+      "title": "282-极右白人民族主义正如何撕裂共和党的后特朗普转型？",
+      "source": "Zack Beauchamp, “Inside the war tearing the Heritage Foundation and the American right apart”, Vox；同期WaPo / NPR / New Yorker",
+      "summary": "对应框架： Heritage内部战争不是一次性争执，而是post-Trump future harbinger → Trump用charisma + ideological incoherence把碎裂右翼暂时捏合 → 他离场后“what comes next”成为中心问题 → individual spats进入factional power struggle → institutions失去gatekeeping extremists能力。",
+      "points": [],
+      "urls": [],
+      "urlLabels": []
+    },
+    {
+      "id": "bp-11",
+      "title": "338-当反复无常的自恋狂掌握世界强权会发生什么？（德皇威廉二世）",
+      "source": "Past Present Future, “Trump-like Leadership in German History”, Part 1 + Miranda Carter, The New Yorker（开头人物链）",
+      "summary": "talent for provoking outrage → insulting monarchs / nicknames → 1909 Ferdinand butt slap / no apology → French arms contract → “personal diplomacy” neither personal nor diplomacy → compulsive liar → Nicholas II ninny / turnips → criticism → collapse / cry / recover but not learn。 备注： 节目口头提到“2018年New Yorker比较”，节目已口头提及该来源；节目后续材料顺序与该文相近",
+      "points": [
+        {
+          "title": "相似人物诊断路线",
+          "text": "原播客先问 Wilhelm 是 bad 还是 mad，随后讲 Kohut 的父母关系解释，再讲 Röhl 从臀位、产钳、手臂损伤追到脑缺氧；节目也按这条路线讲。"
+        },
+        {
+          "title": "相似评论位置",
+          "text": "原播客在心理诊断之后转去解释大众报刊和德意志联邦结构两个时代背景；节目随后说“我认为有两个重要的时代语境问题”，接着讲同样两点。"
+        },
+        {
+          "title": "相似 Daily Telegraph 故事",
+          "text": "原播客从 Montagu 私下谈话、Bülow 度假，一路讲到英国、风笛、花园、祖母、Boer War 和“mad as March hares”；节目按相似内容与顺序重讲。"
+        },
+        {
+          "title": "相似生日宴会材料",
+          "text": "原播客讲 Wilhelm 在 Leopold 的生日宴会上威胁比利时，吓得 Leopold 把头盔戴反，并现场模拟“生日过得怎么样？有客人威胁入侵我的国家”；节目也讲相似事件叙述并重演这段夫妻对话。"
+        },
+        {
+          "title": "相似结论",
+          "text": "原播客把 Wilhelm 带来的危险归到国际体系中的 uncertainty，并说盟友彼此不确定会提高风险；节目最后也把这一点概括成更宏观的国际政治规律。"
+        }
+      ],
+      "urls": [
+        "https://www.newyorker.com/culture/culture-desk/what-happens-when-a-bad-tempered-distractible-doofus-runs-an-empire"
+      ],
+      "urlLabels": [
+        "The New Yorker 原文"
+      ]
+    },
+    {
+      "id": "bp-12",
+      "title": "291-委内瑞拉怎么变成了今天这个样子？",
+      "source": "Raúl Gallegos, Crude Nation + 近期报道",
+      "summary": "主干： 1973 oil embargo / price spike → Great Venezuela / social services → chic Caracas → Paris–Caracas Concorde 1976 → “Saudi Venezuelans” → debt → 1989 austerity / Caracazo → corruption → Chávez。",
+      "points": [],
+      "urls": [],
+      "urlLabels": []
+    },
+    {
+      "id": "bp-13",
+      "title": "345-如何让你小孩愿意跟你讲话？",
+      "source": "Joshua Coleman，parent–adult child estrangement系列文章",
+      "summary": "小时候孩子没有退出关系的选择 → 父母拥有巨大权力 → 成年后孩子第一次能决定是否继续关系 → 旧权威失效 → 父母若要维持关系，需要主动修复、理解与适应。Joshua Coleman已公开用“成年子女拥有关系条件的决定权”组织相似机制。",
+      "points": [],
+      "urls": [
+        "https://jewishworldreview.com/0824/parent-child_estrangement.php"
+      ],
+      "urlLabels": [
+        "来源链接"
+      ]
+    },
+    {
+      "id": "bp-14",
+      "title": "275-哈姆雷特为什么是第一个现代人？",
+      "source": "Folger “A Modern Perspective: Hamlet” + 其他学术材料",
+      "summary": "Ur-Hamlet 的“Hamlet, revenge!” → Shakespeare 改成“Remember me” → 记忆取代即时复仇 → surveillance / “observed of all observers” → Wittenberg / university / bookishness / interiority。节目将多条既有研究线组合为“第一个现代人”的解释。",
+      "points": [],
+      "urls": [],
+      "urlLabels": []
+    },
+    {
+      "id": "bp-15",
+      "title": "271-一场世纪大冤案如何重新洗牌法国政治？",
+      "source": "Adam Gopnik, “Trial of the Century”, The New Yorker + 其他史料",
+      "summary": "共有链： Alsatian assimilated Jew → handwriting → secret dossier → Esterhazy → Picquart → Henry forgery → Mathieu → Zola → retrial → extenuating circumstances → amnesty → Herzl。节目另含Marie Bastian、英国Lord Chief Justice / Queen Victoria等不同材料，因此其中还包含其他材料",
+      "points": [],
+      "urls": [],
+      "urlLabels": []
+    },
+    {
+      "id": "bp-16",
+      "title": "276-美国出版界如何审核书籍？",
+      "source": "Adam Szetela, That Book Is Dangerous! + 公开访谈",
+      "summary": "材料包括：sensitivity readers acknowledgements被总结为“风险保障 / 预先公关声明 / 防争议免责声明”“价值就是公关作用，仅此而已”；Szetela访谈恰好用optics / disaster insurance / acknowledgements / public relations preface，随后又接Durkheim “society of saints”",
+      "points": [],
+      "urls": [],
+      "urlLabels": []
+    },
+    {
+      "id": "bp-17",
+      "title": "306-词典有什么用？",
+      "source": "Stefan Fatsis, Unabridged (2025)",
+      "summary": "节目明示 Stefan Fatsis 与《Unabridged》，并以“我想提出第一个问题”“我将在这里提出一个新的问题”等表述，依次展开词典应规范还是描述、应引领还是记录语言、应由市场还是政府管理三组问题；这些问题也构成原书的主要讨论范围。",
+      "points": [],
+      "urls": [],
+      "urlLabels": []
+    },
+    {
+      "id": "bp-18",
+      "title": "297-喜剧演员为何比学者更为高尚",
+      "source": "Dostoevsky《卡拉马佐夫兄弟》“抽象人类 / 具体的人”悖论 + laughter / stand-up研究前史",
+      "summary": "喜剧以观众即时笑声作为外部检验 → laughter削弱等级与官方严肃性 → Dostoevsky“越爱抽象的人类，越难爱眼前具体的人” → 节目改写为“学者爱抽象人类 / 喜剧演员必须面对具体的人”。",
+      "points": [],
+      "urls": [
+        "https://www.gutenberg.org/files/28054/28054-h/28054-h.htm"
+      ],
+      "urlLabels": [
+        "来源链接"
+      ]
+    },
+    {
+      "id": "bp-19",
+      "title": "179 德国保守联盟代表什么政治立场？",
+      "source": "Tagesschau, “Friedrich Merz im Porträt: Warten auf die späte Genugtuung” (2025-01-22) + FT 2025-01-23对华投资风险稿 + Merz公开演讲/政策材料",
+      "summary": "节目3–14分钟的Merz人物部分基本就在这一材料簇内推进：BlackRock → “女性问题 / 不敏感” → 男性化团队 → Merkel恩怨 → CDU重新保守化 → 个人政治风格。",
+      "points": [],
+      "urls": [
+        "https://www.tagesschau.de/inland/bundestagswahl/parteien/friedrich-merz-216.html",
+        "https://www.ft.com/content/65bf800b-545a-42b3-bbd3-64bb1f0f3372"
+      ],
+      "urlLabels": [
+        "来源链接 1",
+        "来源链接 2"
+      ]
+    },
+    {
+      "id": "bp-20",
+      "title": "186 德国绿党为何政策180度大转弯？",
+      "source": "DW Berlin Briefing, “Understanding Germany’s Green Party”（2025-02-13，41分钟）。该集的公开shownotes按目标题目组织：1980s roots → 1998 Anti-NATO → 2025 Pro-NATO → climate → Habeck → Baerbock；节目简介直接问“Greens如何从1980年代和平运动者变成2020年代军事鹰派”",
+      "summary": "1980s roots → 1998 Anti-NATO → 2025 Pro-NATO → climate → Habeck → Baerbock；节目简介直接问“Greens如何从1980年代和平运动者变成2020年代军事鹰派”。",
+      "points": [],
+      "urls": [
+        "https://www.csmonitor.com/1998/1009/100998.intl.intl.3.html",
+        "https://germanhistorydocs.org/en/a-new-germany-1990-2023/a-difficult-decision-kosovo-and-the-green-party-retrospective-report-2019",
+        "https://www.zeit.de/kultur/2025-01/verteidigungspolitik-robert-habeck-bundeswehr-wehretat",
+        "https://www.gruene.de/artikel/zusammen-wachsen",
+        "https://www.tagesschau.de/inland/bundestagswahl/parteien/habeck-verteidigungsausgaben-100.html"
+      ],
+      "urlLabels": [
+        "来源链接 1",
+        "来源链接 2",
+        "来源链接 3",
+        "来源链接 4",
+        "来源链接 5"
+      ]
+    },
+    {
+      "id": "bp-21",
+      "title": "173 特朗普2.0会给美国政局带来怎样的变动？",
+      "source": "Thomas Gift / UCL-The Conversation（Musk-tech vs MAGA）+ 2025年1月FT/Guardian等派系评论 + Harmel et al. 2024 GOP personalization/de-institutionalization + 欧洲Trump 2.0分析",
+      "summary": "H-1B引发MAGA与科技右翼裂缝 → 美国与西方联盟关系重排 → party machine退化 / personalization。三块都有节目之前的公开分析前史；这一项记录的是局部解释链，这里只记录局部解释链。",
+      "points": [],
+      "urls": [],
+      "urlLabels": []
+    },
+    {
+      "id": "bp-22",
+      "title": "287-2025年美国政府呈现出什么总体大趋势？",
+      "source": "Casey Burgat，“The Steep Price of Trump’s Executive Orders”，TIME (2025-01-21)",
+      "summary": "公众渴望 immediate action → Congress缓慢与授权 → rule of law vs discretion → TikTok / DACA → executive order脆弱、可被下一任撤销 → policy pendulum → party gatekeeping衰退。",
+      "points": [],
+      "urls": [],
+      "urlLabels": []
+    },
+    {
+      "id": "bp-23",
+      "title": "58-企业应该在政治问题上表态吗？",
+      "source": "Christopher Rufo，《America’s Cultural Revolution》Ch.8",
+      "summary": "局部（约15:26–18:20）： BLM最大创新是language → revolution→liberation；urban guerrilla / revolutionary execution→systemic racism；Black Power masculine→BLM feminine/human；anger/fear→guilt/shame；therapeutic rather than militant；professional class / liberal white women；skeptic survey与实际14。这里只记录这一局部",
+      "points": [],
+      "urls": [
+        "https://manhattan.institute/book/americas-cultural-revolution-how-the-radical-left-conquered-everything",
+        "https://benslivka.com/2023/08/18/americas-cultural-revolution/"
+      ],
+      "urlLabels": [
+        "图书介绍",
+        "Chapter 8 对照入口"
+      ]
+    },
+    {
+      "id": "bp-24",
+      "title": "325-《洛丽塔》应该被禁吗？",
+      "source": "Old School with Shilo Brooks，“Lolita, Jeffrey Epstein, and the Real Meaning of a Challenging Classic” (2026-02-19)",
+      "summary": "Epstein档案中的《Lolita》 → 小说在流行文化中被当成情色符号 → Humbert以漂亮语言操纵读者 → unreliable narrator / abuse → Nabokov如何让读者识别诱导 → “难读经典是否应该被禁”的问题。",
+      "points": [],
+      "urls": [
+        "https://www.theatlantic.com/magazine/2026/02/jeffrey-epstein-nabokov-lolita/685320/",
+        "https://www.justice.gov/epstein",
+        "https://www.vox.com/culture/458464/lolita-70th-anniversary-culture-wars-vladimir-nabokov"
+      ],
+      "urlLabels": [
+        "来源链接 1",
+        "来源链接 2",
+        "来源链接 3"
+      ]
+    },
+    {
+      "id": "ap-319-rat-raccoon",
+      "title": "319-现代科学凭什么通过老鼠研究人类而不是浣熊？",
+      "source": "Revisionist History, “Rat vs. Raccoon”",
+      "summary": "节目约 11:14 后进入老鼠—浣熊主体：实验鼠工业与近亲繁殖 → 20代兄妹繁殖与接近克隆 → 稳定数据 → Yale / 电击 / 奖惩与行为主义 → Lawrence Cole 1907 → raccoon intelligence → behaviorism → coin-box实验 → raccoon erasure → rat world / raccoon world。原播客按相近的材料与顺序展开。",
+      "points": [
+        {
+          "title": "相似问题与相同书目",
+          "text": "原播客先讲老鼠如何塑造我们对人类的理解，连续举抑郁、合作、理性研究，再介绍 Kelly Lambert 的《The Lab Rat Chronicles》和她教老鼠开车；节目也按相似材料组进入问题。"
+        },
+        {
+          "title": "相似实验鼠材料组",
+          "text": "原播客从兄妹近亲繁殖20代、接近克隆体、实验组与对照组讲到更温顺、更稳定的数据、Yale、电击与奖惩；节目也连续使用这一组材料。"
+        },
+        {
+          "title": "相似浣熊材料组",
+          "text": "原播客从 Linnaeus、Columbus、Lawrence Cole 1907、puzzle box、行为主义、Pettit论文、两枚硬币反复摩擦一路讲到 raccoon erasure；节目也沿着这条路线讲。"
+        },
+        {
+          "title": "叙述主体变化",
+          "text": "原播客通过 Michael Pettit、Kelly Lambert、Suzanne MacDonald 等人的采访完成故事；节目则说“浣熊”样本来自席间一位医生，并把整期表述为与几位医生的一场对话。"
+        },
+        {
+          "title": "相似结尾",
+          "text": "原播客说我们建立了一个适合老鼠的世界，但人也像浣熊；有人面对迷宫想把它烧掉，并提到 institutional suicide。节目说“我在对话的结尾说”现代社会创造了老鼠世界、人同时也是浣熊，随后同样讲烧掉迷宫和制度性的自杀。"
+        }
+      ],
+      "urls": [],
+      "urlLabels": []
+    },
+    {
+      "id": "tail-149-fukuyama-runciman",
+      "title": "149-90年代美国主流观点为何认为“历史已经终结”？",
+      "source": "Talking Politics: HISTORY OF IDEAS，“Fukuyama on History”（David Runciman，2020）",
+      "summary": "节目约09:00—23:00沿用一条连续的解释路线：纠正“冷战胜利主义”误读 → 强调文章早于柏林墙倒塌、历史终结不等于事件停止 → “最后之人”使全书转为悲观 → 安全、繁荣、体面但无聊的终点社会 → 欧盟式官僚政治 → 自由民主的物质成果与尊严认可两项优势 → 中国能否以经济成果和国家尊严提供另一种组合。节目随后把最后这一反问说成“从我个人角度”发现的福山最薄弱之处。",
+      "points": [
+        {
+          "title": "相似纠错路线",
+          "text": "原播客先纠正“福山是在柏林墙倒塌后庆祝西方胜利”的常见误读，再解释“历史终结”并非战争和事件停止；节目也按同样顺序切入。"
+        },
+        {
+          "title": "相似二项概括",
+          "text": "原播客把自由民主的竞争优势压缩为物质成果与认可／尊严；节目随后使用相似二项结构解释福山。"
+        },
+        {
+          "title": "相似反例与评论位置",
+          "text": "原播客已追问中国能否把经济成果与国家尊严组合起来；节目使用相似中国反例后说，这是“从我个人的角度”发现的福山最薄弱之处，并称自己要用大白话“戳破”它。"
+        }
+      ],
+      "urls": [
+        "https://podcasts.apple.com/us/podcast/fukuyama-on-history/id1508992867?i=1000475656182"
+      ],
+      "urlLabels": [
+        "原播客"
+      ]
+    },
+    {
+      "id": "tail-158-mathilde-bloom",
+      "title": "158-如何面对拥有一切之后的空虚？（《红与黑》7）",
+      "source": "Allan Bloom，Love and Friendship，Ch.2 “Stendhal, The Red and the Black”",
+      "summary": "Bloom连续完成了本期前约39分钟的核心结构：马蒂尔德拥有一切所以无事可做 → 无聊寻找戏剧与自我遗忘 → 愿意赴死成为人物价值的试金石 → 马蒂尔德把历史和现实人物送进自己的“内心选角室” → 选择于连扮演英雄 → 头脑之爱与角色扮演 → mastery / slavery不断倒转 → 这段关系可称为现代sadomasochism → 怀孕成为她向于连提供的最终保证。节目把这套批评重组为三个行为动机，并加入海德格尔、尼采、柏林夜店和个人经历。",
+      "points": [
+        {
+          "title": "相似人物解释",
+          "text": "Bloom把“拥有一切—无事可做—无聊寻找戏剧—愿意赴死成为判准”连成一条人物分析；节目也以连续提问方式展开相似的人物分析。"
+        },
+        {
+          "title": "相似“内心选角”结构",
+          "text": "Bloom说每个人都必须通过马蒂尔德的 internal casting bureau，适合她制作的历史戏剧才会被爱；节目改写为她主动“选择爱上于连”、给现实人物分配历史角色。"
+        },
+        {
+          "title": "BDSM解释",
+          "text": "Bloom 明确以 mastery / slavery 和 sadomasochistic 解释马蒂尔德与于连；节目另加入臣服、羞辱、BDSM 和柏林夜店等例子。"
+        }
+      ],
+      "urls": [
+        "https://podcasts.apple.com/us/podcast/158-%E5%A6%82%E4%BD%95%E9%9D%A2%E5%AF%B9%E6%8B%A5%E6%9C%89%E4%B8%80%E5%88%87%E4%B9%8B%E5%90%8E%E7%9A%84%E7%A9%BA%E8%99%9A-%E7%BA%A2%E4%B8%8E%E9%BB%91-7/id1711052890?i=1000682497697&l=zh-Hans-CN"
+      ],
+      "urlLabels": [
+        "节目页面"
+      ]
+    },
+    {
+      "id": "tail-159-plutarch-loeb",
+      "title": "159-如何从敌人身上获益",
+      "source": "F. C. Babbitt，Loeb版《How to Profit by One’s Enemies》编者导言与英译",
+      "summary": "Loeb 编者导言说明：文本可能源于即兴演说，保留破格句法、重复和小错误，后来整理成文；导言还提供古叙利亚语传播资料，并评价这些瑕疵不妨碍文章包含大量建议、真理和常识。节目使用相似的编辑学判断，随后沿 Loeb 英译顺序讲解。",
+      "points": [
+        {
+          "title": "相似文本判断",
+          "text": "Loeb导言已经指出即兴演说痕迹、破格句法、重复和小错误；节目将这组判断表述为阅读古希腊原文后的发现。"
+        },
+        {
+          "title": "传播史材料",
+          "text": "古叙利亚语译本等传播资料见 Babbitt 编者导言；节目在该段未提及该导言，并以“阅读古希腊原文”的口吻介绍这些材料。"
+        },
+        {
+          "title": "研究过程表述",
+          "text": "Babbitt 导言讨论句法异常、口头演说如何成文及文本质量；节目在对应段落以古希腊文阅读过程叙述这些判断。"
+        }
+      ],
+      "urls": [
+        "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Plutarch/Moralia/De_capienda%2A.html",
+        "https://www.xiaoyuzhoufm.com/episode/6779ce0b15a5fd520e0eef05"
+      ],
+      "urlLabels": [
+        "Loeb导言与英译",
+        "节目页面"
+      ]
+    },
+    {
+      "id": "tail-155-boredom-goodstein",
+      "title": "155-现代人从何时开始感到无聊？（《红与黑》解析6）",
+      "source": "Elizabeth S. Goodstein，Experience Without Qualities: Boredom and Modernity",
+      "summary": "Goodstein 的论述顺序包括：boredom / ennui / Langeweile 的现代语义汇合 → melancholy、acedia 与现代无聊的区别 → 现代主体危机 → 线性进步时间和未来期待 → 由精英向中产及下层扩散 → Stendhal、Baudelaire、Flaubert → Emma 与外省 ennui。节目使用相似的文学证据与传播方向，并以“无聊的民主化”收束。",
+      "points": [
+        {
+          "title": "相似问题设计",
+          "text": "Goodstein 以“为什么无聊是现代现象、古代忧郁为何不等于现代无聊、主体性与进步时间如何制造无聊”为中心问题；节目也围绕这些问题展开。"
+        },
+        {
+          "title": "相似文学证据组",
+          "text": "Goodstein用Stendhal与Flaubert展示无聊由巴黎精英向外省中产传播，并明确说Emma代表ennui抵达外省；节目也用这两位作家组成相似阶级时间线。"
+        },
+        {
+          "title": "相似结论与材料选择",
+          "text": "节目以“无聊的民主化”收束；Goodstein 此前已用 Stendhal 与 Flaubert 组织无聊由巴黎精英向外省中产传播的论述。"
+        }
+      ],
+      "urls": [
+        "https://www.sup.org/books/title?id=1400",
+        "https://www.degruyterbrill.com/document/doi/10.1515/9781503624658-005/html",
+        "https://www.xiaoyuzhoufm.com/episode/6770dccc1e823e72d391b0a7"
+      ],
+      "urlLabels": [
+        "原书介绍",
+        "关键章节",
+        "节目页面"
+      ]
+    }
+  ]
+}
