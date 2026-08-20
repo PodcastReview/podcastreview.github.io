@@ -1,0 +1,30 @@
+name: Assemble V4
+
+on:
+  push:
+    paths:
+      - '.github/workflows/assemble-v4.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  assemble:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Rebuild V4 files
+        shell: bash
+        run: |
+          set -euo pipefail
+          cat .v4parts/plutarch.*.b64 | base64 --decode | gzip -dc > projects/plutarch-enemies-intro.html
+          cat .v4parts/evidence.*.b64 | base64 --decode | gzip -dc > evidence.json
+          echo '98eb96e26c7a80cb43c78917b1fa8406a46dbff46815314e42e0a9703f262e2b  projects/plutarch-enemies-intro.html' | sha256sum -c -
+          echo '5c1d643e75b19276f489554485e729909024305a69c3e19ab2e3df580fbf7f12  evidence.json' | sha256sum -c -
+          python -c "import json; d=json.load(open('evidence.json', encoding='utf-8')); assert len(d.get('records', [])) == 75 and len(d.get('featured', [])) == 12"
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- projects/plutarch-enemies-intro.html evidence.json
+          git rm -r -- .v4parts
+          git commit -m 'Complete V4 content'
+          git push
