@@ -933,9 +933,30 @@
     {
       "id": "bp-14",
       "title": "275-哈姆雷特为什么是第一个现代人？",
-      "source": "Folger “A Modern Perspective: Hamlet” + 其他学术材料",
-      "summary": "Ur-Hamlet 的“Hamlet, revenge!” → Shakespeare 改成“Remember me” → 记忆取代即时复仇 → surveillance / “observed of all observers” → Wittenberg / university / bookishness / interiority。节目将多条既有研究线组合为“第一个现代人”的解释。",
-      "points": [],
+      "source": "Jan H. Blits, Introduction to Deadly Thought: 'Hamlet' and the Human Soul, pp. 3–21, Lexington Books, 2001 + Folger “A Modern Perspective: Hamlet” 等补充材料",
+      "summary": "节目与 Blits 2001 导论在多组连续、低频的材料选择与论证顺序上高度对应：16世纪丹麦被置于文艺复兴与宗教改革交界 → Catholic Denmark / purgatory → Diet of Worms → Wittenberg → 55行内四次提及 → 经院哲学衰退 → 掘墓人 / 幽灵；随后又沿 Saxo → Amleth → Livy / Brutus → Polonius → life / theater / imitation 推进。节目后半关于 acting 取代 action、思考与行动分裂、两个“避难所”都在 mind、一只眼向内而另一只眼看舞台，以及 Renaissance / intellectualism 造成 theory-practice、art-life 分裂的总收束，也与 Blits 的论证连续对应。",
+      "points": [
+        {
+          "title": "Wittenberg 低频节点链",
+          "text": "Blits：Catholic Denmark → purgatory / angels / saints / ghosts → Diet of Worms → Hamlet 与 Horatio 在 Wittenberg → 55行内四次提及 → Shakespeare仅点名两所大学之一 → Luther / 1517 / 95 theses → scholasticism → gravedigger / ghost。节目沿近似顺序使用同组节点。"
+        },
+        {
+          "title": "Saxo → Amleth → Brutus → Polonius",
+          "text": "Blits 从 Saxo 的 Amleth 传说转到 Livy 的 Brutus、Brutus 的词义，再接 Polonius 扮演 Brutus、Hamlet 杀 Polonius，最后收束为 life imitates theater / theater imitates life；节目保留了这条罕见论证链。"
+        },
+        {
+          "title": "acting 取代 action",
+          "text": "Blits 明言 “In place of action, Hamlet chooses acting”，并围绕 act 的行动/表演双义、stage-acting 与 action 互换、中间的行动领域消失展开；节目在对应位置作近似翻译与改写。"
+        },
+        {
+          "title": "两个避难所都在心智",
+          "text": "Blits 将 Hamlet 概括为 thinking without acting / acting without thinking，并写两个 refuges 都在 mind，一只眼向内、另一只眼看舞台，因而错失两者之间的 moral life；节目保留了这一高度辨识性的比喻和结构。"
+        },
+        {
+          "title": "Renaissance / intellectualism 总收束",
+          "text": "Blits 先将 Renaissance 写成 imitation of an imitation：Greece → Rome → Renaissance，并接 Machiavelli；结尾再把 theory / practice、art / life、speech / action、soul / mind 的分裂归入 Renaissance intellectualism。节目后段沿相近概念顺序收束其“现代人”解释。"
+        }
+      ],
       "urls": [],
       "urlLabels": []
     },
