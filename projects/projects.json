@@ -13,5 +13,10 @@
     "order": 3,
     "title": "财新《大学怎样对抗 AI 作弊》",
     "href": "projects/ai-cheating.html"
+  },
+  {
+    "order": 4,
+    "title": "《人的境况》译者导读",
+    "href": "projects/human-condition-intro.html"
   }
 ]
