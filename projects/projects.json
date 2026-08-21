@@ -1,22 +1,22 @@
 [
   {
     "order": 1,
+    "title": "《人的境况》译者导读",
+    "href": "projects/human-condition-intro.html"
+  },
+  {
+    "order": 2,
     "title": "《断头台为何是平等和民主的象征？》 × The Rest Is History 505",
     "href": "projects/guillotine-trih505.html"
   },
   {
-    "order": 2,
+    "order": 3,
     "title": "《如何从敌人身上受益》译者导读",
     "href": "projects/plutarch-enemies-intro.html"
   },
   {
-    "order": 3,
+    "order": 4,
     "title": "财新《大学怎样对抗 AI 作弊》",
     "href": "projects/ai-cheating.html"
-  },
-  {
-    "order": 4,
-    "title": "《人的境况》译者导读",
-    "href": "projects/human-condition-intro.html"
   }
 ]
