@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>《在孤独中尖叫，成为现代意义上的“自己”》｜文本对照</title>
+<style>
+:root{
+  --bg:#f4f0e8;--paper:#faf7f1;--ink:#181816;--muted:#6c675e;
+  --line:#d8d0c3;--red:#b63627;--shadow:0 10px 30px rgba(32,27,20,.06)
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;line-height:1.65}
+a{color:inherit}
+.topbar{min-height:72px;padding:0 max(24px,calc((100% - 1180px)/2));display:flex;align-items:center;justify-content:space-between;gap:24px;border-bottom:1px solid var(--line);background:rgba(244,240,232,.94);position:sticky;top:0;z-index:10;backdrop-filter:blur(12px)}
+.brand{font-weight:760;text-decoration:none;font-size:18px;white-space:nowrap}
+.topbar nav{display:flex;gap:28px;align-items:center}
+.topbar nav a{color:var(--muted);text-decoration:none;font-size:15px}
+.topbar nav a:hover,.topbar nav a:focus-visible{color:var(--ink)}
+.document-page{width:min(1180px,calc(100% - 40px));margin:auto;padding:64px 0 100px}
+.document-page h1{font-family:Georgia,"Songti SC","STSong",serif;font-size:clamp(42px,6vw,72px);font-weight:500;line-height:1.08;margin:15px 0 14px;letter-spacing:-.025em}
+.sub{color:#625d54;font-size:16px;margin:0 0 8px;line-height:1.75}
+.block{background:#fffdf8;border:1px solid var(--line);border-radius:10px;overflow:hidden;margin:0 0 18px}
+.block-head{padding:14px 18px;border-bottom:1px solid var(--line);background:#eee7dc;font-family:Georgia,"Songti SC","STSong",serif;font-size:18px;font-weight:560}
+.fact-grid{display:grid;grid-template-columns:1fr 1fr}
+.fact-cell{padding:18px 20px;min-width:0}
+.fact-cell + .fact-cell{border-left:1px solid var(--line)}
+.fact-label{font-size:12px;font-weight:800;letter-spacing:.07em;color:#777;margin-bottom:9px}
+.name-cloud{display:flex;flex-wrap:wrap;gap:8px 10px}
+.name-chip{border:1px solid #d8d0c3;background:#faf7f1;border-radius:999px;padding:6px 10px;font-size:14px}
+.group-title{font-family:Georgia,"Songti SC","STSong",serif;font-size:34px;font-weight:520;margin:64px 0 20px;padding-top:12px;border-top:1px solid var(--line)}
+.pairs{display:grid;gap:18px}
+.pair{background:#fffdf8;border:1px solid var(--line);border-radius:10px;overflow:hidden}
+.head{display:flex;gap:14px;align-items:baseline;padding:16px 18px;border-bottom:1px solid var(--line);background:#eee7dc}
+.num{font-weight:800;color:#777;font-variant-numeric:tabular-nums}.head h2{font-size:19px;margin:0;font-family:Georgia,"Songti SC","STSong",serif;font-weight:560}
+.cols{display:grid;grid-template-columns:1fr 1fr}.cols.three{grid-template-columns:repeat(3,minmax(0,1fr))}
+.col{padding:20px 22px;min-width:0}.col + .col{border-left:1px solid var(--line)}
+.label{font-size:12px;font-weight:800;letter-spacing:.07em;color:#777;margin-bottom:13px}
+.source{margin-bottom:16px;padding-bottom:10px;border-bottom:1px solid #ececec;font-size:12px;line-height:1.65;color:#8b3025;font-weight:750}
+.nodes{list-style:none;margin:0;padding:0;display:grid;gap:10px}
+.node{display:grid;grid-template-columns:28px 1fr;gap:10px;align-items:start;font-size:16px;line-height:1.82}
+.node-no,.pair-no{display:inline-flex;align-items:center;justify-content:center;width:24px;height:24px;border:1px solid #c8beb0;border-radius:999px;font:700 11px/1 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:#675f56;background:#f8f3eb;margin-top:2px}
+.quote{font-size:16px;line-height:1.88;margin:0 0 12px}.quote:last-child{margin-bottom:0}
+.em{font-weight:760}
+.subsource{margin:15px 0 8px;padding-top:12px;border-top:1px solid #ececec;color:#8b3025;font-size:12px;font-weight:750}
+.match-grid{display:grid}
+.match-row{display:grid;grid-template-columns:1fr 1fr;border-top:1px solid var(--line)}
+.match-row:first-child{border-top:0}
+.match-cell{padding:13px 16px;font-size:15px;line-height:1.75}
+.match-cell + .match-cell{border-left:1px solid var(--line)}
+.match-cell span.pair-no{margin-right:8px;vertical-align:middle}
+.seq{display:grid;grid-template-columns:1fr 1fr}
+.seq-col{padding:20px 22px}
+.seq-col + .seq-col{border-left:1px solid var(--line)}
+.seq-item{display:grid;grid-template-columns:32px 1fr;gap:10px;padding:12px 0;border-top:1px solid #ececec}
+.seq-item:first-of-type{border-top:0}
+.seq-n{font:700 12px/1 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:#8b3025;padding-top:7px}
+.seq-main{font-size:15px;line-height:1.75}
+.table-wrap{overflow-x:auto;-webkit-overflow-scrolling:touch}
+.compare-table{width:100%;border-collapse:collapse;min-width:760px}
+.compare-table th,.compare-table td{border:1px solid var(--line);padding:12px 14px;text-align:left;vertical-align:top;font-size:14px;line-height:1.7}
+.compare-table th{background:#f7f1e8;font-size:12px;letter-spacing:.04em;color:#6d665d}
+.refs{margin-top:72px}.refs h2,.minor-section h2{font-family:Georgia,"Songti SC","STSong",serif;font-size:36px;font-weight:520;margin:0 0 24px}
+.ref-list{display:grid;gap:14px}.ref-item{background:#fffdf8;border:1px solid var(--line);border-radius:9px;padding:17px 20px;font-size:15px;line-height:1.8}.ref-item em{font-family:Georgia,"Songti SC","STSong",serif}
+.minor-section{margin-top:72px}
+.control-grid{display:grid;gap:12px}
+.control-item{background:#fffdf8;border:1px solid var(--line);border-radius:9px;padding:17px 20px}
+.control-title{font-weight:760;font-size:14px;margin-bottom:8px}
+.control-text{font-family:Georgia,"Songti SC","STSong",serif;font-size:15px;line-height:1.8}
+.timeline{display:flex;gap:0;overflow-x:auto;padding-bottom:6px}
+.time-item{min-width:145px;border-top:2px solid #bdb4a7;padding:14px 10px 0;position:relative}
+.time-item:before{content:"";position:absolute;width:8px;height:8px;border-radius:50%;background:#8b3025;top:-5px;left:10px}
+.year{font-weight:800;font-size:13px;color:#8b3025}.time-name{font-size:13px;line-height:1.5;margin-top:5px}
+.matrix{width:100%;border-collapse:collapse}
+.matrix th,.matrix td{border:1px solid var(--line);padding:12px;text-align:center;font-size:13px}
+.matrix th:first-child,.matrix td:first-child{text-align:left;background:#f7f1e8;font-weight:700}
+.dot{font-size:19px;line-height:1;color:#8b3025}
+@media(max-width:900px){
+  .cols.three,.cols,.fact-grid,.seq{grid-template-columns:1fr}
+  .col + .col,.fact-cell + .fact-cell,.seq-col + .seq-col{border-left:0;border-top:1px solid var(--line)}
+}
+@media(max-width:760px){
+  .document-page{width:min(100% - 22px,1180px);padding-top:36px}.document-page h1{font-size:39px}
+  .topbar{min-height:62px;padding-block:12px;align-items:flex-start}.topbar nav{gap:12px;flex-wrap:wrap;justify-content:flex-end}
+  .node{font-size:15.5px}.match-row{grid-template-columns:1fr}.match-cell + .match-cell{border-left:0;border-top:1px solid var(--line)}
+}
+</style>
+</head>
+<body>
+<header class="topbar">
+<a class="brand" href="../index.html">卫生法庭与扫盲法庭</a>
+<nav aria-label="专题页导航">
+<a href="#comparison">对照</a>
+<a class="nav-optional" href="#references">参考材料</a>
+<a href="../index.html#library">核对记录</a>
+</nav>
+</header>
+
+<main class="document-page">
+<h1>《在孤独中尖叫，成为现代意义上的“自己”》</h1>
+<p class="sub">文本对照</p>
+
+<div id="comparison">
+
+<h2 class="group-title">Ⅰ</h2>
+<div class="pairs">
+
+<section class="pair">
+<div class="head"><span class="num">01</span><h2>Alexander Smith × p.30</h2></div>
+<div class="cols three">
+
+<article class="col">
+<div class="label">Alexander Smith</div>
+<div class="source">“Essayists, Old and New,” 1862.</div>
+<ol class="nodes">
+<li class="node"><span class="node-no">1</span><span>“which chronicles moods, which pursues <span class="em">vagrant lines of thought</span>”</span></li>
+<li class="node"><span class="node-no">2</span><span>“They do not require to have a middle, beginning, or end.”</span></li>
+<li class="node"><span class="node-no">3</span><span>“They are <span class="em">shaped by impulse and whim</span>.”</span></li>
+<li class="node"><span class="node-no">4</span><span>“Montaigne <span class="em">wanders about at his own will</span>.”</span></li>
+<li class="node"><span class="node-no">5</span><span>“his sense of distance from his reader—<span class="em">if ever he should possess one</span>—contributed, to a large extent, to <span class="em">make himself his own audience</span>”</span></li>
+<li class="node"><span class="node-no">6</span><span>“The Frenchman was a <span class="em">solitary man</span>”</span></li>
+<li class="node"><span class="node-no">7</span><span>“given to <span class="em">self-communion</span>”</span></li>
+<li class="node"><span class="node-no">8</span><span>“constantly <span class="em">writing to please himself</span>”</span></li>
+<li class="node"><span class="node-no">9</span><span>“<span class="em">He had no public</span>”</span></li>
+<li class="node"><span class="node-no">10</span><span>“He was <span class="em">actor and audience in one</span>.”</span></li>
+</ol>
+</article>
+
+<article class="col">
+<div class="label">p.30</div>
+<div class="source">《在孤独中尖叫，成为现代意义上的“自己”》</div>
+<p class="quote">“蒙田的《散文集》之所以对于现代文学如此重要，恰恰因为他建立了一种<span class="em">独处者的全新写法</span>。”</p>
+<p class="quote">“散文是一种<span class="em">好似没有读者</span>的文体，行文优美而<span class="em">发散</span>，既没有谆谆教诲的劝诫，也没有长篇大论的论述，亦没有跌宕起伏的剧情，好像只是为了<span class="em">写给作者自己读</span>。”</p>
+<p class="quote">“散文的作者不为了吸引信徒、不试图教诲学生、不渴望传播真理、不尝试建立学派。”</p>
+<p class="quote">“散文是一种<span class="em">现代独居者的文体</span>。”</p>
+</article>
+
+<article class="col">
+<div class="label">Alexander Smith</div>
+<div class="source">“Essayists, Old and New,” 1862.</div>
+<p class="quote">“<span class="em">Considered as a literary form, the Essay is comparatively of late growth.</span>”</p>
+<p class="quote">“When the Essay became a popular literary form in England, the conditions of things had altogether changed since Montaigne’s day...”</p>
+<p class="quote">“<span class="em">Then a public had arisen</span>...”</p>
+</article>
+
+</div>
+</section>
+
+<section class="pair">
+<div class="head"><span class="num">02</span><h2>Germany / Holland / p.29</h2></div>
+<div class="cols three">
+
+<article class="col">
+<div class="label">Iliescu</div>
+<div class="source">Adrian-Paul Iliescu, <em>Solitude and the Birth of Modernity</em>, ch. IV (Descartes).</div>
+<p class="quote">“when being in <span class="em">Germany</span>, with no distracting conversation...”</p>
+<p class="quote">“je demeurais tout le jour enfermé seul dans un poêle...”</p>
+</article>
+
+<article class="col">
+<div class="label">Shapin</div>
+<div class="source">Steven Shapin, “‘The Mind Is Its Own Place’: Science and Solitude in Seventeenth-Century England,” 1991, p.194.</div>
+<p class="quote">“remained the whole day shut up alone in a <span class="em">stove-heated room</span>.”</p>
+<p class="quote">“to remove myself from all places where any acquaintance were possible, and to retire to a country such as this [<span class="em">Holland</span>]...”</p>
+</article>
+
+<article class="col">
+<div class="label">p.29</div>
+<div class="source">《在孤独中尖叫，成为现代意义上的“自己”》</div>
+<p class="quote">“而他选择一个人躲在<span class="em">荷兰一间烧火炉加热的小房间</span>里。”</p>
+</article>
+
+</div>
+</section>
+
+<section class="pair">
+<div class="head"><span class="num">03</span><h2>Part III / First Meditation / p.30</h2></div>
+<div class="cols three">
+
+<article class="col">
+<div class="label">Iliescu</div>
+<div class="source">Adrian-Paul Iliescu, <em>Solitude and the Birth of Modernity</em>, ch. IV (Descartes).</div>
+<p class="quote">“<span class="em">Discours, end of part III</span>”</p>
+<p class="quote">“à m'éloigner de tous les lieux où je pouvais avoir des connaissances...”</p>
+<div class="subsource">同章另一处</div>
+<p class="quote">“de se défaire de toutes les opinions qu'on a reçues auparavant...”</p>
+</article>
+
+<article class="col">
+<div class="label">Seager</div>
+<div class="source">Zachary Seager (ed.), <em>The Art of Solitude: Selected Writings</em>, 2020｜René Descartes, “First Meditation.”</div>
+<p class="quote">“the sky, the air, the earth, <span class="em">colours, shapes, sounds</span> and all external things...”</p>
+<p class="quote">“no hands or eyes, or flesh, or blood or <span class="em">senses</span>...”</p>
+</article>
+
+<article class="col">
+<div class="label">p.30</div>
+<div class="source">《在孤独中尖叫，成为现代意义上的“自己”》</div>
+<p class="quote">“在《方法论》<span class="em">第三卷的末尾</span>，笛卡尔说，只有脱离世俗社会，逃向自我，才有可能抛弃虚假的习俗、<span class="em">色彩、图像对感官的侵袭</span>，触摸到确定的真相。”</p>
+</article>
+
+</div>
+</section>
+
+</div>
+
+<h2 class="group-title">Ⅱ</h2>
+<div class="pairs">
+
+<section class="pair">
+<div class="head"><span class="num">04</span><h2>Hobbes / p.30</h2></div>
+<div class="match-grid">
+  <div class="match-row">
+    <div class="match-cell"><span class="pair-no">2</span>‘<span class="em">natural</span>’ association</div>
+    <div class="match-cell"><span class="pair-no">2</span><span class="em">不自然</span></div>
+  </div>
+  <div class="match-row">
+    <div class="match-cell"><span class="pair-no">1</span>its ‘<span class="em">bonds</span>’</div>
+    <div class="match-cell"><span class="pair-no">1</span>和他人的<span class="em">联结</span></div>
+  </div>
+  <div class="match-row">
+    <div class="match-cell"><span class="pair-no">3</span>based on ‘<span class="em">Compacts</span>’</div>
+    <div class="match-cell"><span class="pair-no">3</span>需要<span class="em">后天建立</span></div>
+  </div>
+  <div class="match-row">
+    <div class="match-cell"><span class="pair-no">4</span>being therefore <span class="em">artificial</span></div>
+    <div class="match-cell"><span class="pair-no">4</span>“<span class="em">人工</span>”的</div>
+  </div>
+</div>
+<div class="cols">
+<article class="col">
+<div class="source">Adrian-Paul Iliescu, <em>Solitude and the Birth of Modernity</em>, ch. V (Hobbes).</div>
+<p class="quote">“Society cannot thus be a ‘natural’ association of men; its ‘bonds’ are based on ‘Compacts’, being therefore artificial.”</p>
+</article>
+<article class="col">
+<div class="source">《在孤独中尖叫，成为现代意义上的“自己”》，p.30.</div>
+<p class="quote">“我们和他人的联结，反而是不自然的、‘人工’的，也就是需要后天建立的。”</p>
+</article>
+</div>
+</section>
+
+<section class="pair">
+<div class="head"><span class="num">05</span><h2>Montaigne / Descartes / Hobbes</h2></div>
+<div class="seq">
+  <div class="seq-col">
+    <div class="source">Adrian-Paul Iliescu, <em>Solitude and the Birth of Modernity</em>, contents.</div>
+    <div class="seq-item"><div class="seq-n">1</div><div class="seq-main"><span class="em">Montaigne</span><br/>Existential Individualism as Isolation from the Other</div></div>
+    <div class="seq-item"><div class="seq-n">2</div><div class="seq-main"><span class="em">Descartes</span><br/>Cognitive Individualism as Expression of Intellectual Solitude</div></div>
+    <div class="seq-item"><div class="seq-n">3</div><div class="seq-main"><span class="em">Hobbes</span><br/>Political Individualism as Expression of the Natural Solitude of Man</div></div>
+  </div>
+  <div class="seq-col">
+    <div class="source">《在孤独中尖叫，成为现代意义上的“自己”》，pp.29–31.</div>
+    <div class="seq-item"><div class="seq-n">1</div><div class="seq-main"><span class="em">笛卡尔</span><br/>“现代哲学和科学”</div></div>
+    <div class="seq-item"><div class="seq-n">2</div><div class="seq-main"><span class="em">霍布斯</span><br/>“现代政治学”</div></div>
+    <div class="seq-item"><div class="seq-n">3</div><div class="seq-main"><span class="em">蒙田</span><br/>“现代文学中‘散文’这个文体”</div></div>
+    <div class="seq-item"><div class="seq-n">→</div><div class="seq-main">“现代哲学、现代政治和现代文学”</div></div>
+  </div>
+</div>
+</section>
+
+<section class="pair">
+<div class="head"><span class="num">06</span><h2>Zachary Seager / <em>The Art of Solitude: Selected Writings</em></h2></div>
+<div class="table-wrap">
+<table class="compare-table">
+<thead><tr><th>人物</th><th><em>The Art of Solitude: Selected Writings</em></th><th>文中</th></tr></thead>
+<tbody>
+<tr><td>蒙田</td><td>“On Solitude”</td><td>《散文集》“论独处”</td></tr>
+<tr><td>卢梭</td><td><em>Reveries of a Solitary Walker</em></td><td>《一个孤独漫步者的遐想》</td></tr>
+<tr><td>梭罗</td><td>“Solitude” from <em>Walden</em></td><td>《瓦尔登湖》；“湖边独居生活”</td></tr>
+<tr><td>爱默生</td><td>“Self-Reliance”</td><td>《自助》</td></tr>
+<tr><td>华兹华斯</td><td>William Wordsworth</td><td>“华兹华斯”</td></tr>
+<tr><td>伍尔夫</td><td><em>A Room of One’s Own</em></td><td>《到灯塔去》</td></tr>
+</tbody>
+</table>
+</div>
+</section>
+
+</div>
+</div>
+
+<section class="minor-section" id="map">
+<h2>分布</h2>
+<div class="table-wrap">
+<table class="matrix">
+<thead>
+<tr><th></th><th>Smith</th><th>Shapin</th><th>Iliescu</th><th>Seager</th></tr>
+</thead>
+<tbody>
+<tr><td>01｜p.30 蒙田／散文</td><td class="dot">●</td><td></td><td></td><td></td></tr>
+<tr><td>02｜p.29 笛卡尔／火炉房</td><td></td><td class="dot">●</td><td class="dot">●</td><td></td></tr>
+<tr><td>03｜p.30 Part III / First Meditation</td><td></td><td></td><td class="dot">●</td><td class="dot">●</td></tr>
+<tr><td>04｜p.30 霍布斯</td><td></td><td></td><td class="dot">●</td><td></td></tr>
+<tr><td>05｜三人配置</td><td></td><td></td><td class="dot">●</td><td></td></tr>
+<tr><td>06｜Seager</td><td></td><td></td><td></td><td class="dot">●</td></tr>
+</tbody>
+</table>
+</div>
+</section>
+
+<section class="refs" id="references">
+<h2>材料</h2>
+<div class="ref-list">
+<div class="ref-item">Alexander Smith, “Essayists, Old and New,” 1862.</div>
+<div class="ref-item">Steven Shapin, “‘The Mind Is Its Own Place’: Science and Solitude in Seventeenth-Century England,” <em>Science in Context</em> 4.1, 1991.</div>
+<div class="ref-item">Adrian-Paul Iliescu, <em>Solitude and the Birth of Modernity</em>, New Europe College, 1999.</div>
+<div class="ref-item">Zachary Seager (ed.), <em>The Art of Solitude: Selected Writings</em>, Macmillan Collector’s Library, 2020.</div>
+</div>
+</section>
+
+</main>
+</body>
+</html>
