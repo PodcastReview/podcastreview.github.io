@@ -6,16 +6,21 @@
   },
   {
     "order": 2,
+    "title": "第272期｜《最优秀的学生为何失去了读书的能力？》",
+    "href": "projects/episode-272-reading.html"
+  },
+  {
+    "order": 3,
     "title": "《人的境况》译者导读",
     "href": "projects/human-condition-intro.html"
   },
   {
-    "order": 3,
+    "order": 4,
     "title": "《如何从敌人身上受益》译者导读",
     "href": "projects/plutarch-enemies-intro.html"
   },
   {
-    "order": 4,
+    "order": 5,
     "title": "财新《大学怎样对抗 AI 作弊》",
     "href": "projects/ai-cheating.html"
   }
