@@ -60,6 +60,7 @@ a{color:inherit}
   background:rgba(182,54,39,.055);
   color:var(--red);
 }
+.response-quote + .response-quote{margin-top:16px}
 .response-label{margin:0 0 9px;font-size:12px;font-weight:800;letter-spacing:.16em}
 .response-quote blockquote{
   margin:0;
