@@ -1,73 +1,643 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="zh-CN">
 <head>
-<meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1" name="viewport"/>
-<title>《大学怎样对抗 AI 作弊》｜材料核对</title>
-<meta content="以必要短引和材料节点核对《财新周刊》专栏《大学怎样对抗AI作弊》与公开英文材料的关系。" name="description"/>
-<link href="../styles.css" rel="stylesheet"/>
-<style>
-.document-page{width:min(1180px,calc(100% - 40px));margin:auto;padding:64px 0 100px}
-.document-page h1{font-family:Georgia,"Songti SC","STSong",serif;font-size:clamp(42px,6vw,72px);font-weight:500;line-height:1.08;margin:15px 0 14px}
-.document-page .sub{color:#625d54;font-size:16px;margin:0 0 12px;line-height:1.75;max-width:980px}
-.document-page .source-note{color:#625d54;font-size:14px;margin:0 0 34px;line-height:1.75;max-width:980px}
-.document-page a{color:inherit;text-decoration-thickness:1px;text-underline-offset:3px}
-.pairs{display:grid;gap:18px}.pair{background:#fffdf8;border:1px solid var(--line);border-radius:10px;overflow:hidden}
-.head{display:flex;gap:14px;align-items:baseline;padding:16px 18px;border-bottom:1px solid var(--line);background:#eee7dc}
-.num{font-weight:800;color:#777;font-variant-numeric:tabular-nums}.head h2{font-size:19px;margin:0;font-family:Georgia,"Songti SC","STSong",serif;font-weight:560}
-.cols{display:grid;grid-template-columns:1fr 1fr}.col{padding:20px 22px;min-width:0}.col + .col{border-left:1px solid var(--line)}
-.label{font-size:12px;font-weight:800;letter-spacing:.07em;color:#777;margin-bottom:13px}.text{font-size:16px;line-height:1.88}
-.source{margin-bottom:14px;padding-bottom:10px;border-bottom:1px solid #ececec;font-size:12px;line-height:1.6;color:#8b3025;font-weight:750}
-.page-note{margin-top:24px;color:#625d54;font-size:14px;line-height:1.75}
-@media(max-width:800px){.document-page{width:min(100% - 22px,1180px);padding-top:36px}.document-page h1{font-size:39px}.cols{grid-template-columns:1fr}.col + .col{border-left:0;border-top:1px solid var(--line)}}
-</style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>财新《大学怎样对抗 AI 作弊》｜逐字对照</title>
+  <meta name="description" content="财新《大学怎样对抗 AI 作弊》中文原文、英文来源与本站直译的逐字对照。">
+  <style>
+    :root {
+      --bg: #f3eee5;
+      --paper: #fbf8f2;
+      --paper-strong: #fffdf8;
+      --ink: #191816;
+      --muted: #6e685f;
+      --line: #d8cfc1;
+      --red: #b63627;
+      --red-deep: #85261c;
+      --red-soft: #f7e9e4;
+      --shadow: 0 18px 48px rgba(49, 39, 28, .07);
+    }
+
+    * { box-sizing: border-box; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      margin: 0;
+      color: var(--ink);
+      background:
+        radial-gradient(circle at 100% 0, rgba(182, 54, 39, .06), transparent 28rem),
+        var(--bg);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC",
+        "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+      line-height: 1.75;
+    }
+
+    a { color: inherit; }
+
+    .wrap {
+      width: min(1040px, calc(100% - 48px));
+      margin-inline: auto;
+    }
+
+    .topbar {
+      position: sticky;
+      top: 0;
+      z-index: 20;
+      border-bottom: 1px solid rgba(216, 207, 193, .92);
+      background: rgba(243, 238, 229, .93);
+      backdrop-filter: blur(14px);
+    }
+
+    .topbar-inner {
+      min-height: 64px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 22px;
+    }
+
+    .brand {
+      font-family: Georgia, "Songti SC", "STSong", serif;
+      font-weight: 700;
+      text-decoration: none;
+      white-space: nowrap;
+    }
+
+    .topbar nav {
+      display: flex;
+      gap: 8px;
+      overflow-x: auto;
+      scrollbar-width: none;
+    }
+
+    .topbar nav::-webkit-scrollbar { display: none; }
+
+    .topbar nav a {
+      flex: 0 0 auto;
+      padding: 5px 9px;
+      color: var(--muted);
+      border-radius: 999px;
+      font-size: 13px;
+      text-decoration: none;
+    }
+
+    .topbar nav a:hover,
+    .topbar nav a:focus-visible {
+      color: var(--red-deep);
+      background: var(--red-soft);
+    }
+
+    .hero { padding: 86px 0 60px; }
+
+    .draft-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      margin: 0 0 22px;
+      padding: 6px 11px;
+      color: var(--red-deep);
+      border: 1px solid rgba(182, 54, 39, .35);
+      border-radius: 999px;
+      background: var(--red-soft);
+      font-size: 12px;
+      font-weight: 800;
+      letter-spacing: .08em;
+    }
+
+    .draft-badge::before {
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      background: var(--red);
+      content: "";
+    }
+
+    h1 {
+      max-width: 920px;
+      margin: 0;
+      font-family: Georgia, "Songti SC", "STSong", serif;
+      font-size: clamp(42px, 7vw, 72px);
+      font-weight: 520;
+      letter-spacing: -.035em;
+      line-height: 1.08;
+    }
+
+    h1 em { color: var(--red); font-style: normal; }
+
+    .dek {
+      max-width: 820px;
+      margin: 28px 0 0;
+      color: #49443d;
+      font-size: 19px;
+      line-height: 1.9;
+    }
+
+    main { padding-bottom: 110px; }
+
+    .case {
+      margin-top: 28px;
+      overflow: hidden;
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      background: var(--paper);
+      box-shadow: var(--shadow);
+      scroll-margin-top: 82px;
+    }
+
+    .case:first-of-type { margin-top: 0; }
+
+    .case-head {
+      display: block;
+      align-items: start;
+      padding: 28px 30px 26px;
+      border-bottom: 1px solid var(--line);
+      background: linear-gradient(135deg, rgba(182, 54, 39, .07), transparent 60%);
+    }
+
+    .case-no {
+      display: grid;
+      width: 38px;
+      height: 38px;
+      place-items: center;
+      color: white;
+      border-radius: 50%;
+      background: var(--red);
+      font-family: Georgia, serif;
+      font-size: 18px;
+      font-weight: 700;
+      margin: 0;
+    }
+
+    .layer { padding: 30px; }
+
+    .layer + .layer { border-top: 1px solid var(--line); }
+
+    .layer-source { background: #f5f0e8; }
+
+    .layer-translation { background: var(--paper-strong); }
+
+    .layer-label {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin: 0 0 17px;
+      color: var(--red-deep);
+      font-size: 13px;
+      font-weight: 850;
+      letter-spacing: .14em;
+    }
+
+    .layer-label::after {
+      height: 1px;
+      flex: 1;
+      background: rgba(182, 54, 39, .25);
+      content: "";
+    }
+
+    blockquote {
+      margin: 0;
+      font-family: Georgia, "Songti SC", "STSong", serif;
+      font-size: 18px;
+      line-height: 1.95;
+    }
+
+    blockquote p { margin: 0; }
+
+    blockquote p + p { margin-top: 16px; }
+
+    .english {
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 17px;
+      line-height: 1.85;
+    }
+
+    .source-group + .source-group {
+      margin-top: 22px;
+      padding-top: 22px;
+      border-top: 1px dashed #cabfaf;
+    }
+
+    .source-name {
+      display: inline-block;
+      margin: 0 0 9px;
+      color: var(--muted);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 800;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+    }
+
+    .source-name a {
+      text-decoration: none;
+      border-bottom: 1px solid rgba(110, 104, 95, .35);
+    }
+
+    .speaker {
+      margin: 0 0 10px;
+      color: var(--red-deep);
+      font-size: 13px;
+      font-weight: 750;
+    }
+
+    .source-locator {
+      display: inline-block;
+      margin-right: 8px;
+      color: var(--red-deep);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-size: 11px;
+      font-weight: 800;
+      letter-spacing: .06em;
+      vertical-align: 1px;
+    }
+
+    .source-index {
+      margin-top: 32px;
+      padding: 24px 30px;
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      background: var(--paper-strong);
+      box-shadow: var(--shadow);
+    }
+
+    .source-index a {
+      display: block;
+      color: var(--red-deep);
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 15px;
+      line-height: 1.65;
+      text-decoration-thickness: 1px;
+      text-underline-offset: 4px;
+    }
+
+    .source-index a + a { margin-top: 12px; }
+
+    .ellipsis { color: var(--muted); }
+
+    footer {
+      padding: 30px 0;
+      color: var(--muted);
+      border-top: 1px solid var(--line);
+      font-size: 12px;
+    }
+
+    @media (max-width: 760px) {
+      .wrap { width: min(100% - 28px, 1040px); }
+      .topbar-inner { min-height: 58px; }
+      .brand { display: none; }
+      .topbar nav { width: 100%; }
+      .hero { padding: 58px 0 42px; }
+      .dek { font-size: 17px; }
+      .case-head { padding: 23px 20px 21px; gap: 13px; }
+      .case-no { width: 32px; height: 32px; font-size: 15px; }
+      .layer { padding: 23px 20px; }
+      blockquote { font-size: 17px; line-height: 1.9; }
+      .english { font-size: 16px; }
+    }
+  </style>
 </head>
 <body>
-<header class="topbar">
-<a class="brand" href="../index.html">卫生法庭与扫盲法庭</a>
-<nav aria-label="专题页导航">
-<a class="nav-optional" href="#comparison">逐段核对</a>
-<a href="../statement.html">声明与方法</a>
-<a href="../index.html#library">核对记录</a>
-</nav>
-</header>
-<main class="document-page" id="comparison">
-<p class="eyebrow">材料核对</p>
-<h1>《大学怎样对抗 AI 作弊》</h1>
-<p class="sub">目标文本：<a href="https://weekly.caixin.com/essay" target="_blank" rel="noopener">《财新周刊》专栏《大学怎样对抗AI作弊》</a>，2026年8月1日。页面仅保留证明材料关系所需的短引与独特节点，不保存或替代原文。</p>
-<p class="source-note">右侧列出可公开复核的上游材料；需要完整上下文时，请直接进入原始来源。</p>
-<div class="pairs">
-<section class="pair"><div class="head"><span class="num">01</span><h2>1876 → 1893 → 133年 → AI → 恢复监考</h2></div><div class="cols">
-<article class="col"><div class="label">目标文本｜必要节选</div><div class="text">“1876年……反对学校安排监考” → “1893年……荣誉准则” → “此后133年间” → 2026年恢复监考。</div></article>
-<article class="col"><div class="label">对照材料</div><div class="source"><a href="https://www.theatlantic.com/ideas/2026/05/princeton-ai-honor-code/687144/" target="_blank" rel="noopener">Rose Horowitch, “How AI Killed a 133-Year-Old Princeton Tradition,” The Atlantic, 2026-05-12</a></div><div class="text">同样从 1876 Princetonian 社论进入，推进到 1893 Honor Code、133 年历史序列，再到生成式 AI 与恢复监考。</div></article>
-</div></section>
-<section class="pair"><div class="head"><span class="num">02</span><h2>Brown：take-home → ChatGPT → 线下 final → 退课</h2></div><div class="cols">
-<article class="col"><div class="label">目标文本｜必要节选</div><div class="text">“把期中考试改为居家进行” → “答案与ChatGPT生成的内容高度相似” → “期末恢复现场闭卷” → 学生退课。</div></article>
-<article class="col"><div class="label">对照材料</div><div class="source"><a href="https://www.insidehighered.com/news/faculty/learning-assessment/2026/07/08/brown-professor-suspects-most-his-class-used-ai-cheat" target="_blank" rel="noopener">Emma Whitford, “Brown Professor Suspects Majority of His Class Used AI to Cheat,” Inside Higher Ed, 2026-07-08</a></div><div class="text">take-home midterm → 96% average → ChatGPT-like answers → in-person final 48.6% → 18 drops。</div></article>
-</div></section>
-<section class="pair"><div class="head"><span class="num">03</span><h2>“AI改变了作弊的成本”</h2></div><div class="cols">
-<article class="col"><div class="label">目标文本｜必要节选</div><div class="text">“AI没有发明作弊，却彻底改变了作弊的成本。”并继续写到模仿个人文风、故意制造错别字。</div></article>
-<article class="col"><div class="label">对照材料</div><div class="source"><a href="https://www.businessinsider.com/brown-university-ai-cheating-scandal-2026-7" target="_blank" rel="noopener">Henry Chandonnet, Business Insider, 2026-07-09</a> · <a href="https://www.theatlantic.com/ideas/2026/05/princeton-ai-honor-code/687144/" target="_blank" rel="noopener">The Atlantic</a></div><div class="text">上游分别提供 “cost of cheating” 降低，以及 AI 模仿写作风格、加入错字以降低识别概率的材料。</div></article>
-</div></section>
-<section class="pair"><div class="head"><span class="num">04</span><h2>501 → 30% → 28% → 45%</h2></div><div class="cols">
-<article class="col"><div class="label">目标文本｜必要节选</div><div class="text">“501名” → “30%” → “28%” → “45%”。</div></article>
-<article class="col"><div class="label">对照材料</div><div class="source"><a href="https://www.theatlantic.com/ideas/2026/05/princeton-ai-honor-code/687144/" target="_blank" rel="noopener">The Atlantic｜Rose Horowitch</a></div><div class="text">同一调查、同一四个数字，按同一顺序出现。</div></article>
-</div></section>
-<section class="pair"><div class="head"><span class="num">05</span><h2>Princeton → Brown：实体发生变化</h2></div><div class="cols">
-<article class="col"><div class="label">目标文本｜必要节选</div><div class="text">“布朗大学经济系计划要求学生口头答辩” → “Google Docs修改记录”。</div></article>
-<article class="col"><div class="label">对照材料</div><div class="source"><a href="https://www.theatlantic.com/ideas/2026/05/princeton-ai-honor-code/687144/" target="_blank" rel="noopener">The Atlantic｜Rose Horowitch</a></div><div class="text">原材料对应的是 Princeton economics 的 oral defense，以及 Princeton history 的 Google Docs revision history；这里保留这一实体错接作为可核验节点。</div></article>
-</div></section>
-<section class="pair"><div class="head"><span class="num">06</span><h2>合理AI用途 → learning objectives → process over product</h2></div><div class="cols">
-<article class="col"><div class="label">目标文本｜必要节选</div><div class="text">“资料检索、语言润色、代码调试和思路整理” → “重新说明考查目标”。</div></article>
-<article class="col"><div class="label">对照材料</div><div class="source"><a href="https://provost.brown.edu/sites/default/files/GAITL_Committee_Report_FNL.pdf" target="_blank" rel="noopener">Brown University, Generative AI in Teaching and Learning Committee Final Report, 2026-07-07</a></div><div class="text">revision / summarizing / debugging → course learning objectives → “process over product”。</div></article>
-</div></section>
-<section class="pair"><div class="head"><span class="num">07</span><h2>教育“表演”与信任瓦解</h2></div><div class="cols">
-<article class="col"><div class="label">目标文本｜必要节选</div><div class="text">“课堂成为教育的表演，考试成为评价的表演，文凭成为能力的表演……”</div></article>
-<article class="col"><div class="label">对照材料</div><div class="source"><a href="https://www.newyorker.com/news/fault-lines/the-despair-of-the-professor-in-the-age-of-ai" target="_blank" rel="noopener">Jay Caspian Kang, “The Despair of the Professor in the Age of A.I.,” The New Yorker, 2026-05-26</a></div><div class="text">“simulacrum of education” / students “pretend to learn” / erosion of trust，与 Atlantic 的 diploma-as-trust-signal 共同构成上游框架；此处只标示关系，不把中文结尾视为逐句翻译。</div></article>
-</div></section>
-</div>
-<p class="page-note">本页用于材料关系核对。相关著作权归原权利人；如需完整文本，请通过原出版方与原始材料自行核对。</p>
-</main>
-<footer><div class="wrap">卫生法庭与扫盲法庭 · <a href="../statement.html">声明与方法</a></div></footer>
+  <header class="topbar">
+    <div class="topbar-inner wrap">
+      <a class="brand" href="../index.html">扫盲法庭 · 逐字翻译</a>
+      <nav aria-label="本页段落">
+        <a href="#case-1">1</a>
+        <a href="#case-2">2</a>
+        <a href="#case-3">3</a>
+        <a href="#case-4">4</a>
+        <a href="#case-5">5</a>
+        <a href="#case-6">6</a>
+        <a href="#case-7">7</a>
+        <a href="#case-8">8</a>
+        <a href="#case-9">9</a>
+        <a href="#case-10">10</a>
+        <a href="#case-11">11</a>
+      </nav>
+    </div>
+  </header>
+
+  <div class="hero wrap" id="top">
+    <h1>财新《大学怎样对抗 AI 作弊》<br><em>逐字对照</em></h1>
+  </div>
+
+  <main class="wrap">
+    <article class="case" id="case-1">
+      <header class="case-head"><h2 class="case-no">1</h2></header>
+      <section class="layer layer-her">
+        <h3 class="layer-label">财新原文</h3>
+        <blockquote lang="zh-CN">
+          <p>1876年，普林斯顿大学校报《普林斯顿人》发表社论，反对学校安排监考。社论认为，预先把学生当作潜在的骗子是糟糕的道德教育；给予他们信任，反而更易培养诚实。文章建议，考试结束时由学生签署承诺，声明自己既没有给予也没有接受他人帮助，教授和助教可去处理“比监视作弊更有意义的事情”。</p>
+        </blockquote>
+      </section>
+      <section class="layer layer-source">
+        <h3 class="layer-label">英文原文</h3>
+        <div class="source-group">
+          <cite class="source-name"><a href="https://www.theatlantic.com/ideas/2026/05/princeton-ai-honor-code/687144/" target="_blank" rel="noopener noreferrer">The Atlantic · Rose Horowitch · 2026-05-12</a></cite>
+          <blockquote class="english" lang="en">
+            <p>In 1876, an editorial in Princeton's newly founded campus newspaper, The Princetonian, argued against the use of proctors to monitor exams.</p>
+            <p>Proctoring was “a means of bad moral education,” the author wrote. Treat students as presumptively dishonest, and some would become so; treat them as honorable, and they would learn to behave honorably.</p>
+            <p>“Let every man write at the end of his paper a pledge that he has neither given nor received help, and let professors and tutors address themselves to some better business than watching for fraud.”</p>
+          </blockquote>
+        </div>
+      </section>
+      <section class="layer layer-translation">
+        <h3 class="layer-label">本站直译</h3>
+        <blockquote lang="zh-CN">
+          <p>1876年，普林斯顿新创办的校园报纸《普林斯顿人》刊登了一篇社论，反对使用监考人员监督考试。</p>
+          <p>作者写道，监考是“一种糟糕的道德教育手段”。把学生预先视为不诚实的人，其中一些人就会变得不诚实；把他们当作有荣誉感的人，他们就会学着以荣誉行事。</p>
+          <p>“让每个人在试卷末尾写下誓言，声明自己既未给予帮助也未接受帮助；让教授和助教去做些比盯着欺诈更好的事情。”</p>
+        </blockquote>
+      </section>
+    </article>
+
+    <article class="case" id="case-2">
+      <header class="case-head"><h2 class="case-no">2</h2></header>
+      <section class="layer layer-her">
+        <h3 class="layer-label">财新原文</h3>
+        <blockquote lang="zh-CN">
+          <p>1893年，这套安排正式发展为普林斯顿著名的“荣誉准则”：考试开始后，教授离开教室，学生自行维持秩序；发现作弊者有义务举报，受到指控者由同龄人组成的委员会审理。</p>
+        </blockquote>
+      </section>
+      <section class="layer layer-source">
+        <h3 class="layer-label">英文原文</h3>
+        <div class="source-group">
+          <cite class="source-name"><a href="https://www.theatlantic.com/ideas/2026/05/princeton-ai-honor-code/687144/" target="_blank" rel="noopener noreferrer">The Atlantic · Rose Horowitch · 2026-05-12</a></cite>
+          <blockquote class="english" lang="en">
+            <p>That proposal was eventually embodied in Princeton's famous Honor Code, adopted in 1893 and modified only lightly in the ensuing 133 years.</p>
+            <p>When students take their final exams, professors leave the room. Students write down a pledge not to cheat. They are expected to report anyone who does. Any student accused of impropriety comes before a jury of their peers.</p>
+          </blockquote>
+        </div>
+      </section>
+      <section class="layer layer-translation">
+        <h3 class="layer-label">本站直译</h3>
+        <blockquote lang="zh-CN">
+          <p>这个提议最终体现在普林斯顿著名的荣誉准则中。该准则于1893年通过，在此后的133年里仅有轻微修改。</p>
+          <p>学生参加期末考试时，教授离开教室。学生写下不作弊的誓言；他们应当举报任何作弊者；任何被指控有不当行为的学生，都要接受由同龄人组成的陪审团审理。</p>
+        </blockquote>
+      </section>
+    </article>
+
+    <article class="case" id="case-3">
+      <header class="case-head"><h2 class="case-no">3</h2></header>
+      <section class="layer layer-her">
+        <h3 class="layer-label">财新原文</h3>
+        <blockquote lang="zh-CN">
+          <p>此后133年间，这项制度挺过了两次世界大战、上世纪60年代校园动荡、水门事件带来的信任危机，以及搜索引擎和维基百科的冲击。</p>
+        </blockquote>
+      </section>
+      <section class="layer layer-source">
+        <h3 class="layer-label">英文原文</h3>
+        <div class="source-group">
+          <cite class="source-name"><a href="https://www.theatlantic.com/ideas/2026/05/princeton-ai-honor-code/687144/" target="_blank" rel="noopener noreferrer">The Atlantic · Rose Horowitch · 2026-05-12</a></cite>
+          <blockquote class="english" lang="en">
+            <p>The code lasted through two world wars, the upheaval of the 1960s, the disillusionment of Watergate, and even the rise of search engines and SparkNotes.</p>
+          </blockquote>
+        </div>
+      </section>
+      <section class="layer layer-translation">
+        <h3 class="layer-label">本站直译</h3>
+        <blockquote lang="zh-CN">
+          <p>这套准则经历了两次世界大战、20世纪60年代的动荡、水门事件带来的幻灭，甚至还经受住了搜索引擎和 SparkNotes 的兴起。</p>
+        </blockquote>
+      </section>
+    </article>
+
+    <article class="case" id="case-4">
+      <header class="case-head"><h2 class="case-no">4</h2></header>
+      <section class="layer layer-her">
+        <h3 class="layer-label">财新原文</h3>
+        <blockquote lang="zh-CN">
+          <p>最终让它难以维系的是生成式人工智能。2026年5月，普林斯顿教师投票决定重新引入监考。荣誉准则在名义上仍然存在，学生依然要签署不作弊承诺，教授却要留在考场确认这份承诺是否可信。一个曾靠荣誉维持的制度，如今要靠监督来保障。</p>
+        </blockquote>
+      </section>
+      <section class="layer layer-source">
+        <h3 class="layer-label">英文原文</h3>
+        <div class="source-group">
+          <cite class="source-name"><a href="https://www.theatlantic.com/ideas/2026/05/princeton-ai-honor-code/687144/" target="_blank" rel="noopener noreferrer">The Atlantic · Rose Horowitch · 2026-05-12</a></cite>
+          <blockquote class="english" lang="en">
+            <p>It finally met its match in generative AI.</p>
+            <p>Yesterday, after the rise of AI-facilitated cheating became too obvious to ignore, Princeton's faculty voted to begin proctoring exams again.</p>
+            <p>Technically, the Honor Code is still in place. Students will still sign a pledge that they didn't cheat. But now professors will be watching to make sure they're telling the truth. The Honor Code can't run on the honor system anymore.</p>
+          </blockquote>
+        </div>
+      </section>
+      <section class="layer layer-translation">
+        <h3 class="layer-label">本站直译</h3>
+        <blockquote lang="zh-CN">
+          <p>它终于在生成式人工智能面前遇到了对手。</p>
+          <p>昨天，在人工智能助长的作弊已经明显到无法忽视之后，普林斯顿教师投票决定重新监考。</p>
+          <p>严格说来，荣誉准则仍然存在，学生仍要签署没有作弊的誓言；但现在，教授会在场监督，确认他们说的是实话。荣誉准则已经无法再靠荣誉制度自行运转。</p>
+        </blockquote>
+      </section>
+    </article>
+
+    <article class="case" id="case-5">
+      <header class="case-head"><h2 class="case-no">5</h2></header>
+      <section class="layer layer-her">
+        <h3 class="layer-label">财新原文</h3>
+        <blockquote lang="zh-CN">
+          <p>同年春天，布朗大学经济学教授罗伯托·塞拉诺（Roberto Serrano）经历了另一场信任危机。受校园枪击事件影响，他把期中考试改为居家进行，结果成绩高得反常，不少答案与ChatGPT生成的内容高度相似；期末恢复现场闭卷后，成绩大幅下降，一批期中获得满分的学生选择退课。</p>
+        </blockquote>
+      </section>
+      <section class="layer layer-source">
+        <h3 class="layer-label">英文原文</h3>
+        <div class="source-group">
+          <cite class="source-name"><a href="https://www.insidehighered.com/news/faculty/learning-assessment/2026/07/08/brown-professor-suspects-most-his-class-used-ai-cheat" target="_blank" rel="noopener noreferrer">Inside Higher Ed · Emma Whitford · 2026-07-08</a></cite>
+          <blockquote class="english" lang="en">
+            <p>For the first time since he started teaching Welfare Economics and Social Choice Theory nearly two decades ago, Brown University economics professor Roberto Serrano gave his students a take-home midterm this spring.</p>
+            <p>Quite a few students had expressed anxiety about being in a classroom after a gunman killed two students and injured nine in a December mass shooting at Brown, and so “it was appropriate,” he said, to allow students to take their exams at home.</p>
+            <p>When the midterm came along, the average score was 96 percent. He and his graders ran the test through ChatGPT. The AI gave answers that mirrored what his students had written.</p>
+            <p>He and his graders <span class="ellipsis">[…]</span> changed the final exam to an in-person test. <span class="ellipsis">[…]</span> 18 of them subsequently dropped the class. <span class="ellipsis">[…]</span> The average score on the final was 48.6 percent—by far a historic low.</p>
+          </blockquote>
+        </div>
+      </section>
+      <section class="layer layer-translation">
+        <h3 class="layer-label">本站直译</h3>
+        <blockquote lang="zh-CN">
+          <p>布朗大学经济学教授罗伯托·塞拉诺教授“福利经济学与社会选择理论”近二十年来，今年春天第一次给学生安排了带回家完成的期中考试。</p>
+          <p>去年12月，布朗大学发生大规模枪击，一名枪手杀死两名学生、打伤九人。相当多学生表示，他们对待在教室里感到焦虑；塞拉诺说，因此允许学生在家考试“是合适的”。</p>
+          <p>期中考试的平均分达到96分。塞拉诺和助教把试题输入 ChatGPT，人工智能给出的答案与学生写下的答案相互映照。</p>
+          <p>他和助教……把期末考试改成现场考试。……随后有18名学生退课。……期末平均分为48.6分，是远低于以往的历史最低分。</p>
+        </blockquote>
+      </section>
+    </article>
+
+    <article class="case" id="case-6">
+      <header class="case-head"><h2 class="case-no">6</h2></header>
+      <section class="layer layer-her">
+        <h3 class="layer-label">财新原文</h3>
+        <blockquote lang="zh-CN">
+          <p>塞拉诺教授提交证据后，学术规范委员会长期没有回应，直到媒体曝光，调查才终于启动。</p>
+        </blockquote>
+      </section>
+      <section class="layer layer-source">
+        <h3 class="layer-label">英文原文</h3>
+        <div class="source-group">
+          <cite class="source-name"><a href="https://www.insidehighered.com/news/faculty/learning-assessment/2026/07/08/brown-professor-suspects-most-his-class-used-ai-cheat" target="_blank" rel="noopener noreferrer">Inside Higher Ed · Emma Whitford · 2026-07-08</a></cite>
+          <blockquote class="english" lang="en">
+            <p>In May, Serrano submitted the data shown above to Brown’s Standing Committee on the Academic Code and received no response.</p>
+            <p>After he went public with his story in late June, the committee <span class="ellipsis">[…]</span> asked Serrano to submit individual complaints against each student suspected of cheating, including copies of their exams.</p>
+          </blockquote>
+        </div>
+      </section>
+      <section class="layer layer-translation">
+        <h3 class="layer-label">本站直译</h3>
+        <blockquote lang="zh-CN">
+          <p>5月，塞拉诺把上述数据提交给布朗大学学术规范常设委员会，没有收到答复。</p>
+          <p>6月底公开讲述此事后，委员会……要求塞拉诺针对每一名涉嫌作弊的学生分别提交投诉，并附上他们的试卷副本。</p>
+        </blockquote>
+      </section>
+    </article>
+
+    <article class="case" id="case-7">
+      <header class="case-head"><h2 class="case-no">7</h2></header>
+      <section class="layer layer-her">
+        <h3 class="layer-label">财新原文</h3>
+        <blockquote lang="zh-CN">
+          <p>过去，学生需要<span class="ellipsis">……</span>抄袭同学答案；如今，只需把题目输入对话框，几分钟内便能获得结构完整、语言自然的答案。模型还能模仿个人文风，故意制造错别字，降低被识别的概率。</p>
+        </blockquote>
+      </section>
+      <section class="layer layer-source">
+        <h3 class="layer-label">英文原文</h3>
+        <div class="source-group">
+          <cite class="source-name"><a href="https://www.theatlantic.com/ideas/2026/05/princeton-ai-honor-code/687144/" target="_blank" rel="noopener noreferrer">The Atlantic · Rose Horowitch · 2026-05-12</a></cite>
+          <blockquote class="english" lang="en">
+            <p>A student who wanted to cheat had to go to the trouble of finding someone who would let them copy their answers.</p>
+            <p>The internet and the shift to doing work on computers rather than by hand dramatically lowered the barriers to cheating. <span class="ellipsis">[…]</span> AI has taken that dynamic to new extremes.</p>
+            <p>It can mimic any writing style, produce a unique essay, and add in typos to make it appear human-authored. The available detectors are not foolproof. Studies have consistently found that teachers are worse than they think at detecting AI usage.</p>
+          </blockquote>
+        </div>
+      </section>
+      <section class="layer layer-translation">
+        <h3 class="layer-label">本站直译</h3>
+        <blockquote lang="zh-CN">
+          <p>想作弊的学生必须费力找到一个愿意让自己抄答案的人。</p>
+          <p>互联网，以及从手写转向在电脑上完成作业，大幅降低了作弊的门槛。……人工智能把这种趋势推向了新的极端。</p>
+          <p>它可以模仿任何写作风格，生成独一无二的文章，还可以加入错别字，让文本看起来像是人写的。现有检测工具并非万无一失。研究一再发现，教师识别人工智能使用情况的能力，不如他们自己以为的那么好。</p>
+        </blockquote>
+      </section>
+    </article>
+
+    <article class="case" id="case-8">
+      <header class="case-head"><h2 class="case-no">8</h2></header>
+      <section class="layer layer-her">
+        <h3 class="layer-label">财新原文</h3>
+        <blockquote lang="zh-CN">
+          <p>在一项501名毕业生参与的调查中，30%承认曾作弊，28%承认在禁止使用ChatGPT的作业中使用过它，45%知道同学作弊却没有举报。</p>
+        </blockquote>
+      </section>
+      <section class="layer layer-source">
+        <h3 class="layer-label">英文原文</h3>
+        <div class="source-group">
+          <cite class="source-name"><a href="https://www.theatlantic.com/ideas/2026/05/princeton-ai-honor-code/687144/" target="_blank" rel="noopener noreferrer">The Atlantic · Rose Horowitch · 2026-05-12</a></cite>
+          <blockquote class="english" lang="en">
+            <p>In the school newspaper's survey of graduating seniors, which 501 students responded to, 30 percent said that they had cheated, 28 percent said that they had used ChatGPT on an assignment when it was not allowed, and 45 percent said that they knew of cheating by a peer and chose not to report it.</p>
+          </blockquote>
+        </div>
+      </section>
+      <section class="layer layer-translation">
+        <h3 class="layer-label">本站直译</h3>
+        <blockquote lang="zh-CN">
+          <p>校报对毕业班学生所做的调查共有501人回应：30%的人说自己曾经作弊，28%的人说自己曾在不允许使用 ChatGPT 的作业中使用它，45%的人说自己知道同学作弊，却选择不举报。</p>
+        </blockquote>
+      </section>
+    </article>
+
+    <article class="case" id="case-9">
+      <header class="case-head"><h2 class="case-no">9</h2></header>
+      <section class="layer layer-her">
+        <h3 class="layer-label">财新原文</h3>
+        <blockquote lang="zh-CN">
+          <p>当越来越多人相信“大家都在用”，遵守规则便容易显得像自愿接受竞争劣势。</p>
+        </blockquote>
+      </section>
+      <section class="layer layer-source">
+        <h3 class="layer-label">英文原文</h3>
+        <div class="source-group">
+          <cite class="source-name"><a href="https://www.theatlantic.com/ideas/2026/05/princeton-ai-honor-code/687144/" target="_blank" rel="noopener noreferrer">The Atlantic · Rose Horowitch · 2026-05-12</a></cite>
+          <blockquote class="english" lang="en">
+            <p>That makes students who play by the rules feel like suckers.</p>
+            <p>“There’s an air of people cheating on take-homes and people just using ChatGPT,” Makuc said. “As long as people think there is more cheating, it encourages more cheating.”</p>
+          </blockquote>
+        </div>
+      </section>
+      <section class="layer layer-translation">
+        <h3 class="layer-label">本站直译</h3>
+        <blockquote lang="zh-CN">
+          <p>这让那些遵守规则的学生觉得自己像傻瓜。</p>
+          <p>马库克说：“空气中弥漫着一种感觉：人们在带回家完成的考试里作弊，大家就是在使用 ChatGPT。只要人们觉得作弊更多了，这种感觉就会鼓励更多作弊。”</p>
+        </blockquote>
+      </section>
+    </article>
+
+    <article class="case" id="case-10">
+      <header class="case-head"><h2 class="case-no">10</h2></header>
+      <section class="layer layer-her">
+        <h3 class="layer-label">财新原文</h3>
+        <blockquote lang="zh-CN">
+          <p>目前，普林斯顿大学选择增加监考、减少居家考试、恢复课堂手写。布朗大学经济系计划要求学生口头答辩，部分教师要求保留Google Docs修改记录。</p>
+        </blockquote>
+      </section>
+      <section class="layer layer-source">
+        <h3 class="layer-label">英文原文</h3>
+        <div class="source-group">
+          <cite class="source-name"><a href="https://www.theatlantic.com/ideas/2026/05/princeton-ai-honor-code/687144/" target="_blank" rel="noopener noreferrer">The Atlantic · Rose Horowitch · 2026-05-12</a></cite>
+          <blockquote class="english" lang="en">
+            <p>Princeton's professors are finally trying to reset the system. Proctors are just one component. In the past year, the number of take-home exams at Princeton has declined by more than two-thirds.</p>
+            <p>Next year, the economics department will require its majors to do an oral defense of their research projects.</p>
+            <p>David Bell, a history professor, has also added in oral exams and switched from short take-home papers to in-class writing in blue books. One of his colleagues in the history department forces students to write their papers in Google Docs so that he can review the stages of their composition.</p>
+          </blockquote>
+        </div>
+      </section>
+      <section class="layer layer-translation">
+        <h3 class="layer-label">本站直译</h3>
+        <blockquote lang="zh-CN">
+          <p>普林斯顿的教授们终于试图重置这套制度。监考人员只是其中一个部分。过去一年，普林斯顿带回家完成的考试数量减少了三分之二以上。</p>
+          <p>明年，经济系将要求本系学生为自己的研究项目进行口头答辩。</p>
+          <p>历史学教授戴维·贝尔还增加了口试，并把简短的课后论文改成在课堂里用蓝皮答题本写作。他在历史系的一位同事强制学生使用 Google Docs 写论文，以便查看他们写作的各个阶段。</p>
+        </blockquote>
+      </section>
+    </article>
+
+    <article class="case" id="case-11">
+      <header class="case-head"><h2 class="case-no">11</h2></header>
+      <section class="layer layer-her">
+        <h3 class="layer-label">财新原文</h3>
+        <blockquote lang="zh-CN">
+          <p>资料检索、语言润色、代码调试和思路整理<span class="ellipsis">……</span></p>
+        </blockquote>
+      </section>
+      <section class="layer layer-source">
+        <h3 class="layer-label">英文原文</h3>
+        <div class="source-group">
+          <cite class="source-name"><a href="https://provost.brown.edu/sites/default/files/GAITL_Committee_Report_FNL.pdf" target="_blank" rel="noopener noreferrer">Brown University · GAITL Committee Report · 2026-07-07</a></cite>
+          <blockquote class="english" lang="en">
+            <p><span class="source-locator">P. 38</span>Conduct literature searches and reviews.</p>
+            <p><span class="source-locator">P. 37</span>Revise drafts you have written. Debug computer code. Brainstorm possible perspectives or arguments on a topic.</p>
+          </blockquote>
+        </div>
+      </section>
+      <section class="layer layer-translation">
+        <h3 class="layer-label">本站直译</h3>
+        <blockquote lang="zh-CN">
+          <p><span class="source-locator">P. 38</span>进行文献搜索与综述。</p>
+          <p><span class="source-locator">P. 37</span>修改你已经写好的草稿；调试计算机代码；围绕一个主题，头脑风暴可能的视角或论点。</p>
+        </blockquote>
+      </section>
+    </article>
+
+    <nav class="source-index" aria-label="英文原文链接">
+      <a href="https://www.theatlantic.com/ideas/2026/05/princeton-ai-honor-code/687144/" target="_blank" rel="noopener noreferrer">The Atlantic · Rose Horowitch · How AI Killed a 133-Year-Old Princeton Tradition</a>
+      <a href="https://www.insidehighered.com/news/faculty/learning-assessment/2026/07/08/brown-professor-suspects-most-his-class-used-ai-cheat" target="_blank" rel="noopener noreferrer">Inside Higher Ed · Emma Whitford · Brown Professor Suspects Most of His Class Used AI to Cheat</a>
+      <a href="https://provost.brown.edu/sites/default/files/GAITL_Committee_Report_FNL.pdf" target="_blank" rel="noopener noreferrer">Brown University · Generative AI in Teaching and Learning Committee Final Report</a>
+    </nav>
+  </main>
+
+  <footer>
+    <div class="wrap">扫盲法庭 · 逐字翻译</div>
+  </footer>
 </body>
 </html>
