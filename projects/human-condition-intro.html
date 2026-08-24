@@ -1,199 +1,471 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="zh-CN">
 <head>
-<meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1" name="viewport"/>
-<title>《人的境况》译者导读</title>
-<meta content="《人的境况》译者导读文本对照。" name="description"/>
-<link href="../styles.css" rel="stylesheet"/>
-<style>
-.document-page{width:min(1180px,calc(100% - 40px));margin:auto;padding:64px 0 100px}
-.document-page h1{font-family:Georgia,"Songti SC","STSong",serif;font-size:clamp(42px,6vw,72px);font-weight:500;line-height:1.08;margin:15px 0 14px}
-.document-page .sub{color:#625d54;font-size:16px;margin:0 0 10px;line-height:1.75}
-.document-page .scope{color:#625d54;font-size:14px;margin:0 0 34px;line-height:1.75}
-.pairs{display:grid;gap:18px}.pair{background:#fffdf8;border:1px solid var(--line);border-radius:10px;overflow:hidden}
-.head{display:flex;gap:14px;align-items:baseline;padding:16px 18px;border-bottom:1px solid var(--line);background:#eee7dc}
-.num{font-weight:800;color:#777;font-variant-numeric:tabular-nums}.head h2{font-size:19px;margin:0;font-family:Georgia,"Songti SC","STSong",serif;font-weight:560}
-.cols{display:grid;grid-template-columns:1fr 1fr}.col{padding:20px 22px;min-width:0}.col + .col{border-left:1px solid var(--line)}
-.label{font-size:12px;font-weight:800;letter-spacing:.07em;color:#777;margin-bottom:13px}.source{margin-bottom:16px;padding-bottom:10px;border-bottom:1px solid #ececec;font-size:12px;line-height:1.65;color:#8b3025;font-weight:750}
-.nodes{list-style:none;margin:0;padding:0;display:grid;gap:10px}.node{display:grid;grid-template-columns:28px 1fr;gap:10px;align-items:start;font-size:16px;line-height:1.82}.node-no{display:inline-flex;align-items:center;justify-content:center;width:24px;height:24px;border:1px solid #c8beb0;border-radius:999px;font:700 11px/1 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:#675f56;background:#f8f3eb;margin-top:2px}.gloss{display:block;color:#716b63;font-size:13px;line-height:1.68;margin-top:3px}.quote{font-size:16px;line-height:1.88;margin:0}.footnote-box{margin-top:16px;padding:14px 16px;background:#faf7f1;border:1px solid #e3dbcf;border-radius:7px;font-size:14px;line-height:1.78}.refs{margin-top:72px}.refs h2{font-family:Georgia,"Songti SC","STSong",serif;font-size:36px;font-weight:520;margin:0 0 24px}.ref-list{display:grid;gap:14px}.ref-item{background:#fffdf8;border:1px solid var(--line);border-radius:9px;padding:17px 20px;font-size:15px;line-height:1.8}.ref-item em{font-family:Georgia,"Songti SC","STSong",serif}.rights{margin-top:28px;color:#625d54;font-size:14px;line-height:1.75}
-@media(max-width:800px){.document-page{width:min(100% - 22px,1180px);padding-top:36px}.document-page h1{font-size:39px}.cols{grid-template-columns:1fr}.col + .col{border-left:0;border-top:1px solid var(--line)}.node{font-size:15.5px}}
-</style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>《人的境况》译者导读｜逐字对照</title>
+  <meta name="description" content="《人的境况》译者导读原文、英文来源与本站直译的逐字对照。">
+  <style>
+    :root {
+      --bg: #f3eee5;
+      --paper: #fbf8f2;
+      --paper-strong: #fffdf8;
+      --ink: #191816;
+      --muted: #6e685f;
+      --line: #d8cfc1;
+      --red: #b63627;
+      --red-deep: #85261c;
+      --red-soft: #f7e9e4;
+      --shadow: 0 18px 48px rgba(49, 39, 28, .07);
+    }
+
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+
+    body {
+      margin: 0;
+      color: var(--ink);
+      background:
+        radial-gradient(circle at 100% 0, rgba(182, 54, 39, .06), transparent 28rem),
+        var(--bg);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC",
+        "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+      line-height: 1.75;
+    }
+
+    a { color: inherit; }
+
+    .wrap {
+      width: min(1040px, calc(100% - 48px));
+      margin-inline: auto;
+    }
+
+    .topbar {
+      position: sticky;
+      top: 0;
+      z-index: 20;
+      border-bottom: 1px solid rgba(216, 207, 193, .92);
+      background: rgba(243, 238, 229, .93);
+      backdrop-filter: blur(14px);
+    }
+
+    .topbar-inner {
+      min-height: 64px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 22px;
+    }
+
+    .brand {
+      font-family: Georgia, "Songti SC", "STSong", serif;
+      font-weight: 700;
+      text-decoration: none;
+      white-space: nowrap;
+    }
+
+    .topbar nav {
+      display: flex;
+      gap: 8px;
+      overflow-x: auto;
+      scrollbar-width: none;
+    }
+
+    .topbar nav::-webkit-scrollbar { display: none; }
+
+    .topbar nav a {
+      flex: 0 0 auto;
+      padding: 5px 9px;
+      color: var(--muted);
+      border-radius: 999px;
+      font-size: 13px;
+      text-decoration: none;
+    }
+
+    .topbar nav a:hover,
+    .topbar nav a:focus-visible {
+      color: var(--red-deep);
+      background: var(--red-soft);
+    }
+
+    .hero { padding: 86px 0 60px; }
+
+    h1 {
+      max-width: 940px;
+      margin: 0;
+      font-family: Georgia, "Songti SC", "STSong", serif;
+      font-size: clamp(42px, 6vw, 60px);
+      font-weight: 520;
+      letter-spacing: -.035em;
+      line-height: 1.08;
+    }
+
+    h1 em { color: var(--red); font-style: normal; }
+    .title-line { white-space: nowrap; }
+    main {
+      display: flex;
+      flex-direction: column;
+      padding-bottom: 110px;
+    }
+
+    .case {
+      margin-top: 28px;
+      overflow: hidden;
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      background: var(--paper);
+      box-shadow: var(--shadow);
+      scroll-margin-top: 82px;
+    }
+
+    #case-1 { order: 1; margin-top: 0; }
+    #case-2 { order: 2; }
+    #case-3 { order: 3; }
+    #case-4 { order: 4; }
+    #case-5 { order: 5; }
+    #case-6 { order: 6; }
+    #case-7 { order: 7; }
+
+    .case-head {
+      padding: 28px 30px 26px;
+      border-bottom: 1px solid var(--line);
+      background: linear-gradient(135deg, rgba(182, 54, 39, .07), transparent 60%);
+    }
+
+    .case-no {
+      display: grid;
+      width: 38px;
+      height: 38px;
+      margin: 0;
+      place-items: center;
+      color: white;
+      border-radius: 50%;
+      background: var(--red);
+      font-family: Georgia, serif;
+      font-size: 18px;
+      font-weight: 700;
+    }
+
+    .layer { padding: 30px; }
+    .layer + .layer { border-top: 1px solid var(--line); }
+    .layer-source { background: #f5f0e8; }
+    .layer-translation { background: var(--paper-strong); }
+
+    .layer-label {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin: 0 0 17px;
+      color: var(--red-deep);
+      font-size: 13px;
+      font-weight: 850;
+      letter-spacing: .14em;
+    }
+
+    .layer-label::after {
+      height: 1px;
+      flex: 1;
+      background: rgba(182, 54, 39, .25);
+      content: "";
+    }
+
+    blockquote {
+      margin: 0;
+      font-family: Georgia, "Songti SC", "STSong", serif;
+      font-size: 18px;
+      line-height: 1.95;
+    }
+
+    blockquote p { margin: 0; }
+    blockquote p + p { margin-top: 16px; }
+
+    .english {
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 17px;
+      line-height: 1.85;
+    }
+
+    .source-group + .source-group {
+      margin-top: 22px;
+      padding-top: 22px;
+      border-top: 1px dashed #cabfaf;
+    }
+
+    .source-name {
+      display: inline-block;
+      margin: 0 0 9px;
+      color: var(--muted);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 800;
+      letter-spacing: .055em;
+    }
+
+    .source-name a {
+      text-decoration: none;
+      border-bottom: 1px solid rgba(110, 104, 95, .35);
+    }
+
+    .source-index {
+      order: 8;
+      margin-top: 32px;
+      padding: 24px 30px;
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      background: var(--paper-strong);
+      box-shadow: var(--shadow);
+    }
+
+    .source-index a {
+      display: block;
+      color: var(--red-deep);
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 15px;
+      line-height: 1.65;
+      text-decoration-thickness: 1px;
+      text-underline-offset: 4px;
+    }
+
+    .ellipsis { color: var(--muted); }
+
+    footer {
+      padding: 30px 0;
+      color: var(--muted);
+      border-top: 1px solid var(--line);
+      font-size: 12px;
+    }
+
+    @media (max-width: 760px) {
+      .wrap { width: min(100% - 28px, 1040px); }
+      .topbar-inner { min-height: 58px; }
+      .brand { display: none; }
+      .topbar nav { width: 100%; }
+      .hero { padding: 58px 0 42px; }
+      .title-line { white-space: normal; }
+      .case-head { padding: 23px 20px 21px; }
+      .case-no { width: 32px; height: 32px; font-size: 15px; }
+      .layer { padding: 23px 20px; }
+      blockquote { font-size: 17px; line-height: 1.9; }
+      .english { font-size: 16px; }
+    }
+  </style>
 </head>
 <body>
-<header class="topbar">
-<a class="brand" href="../index.html">卫生法庭与扫盲法庭</a>
-<nav aria-label="专题页导航">
-<a href="#comparison">对照</a>
-<a class="nav-optional" href="#references">参考材料</a>
-<a href="../index.html#library">核对记录</a>
-</nav>
-</header>
-<main class="document-page">
-<h1>《人的境况》译者导读</h1>
-<p class="sub">仲树，2025年11月</p>
-<p class="scope">目标文本：《人的境况》译者导读，pp. i–xliv。以下择列其中七组对照。</p>
-<div class="pairs" id="comparison">
+  <header class="topbar">
+    <div class="topbar-inner wrap">
+      <a class="brand" href="../index.html">扫盲法庭 · 逐字翻译</a>
+      <nav aria-label="本页段落">
+        <a href="#case-1">1</a>
+        <a href="#case-2">2</a>
+        <a href="#case-3">3</a>
+        <a href="#case-4">4</a>
+        <a href="#case-5">5</a>
+        <a href="#case-6">6</a>
+        <a href="#case-7">7</a>
+      </nav>
+    </div>
+  </header>
 
-<section class="pair">
-<div class="head"><span class="num">01</span><h2>p. iv</h2></div>
-<div class="cols">
-<article class="col"><div class="label">译者导读｜必要节选</div><ol class="nodes">
-<li class="node"><span class="node-no">1</span><span>“不以某一单一论证为中心并层层推进”</span></li>
-<li class="node"><span class="node-no">2</span><span>“并非按照线性的叙述逻辑展开”</span></li>
-<li class="node"><span class="node-no">3</span><span>“一系列引人注目的概念区分”</span></li>
-<li class="node"><span class="node-no">4</span><span>“编织成多重而复杂的主题线索”</span></li>
-<li class="node"><span class="node-no">5</span><span>“不同线索之间的内在关联有时被留给读者自行辨识”</span></li>
-<li class="node"><span class="node-no">6</span><span>“新读者常常会困惑于这些思想碎片究竟如何……拼合成形”</span></li>
-<li class="node"><span class="node-no">7</span><span>“是否存在一个连贯一致的理论视角”</span></li>
-</ol></article>
-<article class="col"><div class="label">对应材料</div><div class="source">Dana R. Villa, “Introduction: The Development of Arendt’s Political Thought,” <em>The Cambridge Companion to Hannah Arendt</em>, 2000, p. 1.</div><ol class="nodes">
-<li class="node"><span class="node-no">1</span><span>“not constructed upon a single argument, diligently unfolded”<span class="gloss">本站直译：并非建立在一个被逐步展开的单一论证之上</span></span></li>
-<li class="node"><span class="node-no">2</span><span>“or upon a linear narrative”<span class="gloss">本站直译：也不是建立在线性叙述之上</span></span></li>
-<li class="node"><span class="node-no">3</span><span>“a series of striking conceptual distinctions”<span class="gloss">本站直译：一系列醒目的概念区分</span></span></li>
-<li class="node"><span class="node-no">4</span><span>“weaves into complex thematic strands”<span class="gloss">本站直译：编织成复杂的主题线索</span></span></li>
-<li class="node"><span class="node-no">5</span><span>“The interconnections between the strands are sometimes left to the reader.”<span class="gloss">本站直译：线索之间的关联有时被留给读者</span></span></li>
-<li class="node"><span class="node-no">6</span><span>“newcomers … are often baffled by how the pieces fit together”<span class="gloss">本站直译：初读者常困惑这些部分如何拼合起来</span></span></li>
-<li class="node"><span class="node-no">7</span><span>“whether there is, in fact, a consistent perspective”<span class="gloss">本站直译：究竟是否存在一个一致的视角</span></span></li>
-</ol></article>
-</div></section>
+  <div class="hero wrap" id="top">
+    <h1><span class="title-line">《人的境况》译者导读</span><br><em>逐字对照</em></h1>
+  </div>
 
-<section class="pair">
-<div class="head"><span class="num">02</span><h2>p. xix</h2></div>
-<div class="cols">
-<article class="col"><div class="label">译者导读｜必要节选</div><ol class="nodes">
-<li class="node"><span class="node-no">1</span><span>“几乎无一例外，西方政治哲学家全都……”</span></li>
-<li class="node"><span class="node-no">2</span><span>“忽略了政治实践的存在论地位”</span></li>
-<li class="node"><span class="node-no">3</span><span>“在多元且平等的人之间展开的辩论与审议”</span></li>
-<li class="node"><span class="node-no">4</span><span>“在公共世界中生成意义”</span></li>
-<li class="node"><span class="node-no">5</span><span>“赋予人类生活以其本无的价值”</span></li>
-<li class="node"><span class="node-no">6</span><span>“正是这种缺失，构成了阿伦特重新思考政治与公共领域的哲学起点”</span></li>
-<li class="node"><span class="node-no">7</span><span>“在整个人类存在的总体结构中……”</span></li>
-</ol></article>
-<article class="col"><div class="label">对应材料</div><div class="source">Dana R. Villa, “Introduction: The Development of Arendt’s Political Thought,” <em>The Cambridge Companion to Hannah Arendt</em>, 2000, p. 12.</div><ol class="nodes">
-<li class="node"><span class="node-no">1</span><span>“Almost to a man, Western political philosophers …”<span class="gloss">本站直译：几乎无一例外，西方政治哲学家……</span></span></li>
-<li class="node"><span class="node-no">2</span><span>“have missed the existential significance of political action itself”<span class="gloss">本站直译：忽略了政治行动本身的存在性意义</span></span></li>
-<li class="node"><span class="node-no">3</span><span>“debate and deliberation amongst diverse equals”<span class="gloss">本站直译：多元而平等者之间的辩论与审议</span></span></li>
-<li class="node"><span class="node-no">4</span><span>“to generate meaning”<span class="gloss">本站直译：生成意义</span></span></li>
-<li class="node"><span class="node-no">5</span><span>“endow human life with a significance it otherwise lacks”<span class="gloss">本站直译：赋予人类生活原本不具有的意义</span></span></li>
-<li class="node"><span class="node-no">6</span><span>“It is this failure which Arendt takes as the cue for her own reflections …”<span class="gloss">本站直译：正是这一缺失成为阿伦特自身思考的起点</span></span></li>
-<li class="node"><span class="node-no">7</span><span>“in the total economy of human existence”<span class="gloss">本站直译：在人类存在的总体结构之中</span></span></li>
-</ol></article>
-</div></section>
+  <main class="wrap">
+    <article class="case" id="case-6">
+      <header class="case-head"><h2 class="case-no">6</h2></header>
+      <section class="layer">
+        <h3 class="layer-label">译者导读原文</h3>
+        <blockquote lang="zh-CN">
+          <p>而在20世纪60年代末至20世纪70年代初，她的思想确实出现了重心转换，从阐释政治实践的性质与意义，逐渐转向思考、意志与判断在心智活动中发挥的作用。这位最终以论述实践生活著称的思想者，最后在其遗作中再次回到心智生活的根本问题。</p>
+        </blockquote>
+      </section>
+      <section class="layer layer-source">
+        <h3 class="layer-label">英文原文</h3>
+        <cite class="source-name"><a href="https://doi.org/10.1017/CCOL0521641985" target="_blank" rel="noopener noreferrer">CAMBRIDGE COMPANION · DANA R. VILLA · “INTRODUCTION: THE DEVELOPMENT OF ARENDT’S POLITICAL THOUGHT” · PP. 16–17</a></cite>
+        <blockquote class="english" lang="en">
+          <p>Yet despite the presence of this concern from the very beginning of her theoretical work, there does appear to be a significant change in emphasis in Arendt’s thought during the late sixties and early seventies. She seems to move away from the elucidation of the nature and meaning of political action to a consideration of the role thought, will, and judgment play – not only in our moral and political lives, but as independent faculties which make up “the life of the mind.” Much has been made of this progression in the scholarly writing on Arendt. It seems that the pre-eminent theorist of the vita activa concluded her life by re-engaging the vita contemplativa and her “first love,” philosophy – this time without casting aspersions on its “anti-political” character.</p>
+        </blockquote>
+      </section>
+      <section class="layer layer-translation">
+        <h3 class="layer-label">本站直译</h3>
+        <blockquote lang="zh-CN">
+          <p>然而，尽管这一关切从她理论工作的开端就已存在，阿伦特的思想在20世纪60年代末和70年代初似乎确实发生了显著的重心变化。她似乎从阐明政治行动的性质与意义，转向考察思考、意志和判断所发挥的作用——它们不仅作用于我们的道德和政治生活，也作为独立能力共同构成“心智生活”。学界关于阿伦特的论述对这一进程谈得很多。这位最重要的实践生活理论家，似乎以重新投入沉思生活和她的“初恋”哲学结束了一生——这一次不再贬斥哲学的“反政治”性质。</p>
+        </blockquote>
+      </section>
+    </article>
 
-<section class="pair">
-<div class="head"><span class="num">03</span><h2>p. xix</h2></div>
-<div class="cols">
-<article class="col"><div class="label">译者导读｜必要节选</div><ol class="nodes">
-<li class="node"><span class="node-no">1</span><span>“雅典城邦处死苏格拉底所造成的伤痛”</span></li>
-<li class="node"><span class="node-no">2</span><span>“使柏拉图对城邦政治产生了深刻的不信任”</span></li>
-<li class="node"><span class="node-no">3</span><span>“在思想上妖魔化实践、神圣化思考”</span></li>
-<li class="node"><span class="node-no">4</span><span>“柏拉图为了哲学而谴责政治，而阿伦特则为了政治而谴责自柏拉图以来的哲学”</span></li>
-</ol></article>
-<article class="col"><div class="label">对应材料</div><div class="source">Frederick M. Dolan, “Arendt on Philosophy and Politics,” <em>The Cambridge Companion to Hannah Arendt</em>, 2000, pp. 262–264.</div><ol class="nodes">
-<li class="node"><span class="node-no">1</span><span>“the bitter loss and grief of Socrates’ followers after his execution at the hands of the Athenian polis”<span class="gloss">本站直译：苏格拉底被雅典城邦处死后，其追随者经历的痛苦失落与悲伤</span></span></li>
-<li class="node"><span class="node-no">2</span><span>“The ensuing trauma … was determinative in causing the divorce between philosophy … and politics”<span class="gloss">本站直译：随后的创伤造成了哲学与政治的分裂</span></span></li>
-<li class="node"><span class="node-no">3</span><span>“distorted our understanding of acting and thinking by demonizing the one and glorifying the other”<span class="gloss">本站直译：通过妖魔化一方、神圣化另一方，扭曲了我们对行动与思考的理解</span></span></li>
-<li class="node"><span class="node-no">4</span><span>“where Plato condemned politics on behalf of philosophy, Arendt condemned (Platonic) philosophy on behalf of politics”<span class="gloss">本站直译：柏拉图以哲学之名谴责政治；阿伦特则以政治之名谴责柏拉图式哲学</span></span></li>
-</ol></article>
-</div></section>
+    <article class="case" id="case-5">
+      <header class="case-head"><h2 class="case-no">5</h2></header>
+      <section class="layer">
+        <h3 class="layer-label">译者导读原文</h3>
+        <blockquote lang="zh-CN">
+          <p>面对实践的脆弱，阿伦特提出了两种源自实践自身潜能的补救方式，并将其视为实践的救赎：宽恕与承诺。<span class="ellipsis">……</span>宽恕回应实践的不可逆性，使行动者有可能从已发生之事的后果中被释放出来；承诺则回应实践面向未来的不可预见性，使行动者在多元关系的流动中保持方向、身份与持续性。阿伦特指出，这两种能力都以他者的在场为前提，是在人的共在结构中自然涌现的实践潜能，而非由外在的伦理命令、法律机制或神学义务所强加。<span class="ellipsis">……</span>由此产生的政治规范，不再依赖柏拉图式灵魂主宰的垂直结构，而是根植于实践者之间的相互承认与相互尊重。换言之，实践并不需要诉诸某种更高的能力来完成救赎；它在自身的结构中，就已孕育着维持世界、延续共同体并抵御必然性的力量。</p>
+        </blockquote>
+      </section>
+      <section class="layer layer-source">
+        <h3 class="layer-label">英文原文</h3>
+        <div class="source-group">
+          <cite class="source-name"><a href="https://doi.org/10.1017/CCOL0521641985" target="_blank" rel="noopener noreferrer">CAMBRIDGE COMPANION · JACQUES TAMINIAUX · “ATHENS AND ROME” · P. 170</a></cite>
+          <blockquote class="english" lang="en">
+            <p>However action itself calls for a redemption because of its specific disabilities which in sum consist in two basic predicaments: irreversibility and unpredictability. But the redemption at stake is quite peculiar compared to the previous ones. Instead of calling for the help of a higher activity, those two predicaments find their redemption in two potentialities of action itself. The first potentiality is concerned with the past: “the possible redemption from the predicament of irreversibility – of being unable to undo what one has done though one did not, and could not, have known what he was doing – is the faculty of forgiving” (p. 237). The second potentiality is concerned with the future: “the remedy for unpredictability <span class="ellipsis">[…]</span> in the faculty to make and hold promises” (p. 237).</p>
+            <p>According to Arendt, the proof that both potentialities belong to action itself is provided (1) by the fact that both guarantee the continuity of what is at stake in action, that is, the temporal identity of the self-disclosing agent; (2) by the fact that both potentialities are intimately linked to speech; (3) by the fact that both closely depend on plurality, since “forgiving and promising enacted in solitude or isolation remain without reality and can signify no more than a role played before one’s self” (p. 237).</p>
+            <p>By insisting on the presence within action itself of these two remedies, Arendt distances herself from the traditional philosophical approaches to the predicaments of action. <span class="ellipsis">[…]</span> Already developed by Plato, such views always toy with an ideal of the self-sufficiency of the sage, or of the sovereignty of the ruler, themes which are thoroughly incompatible with human plurality since they demand either a withdrawal from it or its repression.</p>
+          </blockquote>
+        </div>
+      </section>
+      <section class="layer layer-translation">
+        <h3 class="layer-label">本站直译</h3>
+        <blockquote lang="zh-CN">
+          <p>然而，行动自身也要求救赎，因为它特有的缺陷可以归结为两个基本困境：不可逆性与不可预见性。但这里的救赎与此前相比十分特殊。这两个困境不求助于更高层级的活动，而是在行动自身的两种潜能中得到救赎。第一种潜能面向过去：“从不可逆困境中获得的可能救赎，是宽恕的能力。”第二种潜能面向未来：“对不可预见性的补救，是作出并信守承诺的能力。”</p>
+          <p>阿伦特认为，这两种潜能属于行动本身，证据有三：第一，两者都保证行动中攸关之物的连续性，也就是自我显露的行动者在时间中的身份；第二，两种潜能都与言说紧密相连；第三，两者都密切依赖多元，因为“在独处或孤立中施行的宽恕与承诺并不具有现实性，其意义不过是在自己面前扮演一个角色”。阿伦特坚持这两种补救就在行动内部，由此与传统哲学处理行动困境的方法拉开距离。那些早已由柏拉图发展出来的观点，总在把圣哲的自足或统治者的主权当作理想；它们与人的多元彻底不相容，因为它们要求人退出多元，或者压制多元。</p>
+        </blockquote>
+      </section>
+    </article>
 
-<section class="pair">
-<div class="head"><span class="num">04</span><h2>pp. xxiv–xxvi</h2></div>
-<div class="cols">
-<article class="col"><div class="label">译者导读｜必要节选</div><ol class="nodes">
-<li class="node"><span class="node-no">1</span><span>“劳动的困境在于它被锁在生命的生物性循环中”</span></li>
-<li class="node"><span class="node-no">2</span><span>“只能依靠‘制造’来构建一个相对持久的世界”</span></li>
-<li class="node"><span class="node-no">3</span><span>“制造的困境则在于它极易陷入目的—手段的工具理性……并最终走向虚无”</span></li>
-<li class="node"><span class="node-no">4</span><span>“只能依靠实践与言说，为世界赋予……意义”</span></li>
-<li class="node"><span class="node-no">5</span><span>“实践的困境无法依赖其他能力替它兜底”</span></li>
-<li class="node"><span class="node-no">6</span><span>“宽恕回应实践的不可逆性”</span></li>
-<li class="node"><span class="node-no">7</span><span>“承诺则回应实践面向未来的不可预见性”</span></li>
-</ol></article>
-<article class="col"><div class="label">对应材料</div><div class="source">Jacques Taminiaux, “Athens and Rome,” <em>The Cambridge Companion to Hannah Arendt</em>, 2000, pp. 169–171.</div><ol class="nodes">
-<li class="node"><span class="node-no">1</span><span>“Labor calls for a redemption because it traps within the eternal return of life …”<span class="gloss">本站直译：劳动需要救赎，因为它把个体困在生命的永恒循环之中</span></span></li>
-<li class="node"><span class="node-no">2</span><span>“redeemed by work … [which] erects a world of durability”<span class="gloss">本站直译：由制造来救赎；制造建立起一个持久的世界</span></span></li>
-<li class="node"><span class="node-no">3</span><span>“work only pays attention to relations between means and ends … rendering the world meaningless”<span class="gloss">本站直译：制造只关注目的与手段的关系，最终使世界失去意义</span></span></li>
-<li class="node"><span class="node-no">4</span><span>“only through the interrelated faculties of action and speech”<span class="gloss">本站直译：只能通过相互关联的行动与言说能力</span></span></li>
-<li class="node"><span class="node-no">5</span><span>“Instead of calling for the help of a higher activity … [they] find their redemption in two potentialities of action itself.”<span class="gloss">本站直译：不再诉诸更高层级的活动，而是在行动自身的两种潜能中得到救赎</span></span></li>
-<li class="node"><span class="node-no">6</span><span>“the predicament of irreversibility … is the faculty of forgiving”<span class="gloss">本站直译：对不可逆性的补救，是宽恕的能力</span></span></li>
-<li class="node"><span class="node-no">7</span><span>“the remedy for unpredictability … [is] the faculty to make and hold promises”<span class="gloss">本站直译：对不可预见性的补救，是作出并遵守承诺的能力</span></span></li>
-</ol></article>
-</div></section>
+    <article class="case" id="case-2">
+      <header class="case-head"><h2 class="case-no">2</h2></header>
+      <section class="layer">
+        <h3 class="layer-label">译者导读原文</h3>
+        <blockquote lang="zh-CN">
+          <p>自政治哲学的源头起，哲学家便不断试图从哲学的视角界定政治，将政治塑造成一种属于少数人的专门知识，使其可以被理性控制、被等级秩序化、被技术性地管理。几乎无一例外，西方政治哲学家全都忽略了政治实践的存在论地位——忽略了在多元且平等的人之间展开的辩论与审议，如何在公共世界中生成意义，并赋予人类生活以其本无的价值。正是这种缺失，构成了阿伦特重新思考政治与公共领域的哲学起点。她的雄心，是在整个人类存在的总体结构中，为政治实践提供一种从实践自身出发的哲学阐明：政治不是哲学的附庸，而是人类世界不可替代的生成性活动。</p>
+        </blockquote>
+      </section>
+      <section class="layer layer-source">
+        <h3 class="layer-label">英文原文</h3>
+        <cite class="source-name"><a href="https://doi.org/10.1017/CCOL0521641985" target="_blank" rel="noopener noreferrer">CAMBRIDGE COMPANION · DANA R. VILLA · “INTRODUCTION: THE DEVELOPMENT OF ARENDT’S POLITICAL THOUGHT” · PP. 11–12</a></cite>
+        <blockquote class="english" lang="en">
+          <p>With ancient Greek philosophy there begins a comprehensive effort to re-define political action and freedom, so that these phenomena appear amenable to rational control and hierarchical direction. The first step in this re-conceptualization was the patterning of political action after those human activities in which a good deal of control or mastery is, in fact, possible. Arendt credits Plato with modeling action along the lines suggested by the fabrication process. By imagining the polity in the image of a fabricated object, Plato was able to plausibly assert that political wisdom had nothing to do with the exchange of opinion amongst plural equals but was, in fact, a form of expert knowledge, similar to that possessed by a sculptor or a physician. Hence, the moral “expert” should rule in the realm of human affairs, while those lacking such knowledge should simply obey.</p>
+          <p><span class="ellipsis">[…]</span> Almost to a man, Western political philosophers have missed the existential significance of political action itself, the stunning capacity of debate and deliberation amongst diverse equals to generate meaning and endow human life with a significance it otherwise lacks. It is this failure which Arendt takes as the cue for her own reflections on the nature and significance of politics and the public realm. She aimed at nothing less than providing a philosophical appreciation of the meaning of political action in the total economy of human existence.</p>
+        </blockquote>
+      </section>
+      <section class="layer layer-translation">
+        <h3 class="layer-label">本站直译</h3>
+        <blockquote lang="zh-CN">
+          <p>从古希腊哲学开始，人们展开了一项全面的努力，要重新界定政治行动与自由，使这些现象看起来可以接受理性控制和等级引导。这一重新概念化的第一步，是按照那些确实能够受到相当程度控制或支配的人类活动来塑造政治行动。阿伦特认为，柏拉图是按照制造过程所提供的模式来塑造行动的。通过把政体想象成一个制造出来的物件，柏拉图便能够颇为可信地断言：政治智慧与多元平等者之间的意见交换毫无关系；它其实是一种专家知识，类似雕塑家或医生拥有的知识。因此，道德“专家”应当在人类事务领域统治，而不具备这种知识的人只需服从。</p>
+          <p>西方政治哲学家几乎无一例外，都错过了政治行动本身的存在性意义：多元而平等的人彼此辩论和审议，具有一种惊人的能力，能够生成意义，并赋予人类生活一种原本缺少的意义。阿伦特正是以这一缺失为线索，展开自己对政治和公共领域的性质与意义的思考。她的目标正是在整个人类存在的总体结构中，从哲学上理解政治行动的意义。</p>
+        </blockquote>
+      </section>
+    </article>
 
-<section class="pair">
-<div class="head"><span class="num">05</span><h2>p. xxxv</h2></div>
-<div class="cols">
-<article class="col"><div class="label">译者导读｜必要节选</div><ol class="nodes">
-<li class="node"><span class="node-no">1</span><span>“历史主义使现代人陷入‘洞穴之下的洞穴’”</span></li>
-<li class="node"><span class="node-no">2</span><span>“通过思想史研究离开历史主义的洞穴”</span></li>
-<li class="node"><span class="node-no">3</span><span>“还原柏拉图视野中的‘原初洞穴’”</span></li>
-<li class="node"><span class="node-no">4</span><span>“再经由对‘人之本性’的思考离开柏拉图意义上的真正洞穴”</span></li>
-</ol></article>
-<article class="col"><div class="label">对应材料</div><div class="source">Liisi Keedus, <em>The Crisis of German Historicism: The Early Political Thought of Hannah Arendt and Leo Strauss</em>, Cambridge University Press, 2015.</div><ol class="nodes">
-<li class="node"><span class="node-no">1</span><span>“contemporary thought … has formed ‘a second cave’ in which we ‘are even much lower down than the cave dwellers of Plato’”<span class="gloss">本站直译：当代思想形成了“第二洞穴”，我们甚至比柏拉图洞穴中的居住者位置更低</span></span></li>
-<li class="node"><span class="node-no">2</span><span>“we need history to ascend to the [first] cave”<span class="gloss">本站直译：我们需要历史，才能上升到第一个洞穴</span></span></li>
-<li class="node"><span class="node-no">3</span><span>“historical knowledge allows one … to take one to the beginning, to the ‘origins of tradition’ … the ‘first cave’”<span class="gloss">本站直译：历史知识把人带回开端、传统的起源，也就是“第一个洞穴”</span></span></li>
-<li class="node"><span class="node-no">4</span><span>“the ‘first cave,’ that is, ‘the level of natural ignorance’”<span class="gloss">本站直译：“第一个洞穴”，即“自然无知的层次”</span></span></li>
-</ol></article>
-</div></section>
+    <article class="case" id="case-1">
+      <header class="case-head"><h2 class="case-no">1</h2></header>
+      <section class="layer">
+        <h3 class="layer-label">译者导读原文</h3>
+        <blockquote lang="zh-CN">
+          <p>在阿伦特的解释框架中，极权主义并非源自19世纪或任何其他世纪可辨识的思想潮流，而是产生于民族国家的瓦解、帝国主义及其以种族主义为正当性的统治实践，以及大量个体因激烈的社会与政治动荡而陷入的孤立与脆弱。阿伦特将这些个体称为“群众”，以区别于“暴民”与“精英”；正因群众在与他人、与世界以及与公民职责的关系上日益脱节，他们最终转向极权主义运动。其结果是“公民身份”观念的全面瓦解，以及对公共制度的普遍犬儒。阿伦特将这种犬儒主义在她所谓的“暴民与精英的联盟”中观察得最为清晰：知识分子与极左或极右的下层运动之间在政治层面汇合。他们共同蔑视议会政治，也共同蔑视资产阶级关于“公共利益”的虚伪言辞。</p>
+        </blockquote>
+      </section>
+      <section class="layer layer-source">
+        <h3 class="layer-label">英文原文</h3>
+        <div class="source-group">
+          <cite class="source-name"><a href="https://doi.org/10.1017/CCOL0521641985" target="_blank" rel="noopener noreferrer">CAMBRIDGE COMPANION · DANA R. VILLA · “INTRODUCTION: THE DEVELOPMENT OF ARENDT’S POLITICAL THOUGHT” · P. 5</a></cite>
+          <blockquote class="english" lang="en">
+            <p>For Arendt, then, totalitarianism did not arise out of the murky ideological and philosophical currents of the nineteenth (or any other) century. Rather, it was made possible by the decline of the nation-state, the creation of concrete practices of domination (justified by racism) by the European imperialists, and the fact that enormous numbers of people had been made to feel isolated and vulnerable by traumatic social and political events. These people – the “masses” as opposed to the “mob” or the “elite” – turned to totalitarian movements because of their increasing disconnection from their fellows, the world, and the responsibilities of citizenship.</p>
+          </blockquote>
+        </div>
+        <div class="source-group">
+          <cite class="source-name"><a href="https://doi.org/10.1017/CCOL0521641985" target="_blank" rel="noopener noreferrer">CAMBRIDGE COMPANION · DANA R. VILLA · “INTRODUCTION: THE DEVELOPMENT OF ARENDT’S POLITICAL THOUGHT” · PP. 4–5</a></cite>
+          <blockquote class="english" lang="en">
+            <p>The result was the complete attenuation of the idea of citizenship, and a pervasive cynicism toward public institutions. This cynicism found its clearest expression in what Arendt calls “the alliance between the mob and the elite,” a politically important convergence of intellectuals with the gutter-born movements of the radical left and right. These groups were united by their shared contempt for parliamentary politics and the patent phoniness of bourgeois appeals to “the public interest.”</p>
+          </blockquote>
+        </div>
+      </section>
+      <section class="layer layer-translation">
+        <h3 class="layer-label">本站直译</h3>
+        <blockquote lang="zh-CN">
+          <p>因此，对阿伦特来说，极权主义并非产生于19世纪或任何其他世纪那些晦暗的意识形态与哲学潮流。使它成为可能的，是民族国家的衰落、欧洲帝国主义者建立的以种族主义为正当理由的具体统治实践，以及数量庞大的人因创伤性的社会和政治事件而陷入孤立与脆弱。这些人就是“群众”，有别于“暴民”或“精英”；他们之所以转向极权主义运动，是因为他们日益脱离同伴、世界和公民身份所承担的责任。</p>
+          <p>结果是公民身份观念的彻底衰减，以及对公共制度普遍的犬儒态度。这种犬儒主义最清楚地表现为阿伦特所谓的“暴民与精英的联盟”：知识分子与激进左翼和右翼那些出身社会底层的运动形成了具有政治重要性的汇合。这些群体共同蔑视议会政治，也共同蔑视资产阶级诉诸“公共利益”时显而易见的虚假。</p>
+        </blockquote>
+      </section>
+    </article>
 
-<section class="pair">
-<div class="head"><span class="num">06</span><h2>p. vii</h2></div>
-<div class="cols">
-<article class="col"><div class="label">译者导读｜必要节选</div><ol class="nodes">
-<li class="node"><span class="node-no">1</span><span>“极权主义并非源自19世纪或任何其他世纪可辨识的思想潮流”</span></li>
-<li class="node"><span class="node-no">2</span><span>“民族国家的瓦解”</span></li>
-<li class="node"><span class="node-no">3</span><span>“帝国主义及其以种族主义为正当性的统治实践”</span></li>
-<li class="node"><span class="node-no">4</span><span>“孤立与脆弱”</span></li>
-<li class="node"><span class="node-no">5</span><span>“‘群众’，以区别于‘暴民’与‘精英’”</span></li>
-<li class="node"><span class="node-no">6</span><span>“公民身份……全面瓦解，以及对公共制度的普遍犬儒”</span></li>
-<li class="node"><span class="node-no">7</span><span>“暴民与精英的联盟”</span></li>
-<li class="node"><span class="node-no">8</span><span>“共同蔑视议会政治……资产阶级关于‘公共利益’的虚伪言辞”</span></li>
-</ol></article>
-<article class="col"><div class="label">对应材料</div><div class="source">Dana R. Villa, “Introduction: The Development of Arendt’s Political Thought,” <em>The Cambridge Companion to Hannah Arendt</em>, 2000, pp. 4–5.</div><ol class="nodes">
-<li class="node"><span class="node-no">1</span><span>“totalitarianism did not arise out of the murky ideological and philosophical currents of the nineteenth (or any other) century”<span class="gloss">本站直译：极权主义并非产生于19世纪（或任何其他世纪）那些晦暗的意识形态与哲学潮流</span></span></li>
-<li class="node"><span class="node-no">2</span><span>“the decline of the nation-state”<span class="gloss">本站直译：民族国家的衰落</span></span></li>
-<li class="node"><span class="node-no">3</span><span>“practices of domination (justified by racism) by the European imperialists”<span class="gloss">本站直译：欧洲帝国主义者以种族主义为正当理由的统治实践</span></span></li>
-<li class="node"><span class="node-no">4</span><span>“isolated and vulnerable”<span class="gloss">本站直译：孤立且脆弱</span></span></li>
-<li class="node"><span class="node-no">5</span><span>“the ‘masses’ as opposed to the ‘mob’ or the ‘elite’”<span class="gloss">本站直译：“群众”，相对于“暴民”或“精英”</span></span></li>
-<li class="node"><span class="node-no">6</span><span>“the complete attenuation of the idea of citizenship, and a pervasive cynicism toward public institutions”<span class="gloss">本站直译：公民身份观念的彻底衰减，以及对公共制度普遍的犬儒态度</span></span></li>
-<li class="node"><span class="node-no">7</span><span>“the alliance between the mob and the elite”<span class="gloss">本站直译：暴民与精英的联盟</span></span></li>
-<li class="node"><span class="node-no">8</span><span>“shared contempt for parliamentary politics and the patent phoniness of bourgeois appeals to ‘the public interest’”<span class="gloss">本站直译：共同蔑视议会政治，以及资产阶级诉诸“公共利益”时显而易见的虚假</span></span></li>
-</ol></article>
-</div></section>
+    <article class="case" id="case-3">
+      <header class="case-head"><h2 class="case-no">3</h2></header>
+      <section class="layer">
+        <h3 class="layer-label">译者导读原文</h3>
+        <blockquote lang="zh-CN">
+          <p>阿伦特的著作从不以某一单一论证为中心并层层推进，也并非按照线性的叙述逻辑展开。她的写作方式通常立基于一系列引人注目的概念区分。阿伦特围绕这些区分展开论述，并将其编织成多重而复杂的主题线索。不同线索之间的内在关联有时被留给读者自行辨识。因此，新读者常常会困惑于这些思想碎片究竟如何在她的作品中拼合成形——不仅在不同著作之间如此，甚至在同一部书中亦是如此。与阿伦特所批评的绝大多数哲学家不同的是，她常常令读者难以把握，她的思考是否存在一个连贯一致的理论视角。</p>
+        </blockquote>
+      </section>
+      <section class="layer layer-source">
+        <h3 class="layer-label">英文原文</h3>
+        <cite class="source-name"><a href="https://doi.org/10.1017/CCOL0521641985" target="_blank" rel="noopener noreferrer">CAMBRIDGE COMPANION · DANA R. VILLA · “INTRODUCTION: THE DEVELOPMENT OF ARENDT’S POLITICAL THOUGHT” · P. 1</a></cite>
+        <blockquote class="english" lang="en">
+          <p>These works are not constructed upon a single argument, diligently unfolded, or upon a linear narrative. Rather, they are grounded upon a series of striking conceptual distinctions <span class="ellipsis">[…]</span> which Arendt elaborates and weaves into complex thematic strands. The interconnections between the strands are sometimes left to the reader. Thus, it is no surprise that newcomers to her work are often baffled by how the pieces fit together (not only from book to book, but often within a single volume). They cannot help wondering whether there is, in fact, a consistent perspective <span class="ellipsis">[…]</span>.</p>
+        </blockquote>
+      </section>
+      <section class="layer layer-translation">
+        <h3 class="layer-label">本站直译</h3>
+        <blockquote lang="zh-CN">
+          <p>这些著作并非建立在一个被勤勉展开的单一论证或线性叙述之上。相反，它们建立在一系列醒目的概念区分之上；阿伦特对这些区分加以阐发，并把它们编织成复杂的主题线索。线索之间的关联有时被留给读者。因此，初读她著作的人常常困惑于这些部分如何拼合起来——不仅不同著作之间如此，甚至同一部书内部也如此。他们不免会问，背后是否确实存在一个一致的视角。</p>
+        </blockquote>
+      </section>
+    </article>
 
-<section class="pair">
-<div class="head"><span class="num">07</span><h2>p. xv</h2></div>
-<div class="cols">
-<article class="col"><div class="label">译者导读｜必要节选</div><ol class="nodes">
-<li class="node"><span class="node-no">1</span><span>“20世纪60年代末至20世纪70年代初”</span></li>
-<li class="node"><span class="node-no">2</span><span>“思想确实出现了重心转换”</span></li>
-<li class="node"><span class="node-no">3</span><span>“从阐释政治实践的性质与意义，逐渐转向思考、意志与判断……”</span></li>
-</ol>
-<div class="footnote-box">脚注：Jerome Kohn, “Freedom: The Priority of the Political,” in <em>The Cambridge Companion to Hannah Arendt</em>, Cambridge University Press, <strong>2006</strong>；Ronald Beiner, “<strong>Introductory Essay</strong>,” in <em>Arendt’s Lectures on Kant’s Political Philosophy</em>, University of Chicago Press, <strong>1989</strong>.</div>
-</article>
-<article class="col"><div class="label">对应材料</div><div class="source">Dana R. Villa, “Introduction: The Development of Arendt’s Political Thought,” <em>The Cambridge Companion to Hannah Arendt</em>, 2000, p. 16.</div><ol class="nodes">
-<li class="node"><span class="node-no">1</span><span>“during the late sixties and early seventies”<span class="gloss">本站直译：在60年代末和70年代初</span></span></li>
-<li class="node"><span class="node-no">2</span><span>“there does appear to be a significant change in emphasis”<span class="gloss">本站直译：确实出现了显著的重心变化</span></span></li>
-<li class="node"><span class="node-no">3</span><span>“move away from the elucidation of the nature and meaning of political action to a consideration of the role thought, will, and judgment play”<span class="gloss">本站直译：从阐明政治行动的性质与意义，转向思考思想、意志与判断所发挥的作用</span></span></li>
-</ol>
-<div class="footnote-box"><em>The Cambridge Companion to Hannah Arendt</em>: © Cambridge University Press 2000；First published 2000；Jerome Kohn, “Freedom: the priority of the political,” p. 113.<br><br>Ronald Beiner, “Interpretive Essay,” in Hannah Arendt, <em>Lectures on Kant’s Political Philosophy</em>, University of Chicago Press, 1982.</div>
-</article>
-</div></section>
+    <article class="case" id="case-7">
+      <header class="case-head"><h2 class="case-no">7</h2></header>
+      <section class="layer">
+        <h3 class="layer-label">译者导读原文</h3>
+        <blockquote lang="zh-CN">
+          <p>阿伦特所指责的，是一整个自柏拉图以来延续至现代的哲学传统。在她看来，这一传统在很大程度上出于对城邦经验的深层敌意，抹消了古典希腊政治生活中最初的，也是某种意义上迄今仍最典型的自由。正因如此，她需要诉诸城邦生活在柏拉图哲学出现之前的表达方式。</p>
+        </blockquote>
+      </section>
+      <section class="layer layer-source">
+        <h3 class="layer-label">英文原文</h3>
+        <cite class="source-name"><a href="https://doi.org/10.1017/CCOL0521641985" target="_blank" rel="noopener noreferrer">CAMBRIDGE COMPANION · J. PETER EUBEN · “ARENDT’S HELLENISM” · P. 151</a></cite>
+        <blockquote class="english" lang="en">
+          <p>Of the very few who think with the Greeks she is distinctive in having recourse to the pre-philosophical articulation of polis life. Where other theorists understand and judge the polis in terms of a philosophical tradition largely hostile to it, she inverts that reading, condemning the tradition for effacing the originary and in some respects still quintessential expression of freedom and power present in the practices and literature of classical Greece, particularly democratic Athens.</p>
+        </blockquote>
+      </section>
+      <section class="layer layer-translation">
+        <h3 class="layer-label">本站直译</h3>
+        <blockquote lang="zh-CN">
+          <p>在极少数借助希腊人进行思考的理论家中，她的独特之处在于诉诸城邦生活的前哲学表达。其他理论家依据一种在很大程度上敌视城邦的哲学传统来理解和判断城邦；她则把这种解读颠倒过来，谴责这一传统抹消了古典希腊——尤其民主雅典——的实践和文学中那种原初的、在某些方面仍然最典型的自由与权力表达。</p>
+        </blockquote>
+      </section>
+    </article>
 
-</div>
+    <article class="case" id="case-4">
+      <header class="case-head"><h2 class="case-no">4</h2></header>
+      <section class="layer">
+        <h3 class="layer-label">译者导读原文</h3>
+        <blockquote lang="zh-CN">
+          <p>她的矛头所指的，是以柏拉图为开端、对城邦经验怀有敌意的哲学传统。在阿伦特的理解中，雅典城邦处死苏格拉底所造成的伤痛，使柏拉图对城邦政治产生了深刻的不信任，从而在思想上妖魔化实践、神圣化思考。这一起点的偏斜不断被放大，最终成为西方政治思想的规范姿态。</p>
+          <p>换言之，柏拉图为了哲学而谴责政治，而阿伦特则为了政治而谴责自柏拉图以来的哲学。</p>
+        </blockquote>
+      </section>
+      <section class="layer layer-source">
+        <h3 class="layer-label">英文原文</h3>
+        <div class="source-group">
+          <cite class="source-name"><a href="https://doi.org/10.1017/CCOL0521641985" target="_blank" rel="noopener noreferrer">CAMBRIDGE COMPANION · FREDERICK M. DOLAN · “ARENDT ON PHILOSOPHY AND POLITICS” · PP. 262–263</a></cite>
+          <blockquote class="english" lang="en">
+            <p>The condemnation of Socrates, Arendt says, “made Plato despair of polis life and, at the same time, doubt certain fundamentals of Socrates’ teachings.” This is one of Arendt’s crucial insights: that the Western tradition of political philosophy is rooted in a hostility to politics, and specifically, as Arendt dramatically imagines it, in the bitter loss and grief of Socrates’ followers after his execution at the hands of the Athenian polis. The ensuing trauma, to use a psychoanalytic term, was determinative in causing the divorce between philosophy, or thinking, and politics, which is doing or acting. <span class="ellipsis">[…]</span> Arendt’s distress was the mirror image of Plato’s: where Plato condemned politics on behalf of philosophy, Arendt condemned (Platonic) philosophy on behalf of politics.</p>
+          </blockquote>
+        </div>
+        <div class="source-group">
+          <cite class="source-name"><a href="https://doi.org/10.1017/CCOL0521641985" target="_blank" rel="noopener noreferrer">CAMBRIDGE COMPANION · FREDERICK M. DOLAN · “ARENDT ON PHILOSOPHY AND POLITICS” · P. 264</a></cite>
+          <blockquote class="english" lang="en">
+            <p>If, as she says, it occasioned a radical change in perspective, it distorted our understanding of acting and thinking by demonizing the one and glorifying the other.</p>
+          </blockquote>
+        </div>
+      </section>
+      <section class="layer layer-translation">
+        <h3 class="layer-label">本站直译</h3>
+        <blockquote lang="zh-CN">
+          <p>阿伦特说，对苏格拉底的判决“使柏拉图对城邦生活感到绝望，同时也使他怀疑苏格拉底教导中的某些根本原则”。这是阿伦特的一项关键洞见：西方政治哲学传统植根于对政治的敌意；更具体地说，按照阿伦特富于戏剧性的设想，它植根于苏格拉底被雅典城邦处死后，其追随者所经历的痛苦失落与悲伤。借用一个精神分析术语，随后的创伤决定性地造成了哲学或思考与政治或行动之间的分裂。</p>
+          <p>阿伦特的痛苦是柏拉图痛苦的镜像：柏拉图以哲学之名谴责政治；阿伦特则以政治之名谴责柏拉图式哲学。如果这件事确如她所说，造成了视角上的根本转变，那么它就是通过妖魔化行动、神圣化思考，扭曲了我们对行动与思考的理解。</p>
+        </blockquote>
+      </section>
+    </article>
 
-<section class="refs" id="references">
-<h2>参考材料</h2>
-<div class="ref-list">
-<div class="ref-item">Dana R. Villa (ed.), <em>The Cambridge Companion to Hannah Arendt</em>, Cambridge University Press, 2000. 其中：Dana R. Villa, “Introduction: The Development of Arendt’s Political Thought”; Jerome Kohn, “Freedom: The Priority of the Political”; Frederick M. Dolan, “Arendt on Philosophy and Politics”; Jacques Taminiaux, “Athens and Rome”.</div>
-<div class="ref-item">Liisi Keedus, <em>The Crisis of German Historicism: The Early Political Thought of Hannah Arendt and Leo Strauss</em>, Cambridge University Press, 2015.</div>
-<div class="ref-item">Hannah Arendt, <em>Lectures on Kant’s Political Philosophy</em>, edited by Ronald Beiner, University of Chicago Press, 1982.</div>
-</div>
-<p class="rights">相关著作权归原权利人，如需进一步核对，请查阅原始材料。</p>
-</section>
-</main>
-<footer><div class="wrap">卫生法庭与扫盲法庭</div></footer>
+    <div class="source-index">
+      <a href="https://doi.org/10.1017/CCOL0521641985" target="_blank" rel="noopener noreferrer">The Cambridge Companion to Hannah Arendt · Cambridge University Press · 2000</a>
+    </div>
+  </main>
+
+  <footer>
+    <div class="wrap">扫盲法庭 · 逐字翻译</div>
+  </footer>
 </body>
 </html>
